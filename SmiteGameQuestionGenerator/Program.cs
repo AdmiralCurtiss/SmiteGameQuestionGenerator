@@ -64,6 +64,7 @@ namespace SmiteGameQuestionGenerator
                 questions.AddRange(level5Questions);
                 foreach (var question in questions)
                 {
+                    question.HasSeen = true;
                     var oldQuestion = allQuestions.First(node => node.QKEY == question.QKEY);
                     oldQuestion.HasSeen = true;
                 }
@@ -75,7 +76,7 @@ namespace SmiteGameQuestionGenerator
             using (var textWriter = new StreamWriter("Edited_" + path))
             {
                 var csv = new CsvWriter(textWriter);
-                csv.WriteRecords(allQuestions);
+                csv.WriteRecords(questions);
             }
         }
     }
