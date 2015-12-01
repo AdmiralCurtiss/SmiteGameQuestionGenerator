@@ -1,0 +1,74 @@
+        td {
+            width: 200px;
+            text-align: center;
+        }
+
+        .header-row {
+            font-size: 60px;
+            color: white;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+
+        .game-cell td {
+            cursor: pointer;
+            height: 150px;
+            margin: 5px;
+            font-size: 30px;
+            background-color: blue;
+            border-radius: 5px;
+            border: 1px solid black;
+            color: white;
+        }
+
+        .game-cell .answered-right{
+            background-color: green;
+            color: white;
+        }
+
+        .game-cell .answered-wrong{
+            background-color: black;
+            color: red;
+        }
+
+        body {
+            background-color: rgb(92, 92, 150);
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        .question-text {
+            font-size:27px;
+            color:white;
+        }
+
+        .submitter-text {
+            font-size:18px;
+            color:white;
+        }
+        .right-answer{
+            width:150px;
+            padding:5px;
+            font-size:30px;
+            color:#FFFFCC;
+            background-color:#009900;
+            text-align:center;
+            }
+        .wrong-answer{
+            width:150px;
+            padding:5px;
+            font-size:30px;
+            color:#FFFFCC;
+            background-color:#CC3300;
+            text-align:center;
+         }
+
+        .answer{
+            width:400px;
+            margin:15px;
+            font-size:18px;
+            color:#FFFFFF; 
+            padding:2px;
+            padding-left:10px;
+            border: 2px solid white;
+            cursor:pointer;
+            background-color:#3399FF;
+         }
