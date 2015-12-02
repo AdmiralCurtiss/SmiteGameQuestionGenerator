@@ -31,7 +31,7 @@ var $quiz = {
             }
 
             $(".answer").click(function () {
-                var correct = $(this).attr("data-correct") === true;
+                var correct = $(this).attr("data-correct") === "true";
 
                 $('[data-correct="false"]').addClass("show-wrong");
                 $('[data-correct="true"]').addClass("show-correct");
