@@ -86,6 +86,8 @@ var $quiz = {
         $('#question').delay(800).fadeIn();
     },
     setAnswerClearAndReturn: function (correct) {
+        $('td[data-question-number=' + $('#question').attr("data-selected-question") + ']').removeClass('answered-right');
+        $('td[data-question-number=' + $('#question').attr("data-selected-question") + ']').removeClass('answered-wrong');
         if (correct) {
             $('td[data-question-number=' + $('#question').attr("data-selected-question") + ']').addClass("answered-right");
 
