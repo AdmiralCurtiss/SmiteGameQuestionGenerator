@@ -18,8 +18,8 @@ var $quiz = {
             var table = document.getElementById('pointTable').getElementsByTagName('tbody')[0];
             var tableRow = 0;
             for (var i = 0; i < actual_JSON.length; i++) {
-                var cellNumber = i % 5;
-                if (i % 5 == 0) {
+                var cellNumber = i % 4;
+                if (i % 4 == 0) {
                     var row = table.insertRow(tableRow);
                     tableRow++;
                 }
@@ -32,10 +32,13 @@ var $quiz = {
 
             $(".answer").click(function () {
                 var correct = $(this).data("correct") == true;
+
+                $('[data-correct="false"]').addClass("show-wrong");
+                $('[data-correct="true"]').addClass("show-correct");
                 if (correct) {
-                    $('.right-answer').fadeIn();
+                    $('.right-answer-choice').fadeIn();
                 } else {
-                    $('.wrong-answer').fadeIn();
+                    $('.wrong-answer-choice').fadeIn();
                 }
 
                 setTimeout(function () { $quiz.setAnswerClearAndReturn(correct) }, 2000);
@@ -61,7 +64,7 @@ var $quiz = {
         $('#question-text').text(question.Question);
 
         var randomCorrectAnswerBank = Math.floor(Math.random() * (4 - 1) + 1);
-        $("#" + randomCorrectAnswerBank).data("correct", true);
+        $("#" + randomCorrectAnswerBank).attr("data-correct", true);
         $("#" + randomCorrectAnswerBank).text(question.CorrectAnswer);
 
         var wrongAnswerBanks = [];
@@ -71,13 +74,13 @@ var $quiz = {
             }
         }
 
-        $("#" + wrongAnswerBanks[0]).data("correct", false);
+        $("#" + wrongAnswerBanks[0]).attr("data-correct", false);
         $("#" + wrongAnswerBanks[0]).text(question.FakeAnswer1);
 
-        $("#" + wrongAnswerBanks[1]).data("correct", false);
+        $("#" + wrongAnswerBanks[1]).attr("data-correct", false);
         $("#" + wrongAnswerBanks[1]).text(question.FakeAnswer2);
 
-        $("#" + wrongAnswerBanks[2]).data("correct", false);
+        $("#" + wrongAnswerBanks[2]).attr("data-correct", false);
         $("#" + wrongAnswerBanks[2]).text(question.FakeAnswer3);
 
         $('#question').delay(800).fadeIn();
@@ -91,13 +94,17 @@ var $quiz = {
         }
         $('#question').fadeOut();
         $('#pointTable').delay(800).fadeIn();
-        $('.wrong-answer').fadeOut();
-        $('.right-answer').fadeOut();
+        $('.wrong-answer-choice').fadeOut();
+        $('.right-answer-choice').fadeOut();
+        $('.answer').removeClass("show-wrong");
+        $('.answer').removeClass("show-correct");
     },
     clearAndReturn: function () {
         $('#question').fadeOut();
         $('#pointTable').delay(800).fadeIn();
-        $('.wrong-answer').fadeOut();
-        $('.right-answer').fadeOut();
+        $('.wrong-answer-choice').fadeOut();
+        $('.right-answer-choice').fadeOut();
+        $('.answer').removeClass("show-wrong");
+        $('.answer').removeClass("show-correct");
     }
 }

@@ -110,33 +110,5 @@
     "Difficulty": 4,
     "Comments": "",
     "HasSeen": true
-  },
-  {
-    "Timestamp": "2015/07/11 0:36:23",
-    "QKEY": "Q17",
-    "Submitter": "Baloney Amputation",
-    "GameTitle": "Lufia 2",
-    "Question": "What unique sword is found in Lake Cave?",
-    "CorrectAnswer": "Insect Crush",
-    "FakeAnswer1": "Dekar Blade",
-    "FakeAnswer2": "War Rapier",
-    "FakeAnswer3": "Sizzle Sword",
-    "Difficulty": 4,
-    "Comments": "",
-    "HasSeen": true
-  },
-  {
-    "Timestamp": "2015/07/11 0:21:07",
-    "QKEY": "Q8",
-    "Submitter": "Lolo De Puzlo",
-    "GameTitle": "Guerrilla War",
-    "Question": "Who were the two main characters of the 1987 SNK game Guerrilla War?",
-    "CorrectAnswer": "Che Guevara and Fidel Castro",
-    "FakeAnswer1": "Mad Dog and Scorpion",
-    "FakeAnswer2": "Ralf and Clark",
-    "FakeAnswer3": "Unknown Soldiers 1 and 2",
-    "Difficulty": 4,
-    "Comments": "",
-    "HasSeen": true
   }
 ]
