@@ -52,7 +52,7 @@ var $quiz = {
     },
     loadQuestion: function (questionNumber, question) {
         $('#pointTable').fadeOut();
-        $('#question').data("selected-question", questionNumber);
+        $('#question').attr("data-selected-question", questionNumber);
 
         if (typeof question.Submitter === 'undefined' || question.Submitter == "") {
             $('#submitter-text').hide();
