@@ -31,7 +31,7 @@ var $quiz = {
             }
 
             $(".answer").click(function () {
-                var correct = $(this).data("correct") == true;
+                var correct = $(this).attr("data-correct") === true;
 
                 $('[data-correct="false"]').addClass("show-wrong");
                 $('[data-correct="true"]').addClass("show-correct");
@@ -45,7 +45,7 @@ var $quiz = {
             });
 
             $(".game-select-question").click(function () {
-                var questionNumber = $(this).data("question-number");
+                var questionNumber = $(this).attr("data-question-number");
                 $quiz.loadQuestion(questionNumber, actual_JSON[questionNumber]);
             });
         });
@@ -87,10 +87,10 @@ var $quiz = {
     },
     setAnswerClearAndReturn: function (correct) {
         if (correct) {
-            $('td[data-question-number=' + $('#question').data("selected-question") + ']').addClass("answered-right");
+            $('td[data-question-number=' + $('#question').attr("data-selected-question") + ']').addClass("answered-right");
 
         } else {
-            $('td[data-question-number=' + $('#question').data("selected-question") + ']').addClass("answered-wrong");
+            $('td[data-question-number=' + $('#question').attr("data-selected-question") + ']').addClass("answered-wrong");
         }
         $('#question').fadeOut();
         $('#pointTable').delay(800).fadeIn();
