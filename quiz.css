@@ -98,3 +98,8 @@
                 linear-gradient(to right, transparent 35%, black 35%, black 65%, transparent 65%);
 
         }
+        #timespan {
+            color: white;
+            font-size: 30px;
+            margin: 15px;
+        }
