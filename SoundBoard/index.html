@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SoundBoard</title>
+
+</head>
+
+<body>
+	<h2>Music</h2>
+	<table>
+		<tbody>
+			<tr>
+				<td>
+					<div>Club Drive</div>
+					<div id="jaguar-club-drive-status">(Stop)</div>
+					<div>
+						<button onclick="$soundboard.play('jaguar-club-drive')">Play</button>
+						<button onclick="$soundboard.pause('jaguar-club-drive')">Pause</button>
+						<button onclick="$soundboard.stop('jaguar-club-drive')">Stop</button>
+					</div>
+				</td>
+				<td>
+					<div>Family Feud Think Music</div>
+					<div id="think-music-status">(Stop)</div>
+					<div>
+						<button onclick="$soundboard.play('think-music')">Play</button>
+						<button onclick="$soundboard.pause('think-music')">Pause</button>
+						<button onclick="$soundboard.stop('think-music')">Stop</button>
+					</div>
+				</td>
+				<!--<td>
+					<div>New Song</div>
+					<div id="new-music-status">(Stop)</div>
+					<div>
+						<button onclick="$soundboard.play('new-music')">Play</button>
+						<button onclick="$soundboard.pause('new-music')">Pause</button>
+						<button onclick="$soundboard.stop('new-music')">Stop</button>
+					</div>
+				</td>-->
+			</tr>
+		</tbody>
+	</table>
+	
+	<h2>Sounds</h2>
+	<table>
+		<tbody>
+			<tr>
+				<td>
+					<div>Right Sound</div>
+					<div id="right-sound-status">(Stop)</div>
+					<div>
+						<button onclick="$soundboard.play('right-sound')">Play</button>
+						<button onclick="$soundboard.pause('right-sound')">Pause</button>
+						<button onclick="$soundboard.stop('right-sound')">Stop</button>
+					</div>
+				</td>
+				<td>
+					<div>Wrong Sound</div>
+					<div id="wrong-sound-status">(Stop)</div>
+					<div>
+						<button onclick="$soundboard.play('wrong-sound')">Play</button>
+						<button onclick="$soundboard.pause('wrong-sound')">Pause</button>
+						<button onclick="$soundboard.stop('wrong-sound')">Stop</button>
+					</div>
+				</td>
+				<!--<td>
+					<div>New Sound</div>
+					<div id="new-sound-status">(Stop)</div>
+					<div>
+						<button onclick="$soundboard.play('new-sound')">Play</button>
+						<button onclick="$soundboard.pause('new-sound')">Pause</button>
+						<button onclick="$soundboard.stop('new-sound')">Stop</button>
+					</div>
+				</td>-->
+			</tr>
+		</tbody>
+	</table>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script>
+		$soundboard = {
+			play: function(name)
+			{
+				$('#' + name).bind('ended', function(){
+					$('#' + name + '-status').text('(Stop)');
+					});
+				$('#' + name + '-status').text('(Playing)');
+				$('#' + name)[0].play();
+			},
+			pause: function(name)
+			{
+				$('#' + name + '-status').text('(Paused)');
+				$('#' + name)[0].pause();
+			},
+			stop: function(name)
+			{
+				$('#' + name).unbind();
+				$('#' + name + '-status').text('(Stop)');
+				$('#' + name)[0].pause();
+				$('#' + name)[0].currentTime = 0;
+			}
+		}
+	</script>
+	<!--<audio id="new-sound" preload>
+    	<source src="sfx/sound.mp3" />
+	</audio>-->
+	<audio id="jaguar-club-drive" preload>
+    	<source src="sfx/clubdrive.mp3" />
+	</audio>
+	<audio id="think-music" preload>
+    	<source src="sfx/familythink.mp3" />
+	</audio>
+	<audio id="right-sound" preload>
+    	<source src="sfx/right.mp3"/>
+	</audio>
+	<audio id="wrong-sound" preload>
+		<source src="sfx/wrong.mp3" />
+	</audio>
+</body>
+</html>
