@@ -72,6 +72,9 @@ var $quiz = {
 
         $('#question-text').text(question.Question);
 
+        $('#question-number').text(question.QKEY);
+        $('#question-comment').text(question.Comments);
+
         var randomCorrectAnswerBank = Math.floor(Math.random() * (4 - 1) + 1);
         $("#" + randomCorrectAnswerBank).attr("data-correct", true);
         $("#" + randomCorrectAnswerBank).text(question.CorrectAnswer);
