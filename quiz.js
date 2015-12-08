@@ -18,9 +18,16 @@ var $quiz = {
                 var actual_JSON = JSON.parse(response);
                 $('#startGame').fadeOut();
                 $('#pointLayout').fadeIn();
+				var questions = [];
+				for(var i = 0; i < 6; i++)
+				{
+					var randomAnswer = Math.floor(Math.random() * (actual_JSON.length - 1) + 1);
+					questions.push(randomAnswer);
+				}
+				
                 var table = document.getElementById('pointTable').getElementsByTagName('tbody')[0];
                 var tableRow = 0;
-                for (var i = 0; i < actual_JSON.length; i++) {
+                for (var i = 0; i < questions.length; i++) {
                     var cellNumber = i % 4;
                     if (i % 4 == 0) {
                         var row = table.insertRow(tableRow);
@@ -28,7 +35,7 @@ var $quiz = {
                     }
 
                     var cell = row.insertCell(cellNumber);
-                    cell.innerText = actual_JSON[i].GameTitle;
+                    cell.innerText = questions[i].GameTitle;
                     cell.setAttribute("class", "game-select-question");
                     cell.setAttribute("data-question-number", i);
                 }
@@ -41,7 +48,7 @@ var $quiz = {
 
                 $(".game-select-question").click(function () {
                     var questionNumber = $(this).attr("data-question-number");
-                    $quiz.loadQuestion(questionNumber, actual_JSON[questionNumber]);
+                    $quiz.loadQuestion(questionNumber, questions[questionNumber]);
                 });
             });
         }
