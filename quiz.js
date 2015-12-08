@@ -1,4 +1,7 @@
 var isCalled = false;
+	function HasNotBeenSeen(value) {
+		return value.HasSeen == false;
+	}
 var $quiz = {
     loadJSON: function(path, callback) {
         var xobj = new XMLHttpRequest();
@@ -15,9 +18,12 @@ var $quiz = {
         if (!isCalled) {
             isCalled = true;
             $quiz.loadJSON(path, function (response) {
-                var actual_JSON = JSON.parse(response);
+                var first_json = JSON.parse(response);
+				var actual_JSON = first_json.filter(HasNotBeenSeen);
                 $('#startGame').fadeOut();
                 $('#pointLayout').fadeIn();
+				
+				
 				var questions = [];
 				for(var i = 0; i < 8; i++)
 				{
