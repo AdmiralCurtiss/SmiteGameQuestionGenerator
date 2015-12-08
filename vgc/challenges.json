@@ -1,6 +1,6 @@
 [
   {
-    "Timestamp":"11/7/2015 6:13:37",
+    "Timestamp":"2015/11/07 6:13:37",
     "CKey":"C1",
     "Submitter":"Smite",
     "GameTitle":"Mega Man 2",
@@ -9,10 +9,11 @@
     "ChallengeDetails":"Buster duel Quick Man, starting from his arena door.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 6:30:09",
+    "Timestamp":"2015/11/07 6:30:09",
     "CKey":"C2",
     "Submitter":"Smite",
     "GameTitle":"Bayou Billy",
@@ -21,10 +22,11 @@
     "ChallengeDetails":"Defeat the first shooter stage using the controller!",
     "ChallengeTimeLimit":3,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 7:03:14",
+    "Timestamp":"2015/11/07 7:03:14",
     "CKey":"C3",
     "Submitter":"Dectilon",
     "GameTitle":"Rockman: Deus ex Machina",
@@ -33,10 +35,11 @@
     "ChallengeDetails":"Get past 4 screens in Crashman's stage from the mid point",
     "ChallengeTimeLimit":3,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 7:15:32",
+    "Timestamp":"2015/11/07 7:15:32",
     "CKey":"C4",
     "Submitter":"Odwalla",
     "GameTitle":"Top Gun",
@@ -45,10 +48,11 @@
     "ChallengeDetails":"land the plane",
     "ChallengeTimeLimit":1,
     "DifficultyRating":5,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 7:37:50",
+    "Timestamp":"2015/11/07 7:37:50",
     "CKey":"C5",
     "Submitter":"Dr. Mutagen",
     "GameTitle":"TMNT 4:  Turtles in Time",
@@ -57,10 +61,11 @@
     "ChallengeDetails":"Finish the first level with Raphael on the hardest difficulty",
     "ChallengeTimeLimit":4,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 8:02:40",
+    "Timestamp":"2015/11/07 8:02:40",
     "CKey":"C6",
     "Submitter":"Dectilon",
     "GameTitle":"Megaman X",
@@ -69,10 +74,11 @@
     "ChallengeDetails":"Reach the boss door from the Dash Capsule in the given time",
     "ChallengeTimeLimit":1,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 8:10:13",
+    "Timestamp":"2015/11/07 8:10:13",
     "CKey":"C7",
     "Submitter":"Bebuva",
     "GameTitle":"Donkey Kong Country 3",
@@ -81,10 +87,11 @@
     "ChallengeDetails":"Level 4-3: Ripsaw Rage, Start/end point: Beginning of level/end of level (modified by Smite)",
     "ChallengeTimeLimit":3,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 8:19:19",
+    "Timestamp":"2015/11/07 8:19:19",
     "CKey":"C8",
     "Submitter":"Dectilon",
     "GameTitle":"ActRaiser 2",
@@ -93,10 +100,11 @@
     "ChallengeDetails":"Defeat the miniboss",
     "ChallengeTimeLimit":2,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 8:21:12",
+    "Timestamp":"2015/11/07 8:21:12",
     "CKey":"C9",
     "Submitter":"thevoiceofdog",
     "GameTitle":"Jackie Chan's Kung Fu",
@@ -105,23 +113,12 @@
     "ChallengeDetails":"Clear the first three screens in three minutes (up to the autoscroller area).  Ignore any bells that appear, they will take you to bonus levels.",
     "ChallengeTimeLimit":3,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 8:40:59",
+    "Timestamp":"2015/11/07 9:10:11",
     "CKey":"C10",
-    "Submitter":"Fenfel",
-    "GameTitle":"Startropics 2",
-    "GameConsole":"NES",
-    "StateSlot":"",
-    "ChallengeDetails":"First boss fight, kill the boar first and then fight the boss. First to win or last one standing wins.",
-    "ChallengeTimeLimit":5,
-    "DifficultyRating":4,
-    "SaveStateDownloadLocation":"NEEDS TO BE MADE"
-  },
-  {
-    "Timestamp":"11/7/2015 9:10:11",
-    "CKey":"C11",
     "Submitter":"thevoiceofdog",
     "GameTitle":"Clu Clu Land ",
     "GameConsole":"NES",
@@ -129,35 +126,25 @@
     "ChallengeDetails":"Beat stage one in 2 minutes.  Lose if game over.",
     "ChallengeTimeLimit":2,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 9:44:07",
-    "CKey":"C12",
+    "Timestamp":"2015/11/07 9:44:07",
+    "CKey":"C11",
     "Submitter":"RSCNyx",
     "GameTitle":"Contra",
     "GameConsole":"NES",
     "StateSlot":"1",
-    "ChallengeDetails":"No powerups, beat Stage 3 within the time limit (Picking up a powerup voids the challenge and you must restart)",
+    "ChallengeDetails":"No powerups, beat Stage 3 within the time limit (Picking up a powerup means you must suicide)",
     "ChallengeTimeLimit":4,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 10:16:06",
-    "CKey":"C13",
-    "Submitter":"RSCNyx",
-    "GameTitle":"Track & Field 2",
-    "GameConsole":"NES",
-    "StateSlot":"N/A",
-    "ChallengeDetails":"Win the bullshit Hurdles event (mash A to run, B to jump)",
-    "ChallengeTimeLimit":1,
-    "DifficultyRating":5,
-    "SaveStateDownloadLocation":"X"
-  },
-  {
-    "Timestamp":"11/7/2015 10:16:06",
-    "CKey":"C14",
+    "Timestamp":"2015/11/07 10:16:06",
+    "CKey":"C12",
     "Submitter":"Smite",
     "GameTitle":"Track & Field",
     "GameConsole":"NES",
@@ -165,11 +152,12 @@
     "ChallengeDetails":"Win the 110 Meter Hurdles event (mash B to run, up to jump)",
     "ChallengeTimeLimit":1,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 10:16:06",
-    "CKey":"C15",
+    "Timestamp":"2015/11/07 10:16:06",
+    "CKey":"C13",
     "Submitter":"Smite",
     "GameTitle":"Track & Field",
     "GameConsole":"NES",
@@ -177,11 +165,25 @@
     "ChallengeDetails":"Get 70+ in the bullshit javelin event (mash B to run, up to throw)",
     "ChallengeTimeLimit":1,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 13:43:00",
-    "CKey":"C16",
+    "Timestamp":"2015/11/07 10:16:06",
+    "CKey":"C14",
+    "Submitter":"RSCNyx",
+    "GameTitle":"Track & Field 2",
+    "GameConsole":"NES",
+    "StateSlot":"N/A",
+    "ChallengeDetails":"Win the bullshit Hurdles event (mash A to run, B to jump)",
+    "ChallengeTimeLimit":1,
+    "DifficultyRating":5,
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
+  },
+  {
+    "Timestamp":"2015/11/07 13:43:00",
+    "CKey":"C15",
     "Submitter":"AndyAML",
     "GameTitle":"TMNT: Turtles in Time",
     "GameConsole":"SNES",
@@ -189,11 +191,12 @@
     "ChallengeDetails":"Get a final time under 1m30s as Leonardo in the Big Apple Time Trial",
     "ChallengeTimeLimit":2,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 13:46:44",
-    "CKey":"C17",
+    "Timestamp":"2015/11/07 13:46:44",
+    "CKey":"C16",
     "Submitter":"Smite",
     "GameTitle":"Tetris",
     "GameConsole":"NES",
@@ -201,11 +204,12 @@
     "ChallengeDetails":"Complete a Tetris (4 lines) twice in one minute.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 14:29:25",
-    "CKey":"C18",
+    "Timestamp":"2015/11/07 14:29:25",
+    "CKey":"C17",
     "Submitter":"Fragglar",
     "GameTitle":"Kirby Super Star",
     "GameConsole":"SNES",
@@ -213,11 +217,12 @@
     "ChallengeDetails":"End of Spring Breeze, beat King DeDeDe with no ability",
     "ChallengeTimeLimit":2,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 15:31:25",
-    "CKey":"C19",
+    "Timestamp":"2015/11/07 15:31:25",
+    "CKey":"C18",
     "Submitter":"Smite",
     "GameTitle":"Super Mario World",
     "GameConsole":"SNES",
@@ -225,11 +230,12 @@
     "ChallengeDetails":"Complete Yoshi's Island 3 within 1 minute",
     "ChallengeTimeLimit":1,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 15:31:38",
-    "CKey":"C20",
+    "Timestamp":"2015/11/07 15:31:38",
+    "CKey":"C19",
     "Submitter":"Fenfel",
     "GameTitle":"Mario Bros 3",
     "GameConsole":"NES",
@@ -237,11 +243,12 @@
     "ChallengeDetails":"Finish the first 2 levels without going to the left! If you press left, you lose.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":1,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 15:34:55",
-    "CKey":"C21",
+    "Timestamp":"2015/11/07 15:34:55",
+    "CKey":"C20",
     "Submitter":"Fenfel",
     "GameTitle":"ZANAC",
     "GameConsole":"NES",
@@ -249,11 +256,12 @@
     "ChallengeDetails":"Defeat the first boss (modified by Smite)",
     "ChallengeTimeLimit":2,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 15:36:26",
-    "CKey":"C22",
+    "Timestamp":"2015/11/07 15:36:26",
+    "CKey":"C21",
     "Submitter":"@Asterioncrest",
     "GameTitle":"Super Mario Bros. 2 ",
     "GameConsole":"NES",
@@ -261,11 +269,12 @@
     "ChallengeDetails":"Beat Tricylde without taking any damage! [Start point: In Tryclyde's room. End Point: when Tryclyde dies.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 15:58:39",
-    "CKey":"C23",
+    "Timestamp":"2015/11/07 15:58:39",
+    "CKey":"C22",
     "Submitter":"AT",
     "GameTitle":"Super Mario World",
     "GameConsole":"SNES",
@@ -273,11 +282,12 @@
     "ChallengeDetails":"Get to the secret goalpost by diving under the first one. No time to waste! (modified by Smite)",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 16:46:05",
-    "CKey":"C24",
+    "Timestamp":"2015/11/07 16:46:05",
+    "CKey":"C23",
     "Submitter":"Dectilon",
     "GameTitle":"Gradius III",
     "GameConsole":"SNES (snes9x)",
@@ -285,11 +295,12 @@
     "ChallengeDetails":"Defeat Big Core",
     "ChallengeTimeLimit":1,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 16:49:57",
-    "CKey":"C25",
+    "Timestamp":"2015/11/07 16:49:57",
+    "CKey":"C24",
     "Submitter":"Dez",
     "GameTitle":"Kid Klown in Crazy Chase",
     "GameConsole":"SNES (snes9x)",
@@ -297,11 +308,12 @@
     "ChallengeDetails":"Reach the Spade sphere on level one within one minute.",
     "ChallengeTimeLimit":2,
     "DifficultyRating":1,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 17:00:27",
-    "CKey":"C26",
+    "Timestamp":"2015/11/07 17:00:27",
+    "CKey":"C25",
     "Submitter":"Bebuva",
     "GameTitle":"Wild Guns",
     "GameConsole":"SNES (snes9x)",
@@ -309,11 +321,12 @@
     "ChallengeDetails":"Defeat stage 1 boss (big guy with a chaingun arm) with only the standard weapon (and your lasso)",
     "ChallengeTimeLimit":2,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 17:24:25",
-    "CKey":"C27",
+    "Timestamp":"2015/11/07 17:24:25",
+    "CKey":"C26",
     "Submitter":"Dectilon",
     "GameTitle":"Rocket Knight Adventures",
     "GameConsole":"Sega Genesis (Gens)",
@@ -321,11 +334,12 @@
     "ChallengeDetails":"Land a hit on Captain Fleagle",
     "ChallengeTimeLimit":1,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"ehh i dunno bout gen"
+    "SaveStateDownloadLocation":"ehh i dunno bout gen",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 17:44:27",
-    "CKey":"C28",
+    "Timestamp":"2015/11/07 17:44:27",
+    "CKey":"C27",
     "Submitter":"Tyndolionel",
     "GameTitle":"Super Mario Bros. 3",
     "GameConsole":"NES (fce ultra)",
@@ -333,11 +347,12 @@
     "ChallengeDetails":"Beat 1-1 without losing the Frog Suit",
     "ChallengeTimeLimit":1,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 17:51:39",
-    "CKey":"C29",
+    "Timestamp":"2015/11/07 17:51:39",
+    "CKey":"C28",
     "Submitter":"Bebuva",
     "GameTitle":"Pocky & Rocky ",
     "GameConsole":"SNES (snes9x)",
@@ -345,11 +360,12 @@
     "ChallengeDetails":"Stage 2: Ride the raft down the river and beat Kappa's raft",
     "ChallengeTimeLimit":2,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 18:11:23",
-    "CKey":"C30",
+    "Timestamp":"2015/11/07 18:11:23",
+    "CKey":"C29",
     "Submitter":"Dectilon",
     "GameTitle":"Megaman X2",
     "GameConsole":"SNES (snes9x)",
@@ -357,11 +373,12 @@
     "ChallengeDetails":"Defeat Morph Moth",
     "ChallengeTimeLimit":1,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 19:06:30",
-    "CKey":"C31",
+    "Timestamp":"2015/11/07 19:06:30",
+    "CKey":"C30",
     "Submitter":"thevoiceofdog",
     "GameTitle":"Super Mario Bros.",
     "GameConsole":"NES (fce ultra)",
@@ -369,11 +386,12 @@
     "ChallengeDetails":"Finish 1-1 of Super Mario Bros at 150% emulator speed.  Game overs are allowed if there is enough time",
     "ChallengeTimeLimit":1,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 19:07:36",
-    "CKey":"C32",
+    "Timestamp":"2015/11/07 19:07:36",
+    "CKey":"C31",
     "Submitter":"",
     "GameTitle":"Joust",
     "GameConsole":"NES (fce ultra)",
@@ -381,11 +399,12 @@
     "ChallengeDetails":"Kill The Pterodactyl (don't end the wave to get it to appear)",
     "ChallengeTimeLimit":3,
     "DifficultyRating":5,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 19:18:27",
-    "CKey":"C33",
+    "Timestamp":"2015/11/07 19:18:27",
+    "CKey":"C32",
     "Submitter":"thevoiceofdog",
     "GameTitle":"Balloon Fight ",
     "GameConsole":"NES (fce ultra)",
@@ -393,11 +412,12 @@
     "ChallengeDetails":"Survive balloon trip for one minute.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 19:32:24",
-    "CKey":"C34",
+    "Timestamp":"2015/11/07 19:32:24",
+    "CKey":"C33",
     "Submitter":"TieTuesday",
     "GameTitle":"Axelay",
     "GameConsole":"SNES (snes9x)",
@@ -405,11 +425,12 @@
     "ChallengeDetails":"Get to 10,000 points in 2 ships/lives",
     "ChallengeTimeLimit":2,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 19:36:49",
-    "CKey":"C35",
+    "Timestamp":"2015/11/07 19:36:49",
+    "CKey":"C34",
     "Submitter":"TieTuesday",
     "GameTitle":"Ballz 3D",
     "GameConsole":"SNES (snes9x)",
@@ -417,11 +438,12 @@
     "ChallengeDetails":"Win 1st round playing as Boomer (not full match, just first round) (match has 90 second time limit)",
     "ChallengeTimeLimit":2,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 19:46:31",
-    "CKey":"C36",
+    "Timestamp":"2015/11/07 19:46:31",
+    "CKey":"C35",
     "Submitter":"@asterioncrest",
     "GameTitle":"Sonic 2 ",
     "GameConsole":"Sega Genesis (Gens)",
@@ -429,11 +451,12 @@
     "ChallengeDetails":"Defeat the boss of Labyrinth Zone in 1 minute or less. Start point: the screen the boss spawns on. End point: once the boss dies. Extra condition: 0 Rings",
     "ChallengeTimeLimit":1,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"ehh i dunno bout gen"
+    "SaveStateDownloadLocation":"ehh i dunno bout gen",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 19:49:09",
-    "CKey":"C37",
+    "Timestamp":"2015/11/07 19:49:09",
+    "CKey":"C36",
     "Submitter":"@asterioncrest",
     "GameTitle":"NBA Jam",
     "GameConsole":"SNES (snes9x)",
@@ -441,11 +464,12 @@
     "ChallengeDetails":"Score twice! Start point: start of any game End point: once the player has scored twice. ",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 19:49:32",
-    "CKey":"C38",
+    "Timestamp":"2015/11/07 19:49:32",
+    "CKey":"C37",
     "Submitter":"AndyAML",
     "GameTitle":"Harley's Humongous ADV",
     "GameConsole":"SNES (snes9x)",
@@ -453,11 +477,12 @@
     "ChallengeDetails":"Earn at least 12,000 points in stage 1. This includes end-of-level bonuses.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 19:52:52",
-    "CKey":"C39",
+    "Timestamp":"2015/11/07 19:52:52",
+    "CKey":"C38",
     "Submitter":"@asterioncrest",
     "GameTitle":"Primal Rage",
     "GameConsole":"SNES (snes9x)",
@@ -465,11 +490,12 @@
     "ChallengeDetails":"Defeat the first opponent as Blizzard! Start point: start of first round as Blizzard End Point: once they have won two rounds.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 19:59:35",
-    "CKey":"C40",
+    "Timestamp":"2015/11/07 19:59:35",
+    "CKey":"C39",
     "Submitter":"@asterioncrest",
     "GameTitle":"Shaq Fu",
     "GameConsole":"SNES (snes9x)",
@@ -477,11 +503,12 @@
     "ChallengeDetails":"Win one round against first opponent as Shaq! start point: the first opponent in arcade mode",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 20:02:33",
-    "CKey":"C41",
+    "Timestamp":"2015/11/07 20:02:33",
+    "CKey":"C40",
     "Submitter":"@asterioncrest",
     "GameTitle":"Pocky & Rocky 2",
     "GameConsole":"SNES (snes9x)",
@@ -489,11 +516,12 @@
     "ChallengeDetails":"Defeat the first boss! start point: screen where 1st boss spawns end point: when first boss dies ",
     "ChallengeTimeLimit":2,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 20:18:26",
-    "CKey":"C42",
+    "Timestamp":"2015/11/07 20:18:26",
+    "CKey":"C41",
     "Submitter":"TieTuesday",
     "GameTitle":"BS Kirby no ... Baseball",
     "GameConsole":"SNES (snes9x)",
@@ -501,11 +529,12 @@
     "ChallengeDetails":"Score 1 point before game over (just hit X a bunch to start)",
     "ChallengeTimeLimit":2,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 20:20:12",
-    "CKey":"C43",
+    "Timestamp":"2015/11/07 20:20:12",
+    "CKey":"C42",
     "Submitter":"Loracia",
     "GameTitle":"Monster Party",
     "GameConsole":"NES (fce ultra)",
@@ -513,11 +542,12 @@
     "ChallengeDetails":"Start the game, enter the first door and beat the plant monster.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":1,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 20:27:26",
-    "CKey":"C44",
+    "Timestamp":"2015/11/07 20:27:26",
+    "CKey":"C43",
     "Submitter":"Smite",
     "GameTitle":"Super Mario Bros. 3",
     "GameConsole":"NES (fce ultra)",
@@ -525,11 +555,12 @@
     "ChallengeDetails":"Get a star in the matching game. One try!",
     "ChallengeTimeLimit":1,
     "DifficultyRating":5,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 20:27:26",
-    "CKey":"C45",
+    "Timestamp":"2015/11/07 20:27:26",
+    "CKey":"C44",
     "Submitter":"Tyndolionel",
     "GameTitle":"Super Mario Bros. 3",
     "GameConsole":"NES (fce ultra)",
@@ -537,11 +568,12 @@
     "ChallengeDetails":"Beat Boom-Boom in the first fortress without losing the Frog Suit",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 20:32:01",
-    "CKey":"C46",
+    "Timestamp":"2015/11/07 20:32:01",
+    "CKey":"C45",
     "Submitter":"TieTuesday",
     "GameTitle":"Barbie Super Model",
     "GameConsole":"SNES (snes9x)",
@@ -549,11 +581,12 @@
     "ChallengeDetails":"Get 100 points on match the outfit in under 1 minute! (2 out of 3 parts correct). Pay close attention when loading!",
     "ChallengeTimeLimit":1,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 21:15:38",
-    "CKey":"C47",
+    "Timestamp":"2015/11/07 21:15:38",
+    "CKey":"C46",
     "Submitter":"Thevideogameraptorboggle",
     "GameTitle":"Boogerman",
     "GameConsole":"Sega Genesis (Gens)",
@@ -561,11 +594,12 @@
     "ChallengeDetails":"Start at the Booger Miester; the final boss. Challenge is to defeat him, timer starts after the boss intro.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"ehhh dunno bout gen... Final Boss Password: Pus Creature, Abdominal Sewer Man, Boogerman, Miner Goblin"
+    "SaveStateDownloadLocation":"ehhh dunno bout gen... Final Boss Password: Pus Creature, Abdominal Sewer Man, Boogerman, Miner Goblin",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 21:19:18",
-    "CKey":"C48",
+    "Timestamp":"2015/11/07 21:19:18",
+    "CKey":"C47",
     "Submitter":"@Asterioncrest",
     "GameTitle":"Super Mario RPG",
     "GameConsole":"SNES (snes9x)",
@@ -573,11 +607,12 @@
     "ChallengeDetails":"Perform 15 Super jumps in one minute! [Start point: Belome. End Point: After 15 super jumps have been performed. do not have to be in succession but simply done in the allotted amount of time. If they fail, let them reload savestate to try again as fast as possible.]",
     "ChallengeTimeLimit":1,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 21:43:03",
-    "CKey":"C49",
+    "Timestamp":"2015/11/07 21:43:03",
+    "CKey":"C48",
     "Submitter":"Tyndolionel",
     "GameTitle":"Street Fighter II Turbo",
     "GameConsole":"SNES (snes9x)",
@@ -585,11 +620,12 @@
     "ChallengeDetails":"Start up single player and defeat the first opponent (i.e. win 2 rounds). Defeat is an automatic loss.",
     "ChallengeTimeLimit":2,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 21:54:16",
-    "CKey":"C50",
+    "Timestamp":"2015/11/07 21:54:16",
+    "CKey":"C49",
     "Submitter":"Psych Eyeball",
     "GameTitle":"Super Castlevania IV",
     "GameConsole":"SNES (snes9x)",
@@ -597,11 +633,12 @@
     "ChallengeDetails":"Beat the giant skull boss that lies ahead.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 23:22:13",
-    "CKey":"C51",
+    "Timestamp":"2015/11/07 23:22:13",
+    "CKey":"C50",
     "Submitter":"Psych",
     "GameTitle":"Contra",
     "GameConsole":"NES (fce ultra)",
@@ -609,11 +646,12 @@
     "ChallengeDetails":"Beat Level 1 without shooting any enemies other than the boss! (i.e. no killing the dudes running around or turrets. You can kill the guard on the top of the boss and its turrets)",
     "ChallengeTimeLimit":2,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 23:38:20",
-    "CKey":"C52",
+    "Timestamp":"2015/11/07 23:38:20",
+    "CKey":"C51",
     "Submitter":"Tyndolionel",
     "GameTitle":"SFII Turbo",
     "GameConsole":"SNES (snes9x)",
@@ -621,11 +659,12 @@
     "ChallengeDetails":"Start the game in single player with the character select on Ryu. Successfully perform a Hadouken (fireball), Shoryuken (dragon punch), and a Tatsumaki Senpuu Kyaku (hurricane kick). They don't have to hit and do damage, just successfully execute all three.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":1,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/7/2015 23:54:11",
-    "CKey":"C53",
+    "Timestamp":"2015/11/07 23:54:11",
+    "CKey":"C52",
     "Submitter":"Rhybon",
     "GameTitle":"FF Mystic Quest",
     "GameConsole":"SNES (snes9x)",
@@ -633,11 +672,12 @@
     "ChallengeDetails":"Defeat the Dark King (Last Boss) within 2 Minutes.  The challenge begins as the fight begins, and ends as the boss begins to glow red, signifying his death.",
     "ChallengeTimeLimit":2,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/8/2015 0:10:46",
-    "CKey":"C54",
+    "Timestamp":"2015/11/08 0:10:46",
+    "CKey":"C53",
     "Submitter":"Bebuva",
     "GameTitle":"Run Saber",
     "GameConsole":"SNES (snes9x)",
@@ -645,11 +685,12 @@
     "ChallengeDetails":"Stage 2, defeat the two mini-bosses. After boss 1, proceed right and wall climb till you face the second mini-boss.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/8/2015 1:04:36",
-    "CKey":"C55",
+    "Timestamp":"2015/11/08 1:04:36",
+    "CKey":"C54",
     "Submitter":"Rhybon",
     "GameTitle":"F-Zero",
     "GameConsole":"SNES (snes9x)",
@@ -657,11 +698,12 @@
     "ChallengeDetails":"Using the Blue Falcon, complete the track 'Big Blue' both in first place and in less than 2:30:00.  Save State starts at the opening of the track.  Time is kept in-game.",
     "ChallengeTimeLimit":3,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/8/2015 6:26:49",
-    "CKey":"C56",
+    "Timestamp":"2015/11/08 6:26:49",
+    "CKey":"C55",
     "Submitter":"Proto IV",
     "GameTitle":"Castlevania",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -669,11 +711,12 @@
     "ChallengeDetails":"Beat the first boss using only the knife, challenge is done when you land the final hit. Be very careful not to whip him or you lose!",
     "ChallengeTimeLimit":1,
     "DifficultyRating":1,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/8/2015 8:29:51",
-    "CKey":"C57",
+    "Timestamp":"2015/11/08 8:29:51",
+    "CKey":"C56",
     "Submitter":"Proto IV",
     "GameTitle":"River City Ransom",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -681,11 +724,12 @@
     "ChallengeDetails":"From the start of Cross Town High, go to Merv's Burger Joint in Waterfront Mall and get a free Smile. Fast message speed, challenge is done when you confirm the order.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/8/2015 16:34:00",
-    "CKey":"C58",
+    "Timestamp":"2015/11/08 16:34:00",
+    "CKey":"C57",
     "Submitter":"PaddyBs",
     "GameTitle":"Donkey Kong Jr. Math",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -693,11 +737,12 @@
     "ChallengeDetails":"Complete two equations in Donkey Kong Jr. Math Calculate A mode in under 1 min. The timing is tight and will require all your math skills!",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/8/2015 22:31:29",
-    "CKey":"C59",
+    "Timestamp":"2015/11/08 22:31:29",
+    "CKey":"C58",
     "Submitter":"Butt Ox",
     "GameTitle":"Super Bomberman 2",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -705,11 +750,12 @@
     "ChallengeDetails":"Kill all enemies (You do not have to finish the level.)",
     "ChallengeTimeLimit":1,
     "DifficultyRating":1,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/8/2015 22:52:08",
-    "CKey":"C60",
+    "Timestamp":"2015/11/08 22:52:08",
+    "CKey":"C59",
     "Submitter":"Butt Ox",
     "GameTitle":"On the Ball",
     "GameConsole":"SNES (snes9x)",
@@ -717,11 +763,12 @@
     "ChallengeDetails":"Complete Special Level 2 ('Dolphin Passage'). Starts at beginning of level, ends when you touch the goal block.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":1,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/8/2015 23:16:09",
-    "CKey":"C61",
+    "Timestamp":"2015/11/08 23:16:09",
+    "CKey":"C60",
     "Submitter":"Butt Ox",
     "GameTitle":"Super Castlevania IV",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -729,11 +776,12 @@
     "ChallengeDetails":"Beat the boss of stage 1 with an un-upgraded whip and no subweapon. Challenge ends when you grab the orb.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 7:49:30",
-    "CKey":"C62",
+    "Timestamp":"2015/11/11 7:49:30",
+    "CKey":"C61",
     "Submitter":"Dectilon",
     "GameTitle":"Actraiser 2",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -741,11 +789,12 @@
     "ChallengeDetails":"Reach the labyrinth exit",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 7:50:14",
-    "CKey":"C63",
+    "Timestamp":"2015/11/11 7:50:14",
+    "CKey":"C62",
     "Submitter":"Dectilon",
     "GameTitle":"ADV of Batman and Robin",
     "GameConsole":"Sega Genesis (Gens 2.11)",
@@ -753,11 +802,12 @@
     "ChallengeDetails":"Defeat Joker",
     "ChallengeTimeLimit":1,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"ehhh i dunno bout gen"
+    "SaveStateDownloadLocation":"ehhh i dunno bout gen",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 8:13:59",
-    "CKey":"C64",
+    "Timestamp":"2015/11/11 8:13:59",
+    "CKey":"C63",
     "Submitter":"Dectilon",
     "GameTitle":"Rockman no Constancy ",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -765,11 +815,12 @@
     "ChallengeDetails":"CLEAR FOUR ROOMS OF QUICKLASER MOTHERFUCKER!",
     "ChallengeTimeLimit":2,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:10:13",
-    "CKey":"C65",
+    "Timestamp":"2015/11/11 10:10:13",
+    "CKey":"C64",
     "Submitter":"Smite",
     "GameTitle":"Batman",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -777,11 +828,12 @@
     "ChallengeDetails":"Get to the next area from the starting location. You have 1 minute.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:12:11",
-    "CKey":"C66",
+    "Timestamp":"2015/11/11 10:12:11",
+    "CKey":"C65",
     "Submitter":"Smite",
     "GameTitle":"Batman",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -789,11 +841,12 @@
     "ChallengeDetails":"Beat the boss. Plenty of sub weapons are available.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:12:49",
-    "CKey":"C67",
+    "Timestamp":"2015/11/11 10:12:49",
+    "CKey":"C66",
     "Submitter":"Smite",
     "GameTitle":"Super C",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -801,11 +854,12 @@
     "ChallengeDetails":"Beat the ceiling boss with 1 life and default weapon",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:13:04",
-    "CKey":"C68",
+    "Timestamp":"2015/11/11 10:13:04",
+    "CKey":"C67",
     "Submitter":"Smite",
     "GameTitle":"Super C",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -813,11 +867,12 @@
     "ChallengeDetails":"beat the UFO boss with 1 life and default weapon",
     "ChallengeTimeLimit":1,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:13:22",
-    "CKey":"C69",
+    "Timestamp":"2015/11/11 10:13:22",
+    "CKey":"C68",
     "Submitter":"Smite",
     "GameTitle":"Super C",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -825,11 +880,12 @@
     "ChallengeDetails":"beat the wall boss with 1 life and default weapon",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:13:47",
-    "CKey":"C70",
+    "Timestamp":"2015/11/11 10:13:47",
+    "CKey":"C69",
     "Submitter":"Smite",
     "GameTitle":"Mega Man X",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -837,11 +893,12 @@
     "ChallengeDetails":"Beat Chill Penguin with the buster without being hit, 1 try",
     "ChallengeTimeLimit":1,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:14:25",
-    "CKey":"C71",
+    "Timestamp":"2015/11/11 10:14:25",
+    "CKey":"C70",
     "Submitter":"Smite",
     "GameTitle":"Mega Man X",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -849,11 +906,12 @@
     "ChallengeDetails":"Beat Launch Octopus with the buster. You get a few HP upgrades & dash.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:14:59",
-    "CKey":"C72",
+    "Timestamp":"2015/11/11 10:14:59",
+    "CKey":"C71",
     "Submitter":"Smite",
     "GameTitle":"Mega Man X2",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -861,11 +919,12 @@
     "ChallengeDetails":"Beat the intro stage in 1 minute (starting from when you gain control)",
     "ChallengeTimeLimit":1,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:15:23",
-    "CKey":"C73",
+    "Timestamp":"2015/11/11 10:15:23",
+    "CKey":"C72",
     "Submitter":"Smite",
     "GameTitle":"Mega Man X2",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -873,11 +932,12 @@
     "ChallengeDetails":"Beat the Ostrich with the buster in under a minute",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:15:49",
-    "CKey":"C74",
+    "Timestamp":"2015/11/11 10:15:49",
+    "CKey":"C73",
     "Submitter":"Smite",
     "GameTitle":"Mega Man X2",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -885,11 +945,12 @@
     "ChallengeDetails":"Beat Morph Moth with the buster in under a minute",
     "ChallengeTimeLimit":1,
     "DifficultyRating":5,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:16:19",
-    "CKey":"C75",
+    "Timestamp":"2015/11/11 10:16:19",
+    "CKey":"C74",
     "Submitter":"Smite",
     "GameTitle":"Mega Man X2",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -897,11 +958,12 @@
     "ChallengeDetails":"Start Wheel Gator's stage and get the Buster power up. You have Strike Chain.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:16:49",
-    "CKey":"C76",
+    "Timestamp":"2015/11/11 10:16:49",
+    "CKey":"C75",
     "Submitter":"Smite",
     "GameTitle":"Balloon Fight",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -909,11 +971,12 @@
     "ChallengeDetails":"Get a perfect bonus round (20 balloons)",
     "ChallengeTimeLimit":1,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:17:38",
-    "CKey":"C77",
+    "Timestamp":"2015/11/11 10:17:38",
+    "CKey":"C76",
     "Submitter":"Smite",
     "GameTitle":"Castlevania",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -921,11 +984,12 @@
     "ChallengeDetails":"Beat death without any sub weapons. GOOD LUCK!",
     "ChallengeTimeLimit":1,
     "DifficultyRating":5,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:18:08",
-    "CKey":"C78",
+    "Timestamp":"2015/11/11 10:18:08",
+    "CKey":"C77",
     "Submitter":"Smite",
     "GameTitle":"Castlevania II",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -933,11 +997,12 @@
     "ChallengeDetails":"Beat Dracula with the leather whip & holy water. GOOD LUCK!",
     "ChallengeTimeLimit":1,
     "DifficultyRating":5,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:18:44",
-    "CKey":"C79",
+    "Timestamp":"2015/11/11 10:18:44",
+    "CKey":"C78",
     "Submitter":"Smite",
     "GameTitle":"Dig Dug 2",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -945,11 +1010,12 @@
     "ChallengeDetails":"Clear level 31. You have many extra lives, but only 1 minute.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:19:20",
-    "CKey":"C80",
+    "Timestamp":"2015/11/11 10:19:20",
+    "CKey":"C79",
     "Submitter":"Smite",
     "GameTitle":"Super Dodgeball",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -957,11 +1023,12 @@
     "ChallengeDetails":"Beat the first team in 1 minute on normal.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":1,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:19:49",
-    "CKey":"C81",
+    "Timestamp":"2015/11/11 10:19:49",
+    "CKey":"C80",
     "Submitter":"Smite",
     "GameTitle":"Super Dodgeball",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -969,11 +1036,12 @@
     "ChallengeDetails":"Kill one person in Bean Ball on normal.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:20:20",
-    "CKey":"C82",
+    "Timestamp":"2015/11/11 10:20:20",
+    "CKey":"C81",
     "Submitter":"Smite",
     "GameTitle":"Super Dodgeball",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -981,11 +1049,12 @@
     "ChallengeDetails":"Beat the shadow team on hard in under 3 minutes.",
     "ChallengeTimeLimit":3,
     "DifficultyRating":5,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:20:51",
-    "CKey":"C83",
+    "Timestamp":"2015/11/11 10:20:51",
+    "CKey":"C82",
     "Submitter":"Smite",
     "GameTitle":"Super Mario Bros. 3",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -993,11 +1062,12 @@
     "ChallengeDetails":"Finish the World 8 Airship with the frog suit. GOOD LUCK!",
     "ChallengeTimeLimit":2,
     "DifficultyRating":5,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:21:33",
-    "CKey":"C84",
+    "Timestamp":"2015/11/11 10:21:33",
+    "CKey":"C83",
     "Submitter":"Smite",
     "GameTitle":"Bubsy",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1005,11 +1075,12 @@
     "ChallengeDetails":"Clear stage 1 in under a minute. Complain about Bubsy while you do it.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":1,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:22:17",
-    "CKey":"C85",
+    "Timestamp":"2015/11/11 10:22:17",
+    "CKey":"C84",
     "Submitter":"Smite",
     "GameTitle":"Bubsy",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1017,11 +1088,12 @@
     "ChallengeDetails":"collect 80 yarn in Chapter 7 in under 1 minute. Complain about trains while you do it.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:22:17",
-    "CKey":"C86",
+    "Timestamp":"2015/11/11 10:22:17",
+    "CKey":"C85",
     "Submitter":"Smite",
     "GameTitle":"Bubsy",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1029,11 +1101,12 @@
     "ChallengeDetails":"Beat the cheap UFO boss of stage 15. You have multiple lives but only 1 minute.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 10:22:53",
-    "CKey":"C87",
+    "Timestamp":"2015/11/11 10:22:53",
+    "CKey":"C86",
     "Submitter":"Smite",
     "GameTitle":"Super Mario Bros. 2",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -1041,11 +1114,12 @@
     "ChallengeDetails":"Defeat Fry Guy with Toadstool & 2 HP in under 1 minute.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 21:42:15",
-    "CKey":"C88",
+    "Timestamp":"2015/11/11 21:42:15",
+    "CKey":"C87",
     "Submitter":"Wes Schneider",
     "GameTitle":"Adventure Island",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -1053,11 +1127,12 @@
     "ChallengeDetails":"Complete level 2 of Adventure Island. End the level while on a skateboard.",
     "ChallengeTimeLimit":3,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 21:45:36",
-    "CKey":"C89",
+    "Timestamp":"2015/11/11 21:45:36",
+    "CKey":"C88",
     "Submitter":"Wes Schneider",
     "GameTitle":"Battle Clash",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1065,11 +1140,12 @@
     "ChallengeDetails":"Defeat Mech Pilot Carlos as fast as possible! (Remember to switch to Super Scope controls.)",
     "ChallengeTimeLimit":3,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/11/2015 21:49:14",
-    "CKey":"C90",
+    "Timestamp":"2015/11/11 21:49:14",
+    "CKey":"C89",
     "Submitter":"Wes Schneider",
     "GameTitle":"Battle Clash",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1077,11 +1153,12 @@
     "ChallengeDetails":"Defeat the mech WITHOUT blowing off its... dangle bits. (Remember to switch to Super Scope controls.)",
     "ChallengeTimeLimit":3,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/16/2015 17:29:15",
-    "CKey":"C91",
+    "Timestamp":"2015/11/16 17:29:15",
+    "CKey":"C90",
     "Submitter":"Tyndolionel",
     "GameTitle":"SFII Turbo",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1089,11 +1166,12 @@
     "ChallengeDetails":"Win the match! Controls may have been rearranged!",
     "ChallengeTimeLimit":1,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/16/2015 17:35:11",
-    "CKey":"C92",
+    "Timestamp":"2015/11/16 17:35:11",
+    "CKey":"C91",
     "Submitter":"Tyndolionel",
     "GameTitle":"SFII Turbo",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1101,11 +1179,12 @@
     "ChallengeDetails":"Win the match! Controls may have been rearranged!",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/17/2015 1:32:22",
-    "CKey":"C93",
+    "Timestamp":"2015/11/17 1:32:22",
+    "CKey":"C92",
     "Submitter":"Smite",
     "GameTitle":"Demon's Crest",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1113,11 +1192,12 @@
     "ChallengeDetails":"Defeat Ovnunu, the eyeball, in 2 minutes with the Earth Gargoyle.",
     "ChallengeTimeLimit":2,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/17/2015 1:33:13",
-    "CKey":"C94",
+    "Timestamp":"2015/11/17 1:33:13",
+    "CKey":"C93",
     "Submitter":"Smite",
     "GameTitle":"Demon's Crest",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1125,11 +1205,12 @@
     "ChallengeDetails":"Win \"Trio the Pago,\" the headbutt skull game, on medium difficulty.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/17/2015 1:34:10",
-    "CKey":"C95",
+    "Timestamp":"2015/11/17 1:34:10",
+    "CKey":"C94",
     "Submitter":"Smite",
     "GameTitle":"Demon's Crest",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1137,11 +1218,12 @@
     "ChallengeDetails":"Beat the Hippogriff, fast!",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/17/2015 1:34:59",
-    "CKey":"C96",
+    "Timestamp":"2015/11/17 1:34:59",
+    "CKey":"C95",
     "Submitter":"Smite",
     "GameTitle":"Demon's Crest",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1149,11 +1231,12 @@
     "ChallengeDetails":"Quikcly climb to the top of the tower and enter the highest door.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/17/2015 9:28:48",
-    "CKey":"C97",
+    "Timestamp":"2015/11/17 9:28:48",
+    "CKey":"C96",
     "Submitter":"Smite",
     "GameTitle":"Super Mario Bros. 2",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -1161,11 +1244,12 @@
     "ChallengeDetails":"Beat the final section of 2-2 with 1 HP",
     "ChallengeTimeLimit":1,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/17/2015 9:38:12",
-    "CKey":"C98",
+    "Timestamp":"2015/11/17 9:38:12",
+    "CKey":"C97",
     "Submitter":"Smite",
     "GameTitle":"Super Mario Bros. 2",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -1173,11 +1257,12 @@
     "ChallengeDetails":"Beat level 1-1 in 2 minutes with any character.",
     "ChallengeTimeLimit":2,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/18/2015 1:12:28",
-    "CKey":"C99",
+    "Timestamp":"2015/11/18 1:12:28",
+    "CKey":"C98",
     "Submitter":"Smite",
     "GameTitle":"Super Mario World",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1185,11 +1270,12 @@
     "ChallengeDetails":"Beat Vanilla Dome 4, fast!",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/18/2015 1:12:29",
-    "CKey":"C100",
+    "Timestamp":"2015/11/18 1:12:29",
+    "CKey":"C99",
     "Submitter":"Lolo De Puzlo ",
     "GameTitle":"Adventures of Lolo 2",
     "GameConsole":"NES ",
@@ -1197,11 +1283,12 @@
     "ChallengeDetails":"Complete the level PRO C.  (Enter in the password PROC.) You have infinite continues, just select CONTINUE",
     "ChallengeTimeLimit":2,
     "DifficultyRating":5,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/18/2015 1:12:30",
-    "CKey":"C101",
+    "Timestamp":"2015/11/18 1:12:30",
+    "CKey":"C100",
     "Submitter":"Lolo De Puzlo ",
     "GameTitle":"Track & Field ",
     "GameConsole":"NES",
@@ -1209,11 +1296,12 @@
     "ChallengeDetails":"Successfully perform a high jump",
     "ChallengeTimeLimit":2,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/18/2015 1:12:31",
-    "CKey":"C102",
+    "Timestamp":"2015/11/18 1:12:31",
+    "CKey":"C101",
     "Submitter":"Lolo De Puzlo ",
     "GameTitle":"Track & Field ",
     "GameConsole":"NES",
@@ -1221,11 +1309,12 @@
     "ChallengeDetails":"Break a red clay pidgeon in the Skeet Shooting event.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/18/2015 1:14:41",
-    "CKey":"C103",
+    "Timestamp":"2015/11/18 1:14:41",
+    "CKey":"C102",
     "Submitter":"Smite",
     "GameTitle":"Super Mario World",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1233,11 +1322,12 @@
     "ChallengeDetails":"Beat Big Boo in a minute! Take Damage to save time!",
     "ChallengeTimeLimit":1,
     "DifficultyRating":5,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/18/2015 1:16:23",
-    "CKey":"C104",
+    "Timestamp":"2015/11/18 1:16:23",
+    "CKey":"C103",
     "Submitter":"Smite",
     "GameTitle":"Super Mario World",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1245,11 +1335,12 @@
     "ChallengeDetails":"Beat Donut Plains 4, fast!",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/18/2015 1:18:07",
-    "CKey":"C105",
+    "Timestamp":"2015/11/18 1:18:07",
+    "CKey":"C104",
     "Submitter":"Smite",
     "GameTitle":"Super Mario World",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1257,11 +1348,12 @@
     "ChallengeDetails":"Beat Chocolate Island 3, fast! Risky jumps will pay off!",
     "ChallengeTimeLimit":1,
     "DifficultyRating":5,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/18/2015 1:20:01",
-    "CKey":"C106",
+    "Timestamp":"2015/11/18 1:20:01",
+    "CKey":"C105",
     "Submitter":"Smite",
     "GameTitle":"Super Mario World",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1269,11 +1361,12 @@
     "ChallengeDetails":"Beat Chocolate Island 1, fast!",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/18/2015 1:37:29",
-    "CKey":"C107",
+    "Timestamp":"2015/11/18 1:37:29",
+    "CKey":"C106",
     "Submitter":"Smite",
     "GameTitle":"Tetris",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -1281,11 +1374,12 @@
     "ChallengeDetails":"Clear 15 lines, fast!",
     "ChallengeTimeLimit":1,
     "DifficultyRating":5,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/18/2015 12:11:23",
-    "CKey":"C108",
+    "Timestamp":"2015/11/18 12:11:23",
+    "CKey":"C107",
     "Submitter":"",
     "GameTitle":"Alien Soldier ",
     "GameConsole":"Sega Genesis (Gens 2.11)",
@@ -1293,11 +1387,12 @@
     "ChallengeDetails":"Starting at the beginning of the first stage with homing, ranger, flame, and sword as your weapons, defeat the first boss. ",
     "ChallengeTimeLimit":2,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"ehhh dunno bout gen"
+    "SaveStateDownloadLocation":"ehhh dunno bout gen",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/18/2015 18:42:38",
-    "CKey":"C109",
+    "Timestamp":"2015/11/18 18:42:38",
+    "CKey":"C108",
     "Submitter":"Lolo De Puzlo",
     "GameTitle":"ADV in Magic Kingdom",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -1305,11 +1400,12 @@
     "ChallengeDetails":"Complete Space Mountain ride",
     "ChallengeTimeLimit":3,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/18/2015 18:42:39",
-    "CKey":"C110",
+    "Timestamp":"2015/11/18 18:42:39",
+    "CKey":"C109",
     "Submitter":"Smite",
     "GameTitle":"ADV in Magic Kingdom",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -1317,11 +1413,12 @@
     "ChallengeDetails":"Beat Panhandle Pete on the race track in one try",
     "ChallengeTimeLimit":2,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/18/2015 18:42:39",
-    "CKey":"C111",
+    "Timestamp":"2015/11/18 18:42:39",
+    "CKey":"C110",
     "Submitter":"Smite",
     "GameTitle":"ADV in Magic Kingdom",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -1329,11 +1426,12 @@
     "ChallengeDetails":"Beat the ghost area. Plenty of time allowed, but only one try. Good luck with that!",
     "ChallengeTimeLimit":5,
     "DifficultyRating":5,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/18/2015 18:42:40",
-    "CKey":"C112",
+    "Timestamp":"2015/11/18 18:42:40",
+    "CKey":"C111",
     "Submitter":"Smite",
     "GameTitle":"ADV in Magic Kingdom",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -1341,11 +1439,12 @@
     "ChallengeDetails":"Beat the trash train within 2 minutes. You have a few lives.",
     "ChallengeTimeLimit":2,
     "DifficultyRating":5,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/18/2015 18:42:45",
-    "CKey":"C113",
+    "Timestamp":"2015/11/18 18:42:45",
+    "CKey":"C112",
     "Submitter":"Smite",
     "GameTitle":"ADV in Magic Kingdom",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -1353,11 +1452,12 @@
     "ChallengeDetails":"Save the villagers from the pirates and escape! Good luck!",
     "ChallengeTimeLimit":3,
     "DifficultyRating":5,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/19/2015 7:00:26",
-    "CKey":"C114",
+    "Timestamp":"2015/11/19 7:00:26",
+    "CKey":"C113",
     "Submitter":"Smite",
     "GameTitle":"Super Castlevania IV",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1365,11 +1465,12 @@
     "ChallengeDetails":"Beat the mummy boss. Don't fall off!",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/19/2015 7:01:12",
-    "CKey":"C115",
+    "Timestamp":"2015/11/19 7:01:12",
+    "CKey":"C114",
     "Submitter":"Smite",
     "GameTitle":"Super Castlevania IV",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1377,11 +1478,12 @@
     "ChallengeDetails":"Beat Slogra within 2 minutes. Stay low to the ground in phase 1, and far away in phase 2! Good luck!",
     "ChallengeTimeLimit":2,
     "DifficultyRating":5,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/19/2015 7:03:01",
-    "CKey":"C116",
+    "Timestamp":"2015/11/19 7:03:01",
+    "CKey":"C115",
     "Submitter":"Smite",
     "GameTitle":"Super Castlevania IV",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1389,11 +1491,12 @@
     "ChallengeDetails":"Bonus items are hidden on an invisible path under the stairs. Get 1 whip upgrade and get back up to the steps. You have multiple lives but only 1 minute.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/19/2015 20:07:09",
-    "CKey":"C117",
+    "Timestamp":"2015/11/19 20:07:09",
+    "CKey":"C116",
     "Submitter":"Lolo De Puzlo",
     "GameTitle":"Shadowgate",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -1401,11 +1504,12 @@
     "ChallengeDetails":"In two minutes, kill yourself in 5 unique ways (Load State upon seeing the reaper.)",
     "ChallengeTimeLimit":2,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/21/2015 17:31:28",
-    "CKey":"C118",
+    "Timestamp":"2015/11/21 17:31:28",
+    "CKey":"C117",
     "Submitter":"smokincolt",
     "GameTitle":"Super C",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -1413,11 +1517,12 @@
     "ChallengeDetails":"Level 4 (stage with the bubbles), no hit, no power ups.",
     "ChallengeTimeLimit":3,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":""
+    "SaveStateDownloadLocation":"",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"11/21/2015 17:32:08",
-    "CKey":"C119",
+    "Timestamp":"2015/11/21 17:32:08",
+    "CKey":"C118",
     "Submitter":"smokincolt",
     "GameTitle":"Super C",
     "GameConsole":"NES (FCEUX 2.2.2)",
@@ -1425,11 +1530,12 @@
     "ChallengeDetails":"Level 6, no power ups, no hit",
     "ChallengeTimeLimit":3,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":""
+    "SaveStateDownloadLocation":"",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"12/3/2015 17:32:08",
-    "CKey":"C120",
+    "Timestamp":"2015/12/03 17:32:08",
+    "CKey":"C119",
     "Submitter":"Smite",
     "GameTitle":"U.N. Squadron",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1437,11 +1543,12 @@
     "ChallengeDetails":"Beat stage 1 with any pilot.",
     "ChallengeTimeLimit":2,
     "DifficultyRating":2,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"12/3/2015 17:32:08",
-    "CKey":"C121",
+    "Timestamp":"2015/12/03 17:32:08",
+    "CKey":"C120",
     "Submitter":"Smite",
     "GameTitle":"U.N. Squadron",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1449,11 +1556,12 @@
     "ChallengeDetails":"Beat the Stealth Fighter stage with Shin and the default plane.",
     "ChallengeTimeLimit":3,
     "DifficultyRating":3,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   },
   {
-    "Timestamp":"12/3/2015 17:32:10",
-    "CKey":"C122",
+    "Timestamp":"2015/12/03 17:32:10",
+    "CKey":"C121",
     "Submitter":"Smite",
     "GameTitle":"U.N. Squadron",
     "GameConsole":"SNES (snes9x 1.53)",
@@ -1461,6 +1569,150 @@
     "ChallengeDetails":"Beat the Aerial Squadron stage with Shin and the default plane.",
     "ChallengeTimeLimit":1,
     "DifficultyRating":4,
-    "SaveStateDownloadLocation":"X"
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
+  },
+  {
+    "Timestamp":"2015/12/06 0:49:32",
+    "CKey":"C122",
+    "Submitter":"Mjolna",
+    "GameTitle":"Metal Storm",
+    "GameConsole":"NES (FCEUX 2.2.2)",
+    "StateSlot":"1",
+    "ChallengeDetails":"Beat the first boss. May inform players that UP+Jump inverts gravity.",
+    "ChallengeTimeLimit":1,
+    "DifficultyRating":2,
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
+  },
+  {
+    "Timestamp":"2015/12/06 5:04:47",
+    "CKey":"C123",
+    "Submitter":"thevoiceofdog",
+    "GameTitle":"California Games",
+    "GameConsole":"NES (FCEUX 2.2.2)",
+    "StateSlot":"N/A",
+    "ChallengeDetails":"Get 20,000 points in footbag event (includes variety bonus at the end)",
+    "ChallengeTimeLimit":2,
+    "DifficultyRating":4,
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
+  },
+  {
+    "Timestamp":"2015/12/06 5:48:33",
+    "CKey":"C124",
+    "Submitter":"thevoiceofdog",
+    "GameTitle":"Chip and Dale: Rescue Rangers",
+    "GameConsole":"NES (FCEUX 2.2.2)",
+    "StateSlot":"1",
+    "ChallengeDetails":"Beat Zone F in 2 minutes (or game over)",
+    "ChallengeTimeLimit":2,
+    "DifficultyRating":3,
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
+  },
+  {
+    "Timestamp":"2015/12/06 9:55:12",
+    "CKey":"C125",
+    "Submitter":"",
+    "GameTitle":"Sonic the Hedgehog ",
+    "GameConsole":"Sega Genesis (Gens 2.11)",
+    "StateSlot":"",
+    "ChallengeDetails":"whole Green Hill Zone 1",
+    "ChallengeTimeLimit":1,
+    "DifficultyRating":1,
+    "SaveStateDownloadLocation":"ehh gens",
+    "HasSeen":FALSE
+  },
+  {
+    "Timestamp":"2015/12/06 12:03:03",
+    "CKey":"C126",
+    "Submitter":"",
+    "GameTitle":"Yoshi's Island",
+    "GameConsole":"SNES (snes9x 1.53)",
+    "StateSlot":"N/A",
+    "ChallengeDetails":"Finish Level One without losing Baby Mario at all.",
+    "ChallengeTimeLimit":2,
+    "DifficultyRating":2,
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
+  },
+  {
+    "Timestamp":"2015/12/06 14:48:30",
+    "CKey":"C127",
+    "Submitter":"Guy Vett",
+    "GameTitle":"Super Hang-on",
+    "GameConsole":"Sega Genesis (Gens 2.11)",
+    "StateSlot":"",
+    "ChallengeDetails":"In arcade mode on the Expert Europe course, race through the first 2 stages as fast as you can. (The second stage ends as you hit the checkpoint after the level transition.)",
+    "ChallengeTimeLimit":2,
+    "DifficultyRating":3,
+    "SaveStateDownloadLocation":"ehh gens",
+    "HasSeen":FALSE
+  },
+  {
+    "Timestamp":"2015/12/06 18:29:06",
+    "CKey":"C128",
+    "Submitter":"",
+    "GameTitle":"Bubsy",
+    "GameConsole":"SNES (snes9x 1.53)",
+    "StateSlot":"N/A",
+    "ChallengeDetails":"Finish level one without gliding.",
+    "ChallengeTimeLimit":2,
+    "DifficultyRating":4,
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
+  },
+  {
+    "Timestamp":"2015/12/06 20:46:28",
+    "CKey":"C129",
+    "Submitter":"Puroseki",
+    "GameTitle":"Demon's Crest",
+    "GameConsole":"SNES (snes9x 1.53)",
+    "StateSlot":"N/A",
+    "ChallengeDetails":"Beat the Hippogriff in two minutes.",
+    "ChallengeTimeLimit":2,
+    "DifficultyRating":3,
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
+  },
+  {
+    "Timestamp":"2015/12/07 18:31:15",
+    "CKey":"C130",
+    "Submitter":"Trivial Man",
+    "GameTitle":"Super Mario Bros.",
+    "GameConsole":"NES (FCEUX 2.2.2)",
+    "StateSlot":"",
+    "ChallengeDetails":"Finish level 1-1 with fireworks (time limit 1:30 mins)",
+    "ChallengeTimeLimit":2,
+    "DifficultyRating":2,
+    "SaveStateDownloadLocation":"",
+    "HasSeen":FALSE
+  },
+  {
+    "Timestamp":"2015/12/07 20:30:05",
+    "CKey":"C131",
+    "Submitter":"Lolo De Puzlo",
+    "GameTitle":"Mission Impossible",
+    "GameConsole":"NES (FCEUX 2.2.2)",
+    "StateSlot":"",
+    "ChallengeDetails":"Complete Level 2 (Password: HMPR)",
+    "ChallengeTimeLimit":2,
+    "DifficultyRating":3,
+    "SaveStateDownloadLocation":"",
+    "HasSeen":FALSE
+  },
+  {
+    "Timestamp":"2015/12/07 20:46:28",
+    "CKey":"C132",
+    "Submitter":"Smite",
+    "GameTitle":"Jaws",
+    "GameConsole":"NES (FCEUX 2.2.2)",
+    "StateSlot":"1",
+    "ChallengeDetails":"Kill Jaws. You have 3 strobes to try with.",
+    "ChallengeTimeLimit":1,
+    "DifficultyRating":3,
+    "SaveStateDownloadLocation":"X",
+    "HasSeen":FALSE
   }
 ]

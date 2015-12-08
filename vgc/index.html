@@ -48,15 +48,13 @@
     <div id="navContent">
 
         <div class="box gamen"><span id="0"></span><div id="0-challenge" class="challenge-number"></div></div>
-        <div class="gamen"><span id="1" ></span><div id="1-challenge" class="challenge-number"></div></div>
-        <div class="gamen"><span  id="2"></span><div id="2-challenge" class="challenge-number"></div></div>
-        <div class="gamen"><span  id="3"></span><div id="3-challenge" class="challenge-number"></div></div>
-        <div class="gamen"><span  id="4"></span><div id="4-challenge" class="challenge-number"></div></div>
-        <div class="gamen"><span  id="5"></span><div id="5-challenge" class="challenge-number"></div></div>
     </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script>
     var isCalled = false;
+	function isNotGenesis(value) {
+		return value.indexOf("Genesis") <= -1;
+	}
     $challenge = {
         loadJSON: function (path, callback) {
             var xobj = new XMLHttpRequest();
@@ -74,9 +72,10 @@
                 isCalled = true;
                 $challenge.loadJSON(path, function (response) {
                     var challenges = JSON.parse(response);
+					var filteredChallenges = challenges.filter(isNotGenesis);
                     // $('#navContent')
-                    for (var i = 0; i < 6; i++) {
-                        var challenge = challenges[Math.floor(Math.random() * challenges.length)];
+                    for (var i = 0; i < 1; i++) {
+                        var challenge = filteredChallenges[Math.floor(Math.random() * filteredChallenges.length)];
                         $('#' + i).text(challenge.GameTitle);
                         $('#' + i + '-challenge').text(challenge.CKey);
                     }
