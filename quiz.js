@@ -19,10 +19,10 @@ var $quiz = {
                 $('#startGame').fadeOut();
                 $('#pointLayout').fadeIn();
 				var questions = [];
-				for(var i = 0; i < 6; i++)
+				for(var i = 0; i < 8; i++)
 				{
 					var randomAnswer = Math.floor(Math.random() * (actual_JSON.length - 1) + 1);
-					questions.push(randomAnswer);
+					questions.push(actual_JSON[randomAnswer]);
 				}
 				
                 var table = document.getElementById('pointTable').getElementsByTagName('tbody')[0];
