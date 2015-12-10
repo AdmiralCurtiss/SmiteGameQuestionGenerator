@@ -56,6 +56,9 @@
 	function isNotGenesis(value) {
 		return value.GameConsole.indexOf("Genesis") <= -1;
 	}
+	function isSaveState(value) {
+		return value.SaveStateDownloadLocation.indexOf("X") > -1;
+	}
     $challenge = {
         loadJSON: function (path, callback) {
             var xobj = new XMLHttpRequest();
@@ -74,6 +77,7 @@
                 $challenge.loadJSON(path, function (response) {
                     var challenges = JSON.parse(response);
 					var filteredChallenges = challenges.filter(isNotGenesis);
+				    filteredChallenges = filteredChallenges.filter(isSaveState);
                     // $('#navContent')
                     for (var i = 0; i < 1; i++) {
                         var challenge = filteredChallenges[Math.floor(Math.random() * filteredChallenges.length)];
