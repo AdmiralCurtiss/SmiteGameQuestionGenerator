@@ -15,7 +15,7 @@
             font-family: 'Sigmar One', cursive;
             position: relative;
         }
-
+ 
         span {
             display: inline-block;
             vertical-align: middle;
@@ -26,17 +26,25 @@
             color: orange;
             text-shadow: 3px 3px 0px #000000;
         }
-
+ 
         body {
             background-color: rgba(0, 0, 0, 0);
             overflow: hidden;
         }
-
+ 
         .challenge-number {
             position: absolute;
             top: 100px;
             left: 66px;
         }
+		
+        div .info{
+            color: #b7e4ec;
+            display: block;
+            loat: left;
+            font-weight: bold;
+        }
+               
     </style>
 </head>
 <body>
@@ -44,11 +52,28 @@
         <source src="Ding.mp3" type="audio/mpeg">
     </audio>
     <div class="spacer"></div>
-
+ 
     <div id="navContent">
-
+ 
         <div class="box gamen"><span id="0"></span><div id="0-challenge" class="challenge-number"></div></div>
-		<div style="padding-top: 100px;"><h2>Game Console</h2><p id="game-console">NES</p><h2>Submitter</h2><p id="submitter">NES</p><h2>Challenge Details</h2><p id="challenge-details">Buster duel blah blah</p><h2>Challenge Time Limit</h2><p id="challenge-time-limit">1</p><h2>Difficulty Rating</h2><p id="difficulty-rating">2</p><h2>Save State Download Location</h2><p id="save-state-download-location">X</p></div>
+                <div style="padding-top: 20px;">
+<div style="width:300px;">
+ 
+                <div class ="info" id="0">Stuff</div>
+ 
+                <div class ="info" id="challenge-details">Stuff</div><div class ="info" style="padding-left: 0px;"> -- By: </div><div class = "info" style="padding-left: 5px;" id="submitter"></div>
+               
+                <div class ="info" style="width:290px;"><hr></div><br>
+ 
+                <div class ="info" style="padding-left: 18px;">Time: </div><div class = "info" style="padding-left: 5px;" id="challenge-time-limit">1</div><div class = "info">m</div>
+ 
+                <div class ="info" style="padding-left: 20px;">Difficulty: </div><div class = "info" style="padding-left: 5px;" id="difficulty-rating">3</div>
+ 
+                <div class ="info" style="padding-left: 20px;">State: </div><div class = "info" style="padding-left: 5px;" id="save-state">3</div><br>
+ 
+                <div class ="info" style="width:290px;"><hr></div></div>
+ 
+                </div>
     </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script>
