@@ -59,7 +59,7 @@
                 <div style="padding-top: 20px;">
 <div style="width:300px;">
  
-                <div class ="info" id="0">Stuff</div>
+                <div class ="info" id="0-game-name">Stuff</div>
  
                 <div class ="info" id="challenge-details">Stuff</div><div class ="info" style="padding-left: 0px;"> -- By: </div><div class = "info" style="padding-left: 5px;" id="submitter"></div>
                
@@ -106,7 +106,8 @@
                     // $('#navContent')
                     for (var i = 0; i < 1; i++) {
                         var challenge = filteredChallenges[Math.floor(Math.random() * filteredChallenges.length)];
-                        $('#' + i).text(challenge.GameTitle);
+                        $('#' + i + '-game-name').text(challenge.GameTitle);
+						$('#' + i).text(challenge.GameTitle);
                         $('#' + i + '-challenge').text(challenge.CKey);
 						$('#game-console').text(challenge.GameConsole)
 						$('#submitter').text(challenge.Submitter)
