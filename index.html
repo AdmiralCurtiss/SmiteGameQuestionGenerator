@@ -9,7 +9,6 @@
 
 <body>
 <div id="startGame">
-    <button type="submit" onclick="$quiz.loadGame('questions.json')" id="upload-button">Start New Game</button>
     <button type="submit" onclick="$quiz.loadNewGame('questions.json')">Start REALLY new Game</button>
 </div>
 <div style="display: none;" id="pointLayout">
@@ -23,6 +22,18 @@
         </tr>
         </thead>
         <tbody class="game-cell">
+        <tr>
+            <td class="game-select-question" id="question-0" data-question-number="0"></td>
+            <td class="game-select-question" id="question-2" data-question-number="2"></td>
+            <td class="game-select-question" id="question-4" data-question-number="4"></td>
+            <td class="game-select-question" id="question-6" data-question-number="6"></td>
+        </tr>
+        <tr>
+            <td class="game-select-question" id="question-1" data-question-number="1"></td>
+            <td class="game-select-question" id="question-3" data-question-number="3"></td>
+            <td class="game-select-question" id="question-5" data-question-number="5"></td>
+            <td class="game-select-question" id="question-7" data-question-number="7"></td>
+        </tr>
         </tbody>
     </table>
     <div id="question" style="display: none;">

@@ -87,7 +87,7 @@ var $quiz = {
 
                 var questions = [];
                 for (var i = 0; i < 8; i++) {
-                    if (i < 2) {
+                    if (i ) {
                         var randomAnswer = Math.floor(Math.random() * (diffOne.length - 1) + 1);
                         questions.push(diffOne[randomAnswer]);
                     }
@@ -108,16 +108,7 @@ var $quiz = {
                 var table = document.getElementById('pointTable').getElementsByTagName('tbody')[0];
                 var tableRow = 0;
                 for (var i = 0; i < questions.length; i++) {
-                    var cellNumber = i % 4;
-                    if (i % 4 == 0) {
-                        var row = table.insertRow(tableRow);
-                        tableRow++;
-                    }
-
-                    var cell = row.insertCell(cellNumber);
-                    cell.innerText = questions[i].GameTitle;
-                    cell.setAttribute("class", "game-select-question");
-                    cell.setAttribute("data-question-number", i);
+                    $("#question-" + 0)[0].innerText = questions[i].GameTitle;
                 }
 
                 $(".answer").click(function () {
