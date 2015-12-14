@@ -67,9 +67,9 @@
  
                 <div class ="info" style="padding-left: 18px;">Time: </div><div class = "info" style="padding-left: 5px;" id="challenge-time-limit">1</div><div class = "info">m</div>
  
-                <div class ="info" style="padding-left: 20px;">Difficulty: </div><div class = "info" style="padding-left: 5px;" id="difficulty-rating">3</div>
+                <div class ="info" style="padding-left: 20px;">Difficulty: </div><div class = "info" style="padding-left: 5px;" id="difficulty-rating"></div>
  
-                <div class ="info" style="padding-left: 20px;">State: </div><div class = "info" style="padding-left: 5px;" id="save-state">3</div><br>
+                <div class ="info" style="padding-left: 20px;">State: </div><div class = "info" style="padding-left: 5px;" id="save-state"></div><br>
  
                 <div class ="info" style="width:290px;"><hr></div></div>
  
@@ -82,7 +82,7 @@
 		return value.GameConsole.indexOf("Genesis") <= -1;
 	}
 	function isSaveState(value) {
-		return value.SaveStateDownloadLocation.indexOf("X") > -1;
+		return value.SaveStateDownloadLocation.indexOf("X") < -1;
 	}
     $challenge = {
         loadJSON: function (path, callback) {
@@ -114,7 +114,7 @@
 						$('#challenge-details').text(challenge.ChallengeDetails)
 						$('#challenge-time-limit').text(challenge.ChallengeTimeLimit)
 						$('#difficulty-rating').text(challenge.DifficultyRating)
-						$('#save-state-download-location').text(challenge.SaveStateDownloadLocation)
+						$('#save-state').text(challenge.SaveStateDownloadLocation)
                     }
                 });
             }
