@@ -87,17 +87,20 @@ var $quiz = {
 
                 var questions = [];
                 for (var i = 0; i < 8; i++) {
-                    var randomAnswer = Math.floor(Math.random() * (actual_JSON.length - 1) + 1);
                     if (i < 2) {
+                        var randomAnswer = Math.floor(Math.random() * (diffOne.length - 1) + 1);
                         questions.push(diffOne[randomAnswer]);
                     }
                     if (i < 4) {
+                        var randomAnswer = Math.floor(Math.random() * (diffTwo.length - 1) + 1);
                         questions.push(diffTwo[randomAnswer]);
                     }
                     if (i < 6) {
+                        var randomAnswer = Math.floor(Math.random() * (diffThree.length - 1) + 1);
                         questions.push(diffThree[randomAnswer]);
                     }
                     if (i < 8) {
+                        var randomAnswer = Math.floor(Math.random() * (diffFour.length - 1) + 1);
                         questions.push(diffFour[randomAnswer]);
                     }
                 }
