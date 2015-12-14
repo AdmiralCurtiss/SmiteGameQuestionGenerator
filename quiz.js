@@ -108,7 +108,7 @@ var $quiz = {
                 var table = document.getElementById('pointTable').getElementsByTagName('tbody')[0];
                 var tableRow = 0;
                 for (var i = 0; i < questions.length; i++) {
-                    $("#question-" + 0)[0].innerText = questions[i].GameTitle;
+                    $("#question-" + i)[0].innerText = questions[i].GameTitle;
                 }
 
                 $(".answer").click(function () {
