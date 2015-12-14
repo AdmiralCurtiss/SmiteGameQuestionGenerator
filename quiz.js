@@ -91,15 +91,15 @@ var $quiz = {
                         var randomAnswer = Math.floor(Math.random() * (diffOne.length - 1) + 1);
                         questions.push(diffOne[randomAnswer]);
                     }
-                    if ((2 < i) && (i < 4)) {
+                    if ((2 <= i) && (i < 4)) {
                         var randomAnswer = Math.floor(Math.random() * (diffTwo.length - 1) + 1);
                         questions.push(diffTwo[randomAnswer]);
                     }
-                    if ((4 < i) && (i < 6)) {
+                    if ((4 <= i) && (i < 6)) {
                         var randomAnswer = Math.floor(Math.random() * (diffThree.length - 1) + 1);
                         questions.push(diffThree[randomAnswer]);
                     }
-                    if ((6 < i) && (i < 8)) {
+                    if ((6 <= i) && (i < 8)) {
                         var randomAnswer = Math.floor(Math.random() * (diffFour.length - 1) + 1);
                         questions.push(diffFour[randomAnswer]);
                     }
