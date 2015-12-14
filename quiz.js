@@ -87,19 +87,19 @@ var $quiz = {
 
                 var questions = [];
                 for (var i = 0; i < 8; i++) {
-                    if (i ) {
+                    if (i < 2) {
                         var randomAnswer = Math.floor(Math.random() * (diffOne.length - 1) + 1);
                         questions.push(diffOne[randomAnswer]);
                     }
-                    if (i < 4) {
+                    if (2 < i < 4) {
                         var randomAnswer = Math.floor(Math.random() * (diffTwo.length - 1) + 1);
                         questions.push(diffTwo[randomAnswer]);
                     }
-                    if (i < 6) {
+                    if (4 < i < 6) {
                         var randomAnswer = Math.floor(Math.random() * (diffThree.length - 1) + 1);
                         questions.push(diffThree[randomAnswer]);
                     }
-                    if (i < 8) {
+                    if (6 < i < 8) {
                         var randomAnswer = Math.floor(Math.random() * (diffFour.length - 1) + 1);
                         questions.push(diffFour[randomAnswer]);
                     }
@@ -107,7 +107,7 @@ var $quiz = {
 
                 var table = document.getElementById('pointTable').getElementsByTagName('tbody')[0];
                 var tableRow = 0;
-                for (var i = 0; i < questions.length - 1; i++) {
+                for (var i = 0; i < questions.length; i++) {
                     $("#question-" + i)[0].innerText = questions[i].GameTitle;
                 }
 
