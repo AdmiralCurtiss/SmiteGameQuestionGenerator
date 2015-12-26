@@ -77,10 +77,10 @@ var $quiz = {
             $quiz.loadJSON(path, function (response) {
                 var first_json = JSON.parse(response);
                 var actual_JSON = first_json.filter(HasNotBeenSeen);
-                var diffOne = first_json.filter(DiffOne);
-                var diffTwo = first_json.filter(DiffTwo);
-                var diffThree = first_json.filter(DiffThree);
-                var diffFour = first_json.filter(DiffFour);
+                var diffOne = actual_JSON.filter(DiffOne);
+                var diffTwo = actual_JSON.filter(DiffTwo);
+                var diffThree = actual_JSON.filter(DiffThree);
+                var diffFour = actual_JSON.filter(DiffFour);
                 $('#startGame').fadeOut();
                 $('#pointLayout').fadeIn();
 
