@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Team Battles</title>
+		<meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+		<style>
+
+			body {
+				background-color: rgba(0, 0, 0, 0);
+				overflow: hidden;
+			}
+
+			div .info{
+				color: #dddddd;
+				text-shadow: 2px 2px 2px #000000;
+				display: block;
+				float: left;
+				font-size: 14px;
+				font-family: Verdana;
+				height: 20px;
+				padding-top: 2px;
+				background-color: rgba(0, 0, 0, .0);
+			}
+
+			#challenge-details {
+				position: absolute;
+				top: 35px;
+				padding: 16px 3px 3px 3px;
+				height: auto;
+				width: 890px;
+				transform: translateY(-30%);
+			}
+
+			#\30-challenge {
+				font-weight: bold;
+				position: absolute;
+				left: 25px;
+			}
+			#game-console {
+				font-weight: bold;
+				position: absolute;
+				left: 110px;
+			}
+			#\30-game-name {
+				font-weight: bold;
+				position: absolute;
+				left: 180px;
+			}
+			#by-heading {
+				font-weight: bold;
+				position: absolute;
+				left: 640px;
+			}
+			#submitter {
+				position: absolute;
+				left: 670px;
+			}
+			#state-heading {
+				font-weight: bold;
+				position: absolute;
+				left: 840px;
+			}
+			#state-slot {
+				position: absolute;
+				left: 890px;
+			}
+
+			#navContent {
+				transition-property: opacity;
+				transition-duration: 0.5s;
+			}
+		</style>
+	</head>
+	<body>
+		<audio autoplay>
+			<source src="Ding.mp3" type="audio/mpeg">
+		</audio>
+		<div class="spacer"></div>
+
+		<div id="navContent">
+			<div style="width:1280px;">
+				<div style = "width: 70%; height: 58px; display: inline-block; padding-left: 10px; padding-right: 10px; border: thick double #888888;background-color: rgba(0, 0, 0, .85);">
+
+					<div class="info" id="0-challenge">TB#</div>
+					<div class="info" id="game-console"></div>
+					<div class="info" id="0-game-name">Game</div>
+
+					<div class="info" id="by-heading">By: </div>
+					<div class="info" id="submitter">Name</div>
+
+					<div class="info" id="state-heading">State: </div>
+					<div class="info" id="state-slot">None</div>				
+
+					<div class="info" id="challenge-details">Stuff</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script>
+			var isCalled = false;
+			function isNotGenesis(value) {
+				return value.GameConsole.indexOf("Genesis") <= -1;
+			}
+			function isSaveState(value) {
+				return value.SaveStateDownloadLocation.indexOf("X") > -1;
+			}
+			$challenge = {
+				loadJSON: function (path, callback) {
+					var xobj = new XMLHttpRequest();
+					xobj.overrideMimeType("application/json");
+					xobj.open('GET', path, true);
+					xobj.onreadystatechange = function () {
+						if (xobj.readyState == 4 && xobj.status == "200") {
+							callback(xobj.responseText);
+						}
+					};
+					xobj.send(null);
+				},
+				loadGame: function (path) {
+					if (!isCalled) {
+						isCalled = true;
+						$challenge.loadJSON(path, function (response) {
+							var challenges = JSON.parse(response);
+							var filteredChallenges = challenges.filter(isNotGenesis);
+							filteredChallenges = filteredChallenges.filter(isSaveState);
+							// $('#navContent')
+							for (var i = 0; i < 1; i++) {
+								var challenge = filteredChallenges[Math.floor(Math.random() * filteredChallenges.length)];
+								$('#' + i + '-game-name').text(challenge.GameTitle);
+								$('#' + i).text(challenge.GameTitle);
+								$('#' + i + '-challenge').text(challenge.TBKey);
+								$('#game-console').text(challenge.GameConsole);
+								$('#submitter').text(challenge.Submitter);
+								$('#challenge-details').text(challenge.ChallengeDetails);
+								$('#state-slot').text(challenge.Stateslot);
+							}
+						});
+					}
+				}
+			};
+			window.onload = function () {
+				setTimeout(function () {
+					$('#navContent')[0].style.opacity = 0;
+				}, 240000);
+				$challenge.loadGame('TB challenges.json');
+			};
+		</script>
+	</body>
+</html>

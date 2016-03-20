@@ -1,483 +1,547 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv=X-UA-Compatible content="IE=edge"/>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Spin to Win</title>
-    <script type="text/javascript">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<title>Spin to Win</title>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script type="text/javascript" src="seedrandom.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+		<!--[if IE]>
+		<script type="text/javascript"
+				src="https://cdnjs.cloudflare.com/ajax/libs/jit/2.0.2/Extras/excanvas.min.js"></script>
+		<![endif]-->
+		<script type="text/javascript">// Helpers
+			var PI2 = Math.PI * 2;
+			Math.seedrandom();
 
-    </script>
-    <script type=text/javascript src=https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js></script>
-    <script type=text/javascript src=jquery.tinysort.min.js></script>
-	<script type="text/javascript" src="seedrandom.js"></script>
-    <!--[if IE]>
-    <script type="text/javascript"
-            src="https://cdnjs.cloudflare.com/ajax/libs/jit/2.0.2/Extras/excanvas.min.js"></script><![endif]-->
-    <script type=text/javascript>// Helpers
-    shuffle = function (o) {
-        for (var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x)
-            ;
-        return o;
-    };
+			shuffle = function (o) {
+				for (var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x)
+					;
+				return o;
+			};
 
-    String.prototype.hashCode = function () {
+			String.prototype.hashCode = function () {
 
-        var hash = 5381;
-        var char;
-        for (var i = 0; i < this.length; i++) {
-            char = this.charCodeAt(i);
-            hash = ((hash << 5) + hash) + char;
-            hash = hash & hash; // Convert to 32bit integer
-        }
-        return hash;
-    }
+				var hash = 5381;
+				var char;
+				for (var i = 0; i < this.length; i++) {
+					char = this.charCodeAt(i);
+					hash = ((hash << 5) + hash) + char;
+					hash = hash & hash; // Convert to 32bit integer
+				}
+				return hash;
+			};
 
-    Number.prototype.mod = function (n) {
-        return ((this % n) + n) % n;
-    }
+			Number.prototype.mod = function (n) {
+				return ((this % n) + n) % n;
+			};
 
-    options = {
-        "1": "Gamebler",
-        "2": "Quizzler",
-        "3": "Team Battle",
-        "4": "Screencrap",
-		"5": "Gambler Pro",
-        "6": "Gamebler",
-        "7": "Quizzler",
-        "8": "DRAWBAGE",
-        "9": "Screencrap",
-        "10": "Team Battle",
-        "11": "Gamebler",
-        "12": "Quizzler",
-        "13": "Gamebler Hustle  ",
-        "14": "SAUCY",
-        "15": "DRAWBAGE",
-        "16": "Gamebler",
-        "17": "Quizzler",
-        "18": "Screencrap",
-        "19": "Team Battle",
-        "20": "DRAWBAGE",
-        "21": "Gamebler",
-        "22": "Quizzler",
-        "23": "Feelin' Sad",
-		"24": "Gamebler Hustle  ",
-		"25": "DRAWBAGE"
-    };
+			/* Wedge definitions:
+			 * - text: text to display
+			 * - weight: weighting factor to use in determining size
+			 * - color: background color
+			 * - sound: path of sound to play if wedge landed on
+			 */
+			wedges = [
+				{text: "Gamebler", weight: 1, color: '#e4b200', sound: 'sounds/Gamebler.wav'},
+				{text: "Quizzler", weight: 1, color: '#2272aa', sound: 'sounds/Quizzler.wav'},
+				{text: "Team Battle", weight: 1, color: '#dc322f', sound: 'sounds/TeamBattle.wav'},
+				{text: "Drawbage", weight: 1, color: '#713697', sound: 'sounds/Drawbage.wav'},
+				{text: "VG Hustle", weight: 1, color: '#379d00', sound: 'sounds/Hustle.wav'},
+				{text: "Sound Test", weight: 1, color: '#c6037e', sound: 'sounds/SoundTest.wav'},
+				{text: "Gamebler", weight: 1, color: '#e4b200', sound: 'sounds/Gamebler.wav'},
+				{text: "Quizzler", weight: 1, color: '#2272aa', sound: 'sounds/Quizzler.wav'},
+				{text: "Feelin' SAUCY", weight: 1, color: '#eeeeee', sound: 'sounds/Saucy.wav'},
+				{text: "Team Battle", weight: 1, color: '#dc322f', sound: 'sounds/TeamBattle.wav'},
+				{text: "Drawbage", weight: 1, color: '#713697', sound: 'sounds/Drawbage.wav'},
+				{text: "Screencrap", weight: 1, color: '#de5600', sound: 'sounds/Screencrap.wav'},
+				{text: "VG Hustle", weight: 1, color: '#379d00', sound: 'sounds/Hustle.wav'},
+				{text: "Gamebler", weight: 1, color: '#e4b200', sound: 'sounds/Gamebler.wav'},
+				{text: "Quizzler", weight: 1, color: '#2272aa', sound: 'sounds/Quizzler.wav'},
+				{text: "Team Battle", weight: 1, color: '#dc322f', sound: 'sounds/TeamBattle.wav'},
+				{text: "Drawbage", weight: 1, color: '#713697', sound: 'sounds/Drawbage.wav'},
+				{text: "Sound Test", weight: 1, color: '#c6037e', sound: 'sounds/SoundTest.wav'},
+				{text: "Feelin' Sad", weight: 1, color: '#000000', sound: 'sounds/Sad.wav'},
+				{text: "Screencrap", weight: 1, color: '#de5600', sound: 'sounds/Screencrap.wav'}
+			];
 
-    $(function () {
-
-        var optionContainer = $('#option ul');
-        $.each(options, function (key, item) {
-            optionContainer.append(
-                    $(document.createElement("li"))
-                            .append(
-                            $(document.createElement("input")).attr({
-                                id: 'venue-' + key
-                                , name: item
-                                , value: item
-                                , type: 'checkbox'
-                                , checked: true
-                            })
-                                    .change(function () {
-                                        var cbox = $(this)[0];
-                                        var segments = wheel.segments;
-                                        var i = segments.indexOf(cbox.value);
-
-                                        if (cbox.checked && i == -1) {
-                                            segments.push(cbox.value);
-
-                                        } else if (!cbox.checked && i != -1) {
-                                            segments.splice(i, 1);
-                                        }
-
-                                        segments.sort();
-                                        wheel.update();
-                                    })
-                    ).append(
-                            $(document.createElement('label')).attr({
-                                'for': 'venue-' + key
-                            })
-                                    .text(item)
-                    )
-            )
-        });
-
-       // $('#option ul>li').tsort("input", {attr: "value"});
-    });</script>
-    <script type=text/javascript>// WHEEL!
-	var emblemImg = document.createElement('img');
-    var wheel = {
-		
-			
-		
-
-        timerHandle: 0,
-        timerDelay: 33,
-
-        angleCurrent: 0,
-        angleDelta: 0,
-
-        size: 290,
-
-        canvasContext: null,
-
-        colors: [
-			'#ffff00', // Gambler 
-			'#ffc700',  //Quizzler
-			'#ff9100',  //Team Battle
-			'#ff6301',  //Screencrap
-			'#ff0000', //Gambler Pro
-			'#ffff00',  //Gambler
-			'#ffc700', //Quizzler
-			'#c6037e', //DRAWBAGE
-			'#ff6301',//Screencrap
-			'#ff9100',  //Team Battle
-			'#ffff00',  //Gambler
-			'#ffc700',  //Quizzler
-			'#713697', //Gambler Hustle
-			'#444ea1', //SAUCY
-			'#c6037e', //DRAWBAGE
-			'#ffff00',  //Gambler
-			'#ffc700', //Quizzler
-			'#ff6301',  //Screencrap
-			'#ff9100',  //Team Battle
-			'#c6037e', //DRAWBAGE 20
-			'#ffff00',  //Gambler
-			'#ffc700', //Quizzler
-			'#2772b2', //feelin sad
-			'#713697', //Gambler Hustle
-			'#c6037e', //DRAWBAGE
-		],
-
-        segments: [],
-
-        seg_colors: [], // Cache of segments to colors
-
-        maxSpeed: Math.PI / 25,
-
-        upTime: 500, // How long to spin up for (in ms)
-        downTime: 7700, // How long to slow down for (in ms)
-
-        spinStart: 0,
-
-        frames: 0,
-
-        centerX: 300,
-        centerY: 300,
-
-        spin: function () {
-
-            // Start the wheel only if it's not already spinning
-            if (wheel.timerHandle == 0) {
-		wheel.spinStart = new Date().getTime();
-		Math.seedrandom(25 * Math.random());
-		wheel.maxSpeed = Math.PI / (25 * Math.random()); // Randomly vary how hard the spin is
-		wheel.frames = 0;
-		wheel.sound.play();       
-		wheel.timerHandle = setInterval(wheel.onTimerTick, wheel.timerDelay);  
-       	  }
-        },
-
-        onTimerTick: function () {
-
-            wheel.frames++;
-
-            wheel.draw();
-
-            var duration = (new Date().getTime() - wheel.spinStart);
-            var progress = 0;
-            var finished = false;
-
-            if (duration < wheel.upTime) {
-                progress = duration / wheel.upTime;
-                wheel.angleDelta = wheel.maxSpeed
-                * Math.sin(progress * Math.PI / 2);
-            } else {
-                progress = duration / wheel.downTime;
-                wheel.angleDelta = wheel.maxSpeed
-                * Math.sin(progress * Math.PI / 2 + Math.PI / 2);
-                if (progress >= 1)
-                    finished = true;
-            }
-
-            wheel.angleCurrent += wheel.angleDelta;
-            while (wheel.angleCurrent >= Math.PI * 2)
-                // Keep the angle in a reasonable range
-                wheel.angleCurrent -= Math.PI * 2;
-
-            if (finished) {
-                clearInterval(wheel.timerHandle);
-                wheel.timerHandle = 0;
-                wheel.angleDelta = 0;
-
-                $("#counter").html((wheel.frames / duration * 1000) + " FPS");
-            }
-
-            /*
-             // Display RPM
-             var rpm = (wheel.angleDelta * (1000 / wheel.timerDelay) * 60) / (Math.PI * 2);
-             $("#counter").html( Math.round(rpm) + " RPM" );
-             */
-        },
-
-        init: function (optionList) {
-            try {
-				
-                wheel.initWheel();
-                wheel.initAudio();
-                wheel.initCanvas();
-                wheel.draw();
-
-                $.extend(wheel, optionList);
-
-            } catch (exceptionData) {
-                alert('Wheel is not loaded ' + exceptionData);
-            }
-
-        },
-
-        initAudio: function () {
-            var sound = document.createElement('audio');
-            sound.setAttribute('src', 'sound.mp3');
-            wheel.sound = sound;
-        },
-
-        initCanvas: function () {
-            var canvas = $('#wheel #canvas').get(0);
-			emblemImg.src = 'centerEmblem.png';
-            if ($.browser.msie) {
-                canvas = document.createElement('canvas');
-                $(canvas).attr('width', 1000).attr('height', 600).attr('id', 'canvas').appendTo('.wheel');
-                canvas = G_vmlCanvasManager.initElement(canvas);
-            }
-
-            canvas.addEventListener("click", wheel.spin, false);
-            wheel.canvasContext = canvas.getContext("2d");
-        },
-
-        initWheel: function () {
-            //shuffle(wheel.colors);
-        },
-
-        // Called when segments have changed
-        update: function () {
-            // Ensure we start mid way on a item
-            //var r = Math.floor(Math.random() * wheel.segments.length);
-            var r = 0;
-            wheel.angleCurrent = ((r + 0.5) / wheel.segments.length) * Math.PI * 2;
-
-            var segments = wheel.segments;
-            var len = segments.length;
-            var colors = wheel.colors;
-            var colorLen = colors.length;
-
-            // Generate a color cache (so we have consistant coloring)
-            var seg_color = [];
-            for (var i = 0; i < len; i++)
-                seg_color.push(colors [/*segments[i].hashCode().mod(colorLen)*/i]);
-            wheel.seg_color = seg_color;
-
-            wheel.draw();
-        },
-
-        draw: function () {
-            wheel.clear();
-            wheel.drawWheel();
-            wheel.drawNeedle();
-        },
-
-        clear: function () {
-            var ctx = wheel.canvasContext;
-            ctx.clearRect(0, 0, 1000, 800);
-        },
-		
-		currentPosition: -1,
-
-        drawNeedle: function () {
-            var ctx = wheel.canvasContext;
-            var centerX = wheel.centerX;
-            var centerY = wheel.centerY;
-            var size = wheel.size;
-
-            ctx.lineWidth = 1;
-            ctx.strokeStyle = '#ff5714';
-            ctx.fileStyle = '#ffffff';
-            ctx.fillStyle = '#ff5714'
-
-            ctx.beginPath();
-
-            ctx.moveTo(centerX + size - 40, centerY);
-            ctx.lineTo(centerX + size + 20, centerY - 10);
-            ctx.lineTo(centerX + size + 20, centerY + 10);
-            ctx.closePath();
-
-            ctx.stroke();
-            ctx.fill();
-
-            // Which segment is being pointed to?
-            var i = wheel.segments.length - Math.floor((wheel.angleCurrent / (Math.PI * 2)) * wheel.segments.length) - 1;
-			if(wheel.currentPosition != i)
+			segments = initSegments();
+			function initSegments()
 			{
-				$('#wheel-click')[0].play();
-				$('#wheel-click')[0].currentTime = 0;
-				wheel.currentPosition = i;
-				console.log(wheel.currentPosition);
+				var result = [];
+				var lastAngle = 0;
+
+				var totalWeight = 0;
+				for (var i = 0; i < wedges.length; ++i)
+				{
+					totalWeight += wedges[i].weight;
+				}
+
+				var unitAngle = PI2 / totalWeight;
+				for (var i = 0; i < wedges.length; ++i)
+				{
+					var wedge = wedges[i];
+					var wedgeAngle = wedge.weight * unitAngle;
+					result.push(
+							{
+								text: wedge.text,
+								startAngle: lastAngle,
+								endAngle: lastAngle + wedgeAngle,
+								color: wedge.color,
+								sound: new Audio(wedge.sound)
+							}
+					);
+					lastAngle += wedgeAngle;
+				}
+				return result;
 			}
-            // Now draw the winning name
-            ctx.textAlign = "left";
-            ctx.textBaseline = "middle";
-            ctx.fillStyle = '#1be7ff';
-            ctx.backgroundColor = '#ff5714'
-            ctx.font = "4em Arial";
-
-
-            ctx.fillText(wheel.segments[i], centerX + size + 25, centerY);
-        },
-
-        drawSegment: function (key, lastAngle, angle) {
-            var ctx = wheel.canvasContext;
-            var centerX = wheel.centerX;
-            var centerY = wheel.centerY;
-            var size = wheel.size;
-
-            var segments = wheel.segments;
-            var len = wheel.segments.length;
-            var colors = wheel.seg_color;
-
-            var value = segments[key];
-
-            ctx.save();
-            ctx.beginPath();
-
-            // Start in the centre
-            ctx.moveTo(centerX, centerY);
-            ctx.arc(centerX, centerY, size, lastAngle, angle, false); // Draw a arc around the edge
-            ctx.lineTo(centerX, centerY); // Now draw a line back to the centre
-
-            // Clip anything that follows to this area
-            //ctx.clip(); // It would be best to clip, but we can double performance without it
-            ctx.closePath();
-
-            ctx.fillStyle = colors[key];
-            ctx.fill();
-            ctx.stroke();
-
-            // Now draw the text
-            ctx.save(); // The save ensures this works on Android devices
-            ctx.translate(centerX, centerY);
-            ctx.rotate((lastAngle + angle) / 2);
-
-            ctx.fillStyle = '#000000';
-            ctx.fillText(value.substr(0, 20), size / 2 + 20, 0);
-            ctx.restore();
-
-            ctx.restore();
-        },
-
-        drawWheel: function () {
-            var ctx = wheel.canvasContext;
-
-            var angleCurrent = wheel.angleCurrent;
-            var lastAngle = angleCurrent;
-
-            var segments = wheel.segments;
-            var len = wheel.segments.length;
-            var colors = wheel.colors;
-            var colorsLen = wheel.colors.length;
-
-            var centerX = wheel.centerX;
-            var centerY = wheel.centerY;
-            var size = wheel.size;
 			
+			// track statistics of which wedges have been hit
+			var trackStatistics = false;
+			var wedgeStatistics = {};
+			var numSpins = 0;
+			function initStatistics()
+			{
+				numSpins = 0;
+				for (var i = 0; i < wedges.length; ++i)
+				{
+					if (!wedgeStatistics[wedges[i].text])
+					{
+						wedgeStatistics[wedges[i].text] = { timesHit: 0, numSpaces: 1 };
+					}
+					else
+					{
+						++wedgeStatistics[wedges[i].text].numSpaces;
+					}
+				}
+			}
+			initStatistics();
+			function addStatistics(wedgeName)
+			{
+				++numSpins;
+				++wedgeStatistics[wedgeName].timesHit;
+			}
+			function printStatistics()
+			{
+				var innerHtml = 'Statistics ('+numSpins+' spins):<ul>';
+				for (var key in wedgeStatistics)
+				{
+					var stat = wedgeStatistics[key];
+					var timesHit = stat.timesHit;
+					innerHtml += '<li>'+key+'('+stat.numSpaces+'): '+(100*timesHit/numSpins).toFixed(1)+'%</li>';
+				}
+				innerHtml += '</ul>';
+				$("#statistics").html(innerHtml);
+			}
 			
-			
-            var PI2 = Math.PI * 2;
+			// auto-spin the wheel, for testing
+			var isTesting = false;
+			function toggleTesting()
+			{
+				isTesting = !isTesting;
+				$("#testButton").text(isTesting ? 'Stop test' : 'Start test');
+				if (isTesting)
+				{
+					trackStatistics = true; // ensure we're tracking statistics
+					printStatistics();
+					wheel.spin();
+				}
+			}
+		</script>
+		<script type="text/javascript">// WHEEL!
+			var emblemImg = document.createElement('img');
+			emblemImg.src = 'centerEmblem.png';
+			var wheel = {
+				timerHandle: 0,
+				timerDelay: 1000 / 30, // interval on timer calls, in ms
+				angleCurrent: 0,
+				angleDelta: 0,
+				size: 290,
+				canvasContext: null,
+				upTime: 500, // How long to spin up for (in ms)
+				downTime: 7700, // How long to slow down for (in ms)
 
-            ctx.lineWidth = 1;
-            ctx.strokeStyle = '#000000';
-            ctx.textBaseline = "middle";
-            ctx.textAlign = "center";
-            ctx.font = "1.4em Arial";
-			
-			
-            
-			for (var i = 1; i <= len; i++) {
-                var angle = PI2 * (i / len) + angleCurrent;
-                wheel.drawSegment(i - 1, lastAngle, angle);
-                lastAngle = angle;
-            }
-			
-            // Draw a center circle
-			ctx.save();
-            ctx.beginPath();
-            ctx.arc(centerX, centerY, 40, 0, PI2, false);
-            ctx.closePath();
-			ctx.clip();
-			
-			ctx.drawImage(emblemImg,centerX-55,centerY-55,110,110);
-			
-			ctx.beginPath();
-			ctx.arc(centerX,centerY,42,0,PI2, false);
-			ctx.clip();
-			ctx.closePath();
-			ctx.restore();
-		
-            //ctx.fillStyle = '#000000';
-            ctx.strokeStyle = '#000000';
-			ctx.lineWidth = 5;
-            //ctx.fill();
-            ctx.stroke();
+				spinStart: 0,
+				frames: 0,
+				centerX: 300,
+				centerY: 300,
+				
+				displayFps: false, // display FPS on page
+				displayRpm: true, // display wheel RPM on page
+				
+				updateMaxSpeed: function() {
+					// RPM leading to one revolution
+					// Use multiples of this for random ranges
+					var magicRpm = 14.26;
+					
+					var base = 20; // base RPM
+					var variations = [magicRpm*4]; // additional RPMs to each take a random fraction of
+					
+					// generate RPM
+					var rpm = base;
+					for (var i=0; i<variations.length; ++i)
+					{
+						rpm += variations[i]*Math.random();
+					}
+					
+					// randomly override for stupid-fast/-slow results
+					switch (Math.floor(20*Math.random()))
+					{
+						case 3:
+							rpm = 4;
+							break;
+						case 8:
+							rpm = 500;
+							break;
+					}
+					
+					// convert RPM into maxSpeed value
+					wheel.maxSpeed = rpm/(60 * 1000/wheel.timerDelay) * PI2;
+				},
+				spin: function () {
 
-            // Draw outer circle
-            ctx.beginPath();
-            ctx.arc(centerX, centerY, size, 0, PI2, false);
-            ctx.closePath();
+					// Start the wheel only if it's not already spinning
+					if (wheel.timerHandle === 0) {
+						wheel.spinStart = new Date().getTime();
+						wheel.updateMaxSpeed();
+						wheel.frames = 0;
+						wheel.sound.play();
+						wheel.timerHandle = setInterval(wheel.onTimerTick, wheel.timerDelay);
+					}
+				},
+				onTimerTick: function () {
+					wheel.frames++;
 
-            ctx.lineWidth = 15;
-            ctx.strokeStyle = '#000000';
-            ctx.stroke();
-        }
-    }
+					wheel.draw();
 
-    window.onload = function () {
-        wheel.init();
-		$('#wheel-click')[0].volume = .09;
-        var segments = new Array();
-        $.each($('#option input:checked'), function (key, cbox) {
-            segments.push(cbox.value);
-        });
+					var duration = (new Date().getTime() - wheel.spinStart);
+					var progress = 0;
+					var finished = false;
 
-        wheel.segments = segments;
-        wheel.update();
+					if (duration < wheel.upTime) {
+						progress = duration / wheel.upTime;
+						wheel.angleDelta = wheel.maxSpeed
+								* Math.sin(progress * Math.PI / 2);
+					} else {
+						progress = (duration - wheel.upTime) / wheel.downTime;
+						wheel.angleDelta = wheel.maxSpeed
+								* (Math.sin(progress * Math.PI + Math.PI / 2) + 1)/2;
+						if (progress >= 1)
+							finished = true;
+					}
 
-        // Hide the address bar (for mobile devices)!
-        setTimeout(function () {
-            window.scrollTo(0, 1);
-        }, 0);
-    }</script>
-<body style="background-color: #9400D3">
-<img style = "padding-left: 50px;" id="imageClick" onclick="changeImage()"
-     src="image.gif" width="500" height="180">
-<script>
-    function changeImage() {
-        var image = document.getElementById('imageClick');
-        if(image.src.match("image2")) {
-            image.src = "image.gif";
-        } else {
-            image.src = "image2.gif";
-        }
-    }
-</script>
-<div id=wheel>
-    <canvas id=canvas width=1000 height=600></canvas>
-</div>
-<div id=option style="float: left; visibility: hidden;">
-    <ul></ul>
+					wheel.angleCurrent += wheel.angleDelta;
+					while (wheel.angleCurrent >= Math.PI * 2)
+						// Keep the angle in a reasonable range
+						wheel.angleCurrent -= Math.PI * 2;
 
-</div>
-<audio id="wheel-click" preload>
-    <source src="wheelclick.wav" />
-</audio>
-</body>
+					if (finished) {
+						clearInterval(wheel.timerHandle);
+						wheel.timerHandle = 0;
+						wheel.angleDelta = 0;
+
+						if (wheel.displayFps) $("#fpscounter").html((wheel.frames / duration * 1000).toFixed(4) + " FPS");
+						
+						// play sound
+						var segment = segments[wheel.getSelectedPosition()];
+						if (segment.sound) { segment.sound.play(); }
+						
+						// update statistics
+						if (trackStatistics)
+						{
+							addStatistics(segment.text);
+							printStatistics();
+						}
+						
+						// if testing, spin again
+						if (isTesting)
+						{
+							wheel.spin();
+						}
+					}
+
+
+					// Display RPM
+					if (wheel.displayRpm) {
+						var rpm = (wheel.angleDelta * (1000 / wheel.timerDelay) * 60) / (Math.PI * 2);
+						$("#rpmcounter").html("Speed: " + Math.round(rpm));
+					}
+				},
+				init: function () {
+					try {
+
+						wheel.initWheel();
+						wheel.initAudio();
+						wheel.initCanvas();
+						wheel.draw();
+						
+						if (wheel.displayFps) { $("#fpscounter").html("0 FPS"); }
+						if (wheel.displayRpm) { $("#rpmcounter").html("Speed: 0"); }
+
+					} catch (exceptionData) {
+						alert('Wheel is not loaded ' + exceptionData);
+					}
+
+				},
+				initAudio: function () {
+					var sound = document.createElement('audio');
+					sound.setAttribute('src', 'sound.mp3');
+					wheel.sound = sound;
+				},
+				initCanvas: function () {
+					var canvas = $('#wheel #canvas').get(0);
+					if ($.browser.msie) {
+						canvas = document.createElement('canvas');
+						$(canvas).attr('width', 1000).attr('height', 600).attr('id', 'canvas').appendTo('.wheel');
+						canvas = G_vmlCanvasManager.initElement(canvas);
+					}
+
+					canvas.addEventListener("click", wheel.spin, false);
+					wheel.canvasContext = canvas.getContext("2d");
+				},
+				initWheel: function () {
+					// Ensure we start mid way on a item
+					//var r = Math.floor(Math.random() * segments.length);
+					var r = 8;
+					wheel.angleCurrent = PI2 - (segments[r].startAngle + segments[r].endAngle) / 2;
+					wheel.emblemAngle = wheel.angleCurrent;
+				},
+				draw: function () {
+					//wheel.clear();
+					wheel.drawWheel();
+					wheel.drawNeedle();
+				},
+				clear: function () {
+					var ctx = wheel.canvasContext;
+					ctx.clearRect(0, 0, 1000, 800);
+				},
+				currentPosition: -1,
+				isSegmentSelected: function (segment) {
+					var wheelAngle = (-wheel.angleCurrent).mod(PI2);
+					return wheelAngle >= segment.startAngle && wheelAngle < segment.endAngle;
+				},
+				getSelectedPosition: function () {
+					for (var i = 0; i < segments.length; ++i)
+					{
+						if (wheel.isSegmentSelected(segments[i]))
+						{
+							return i;
+						}
+					}
+					return -1;
+				},
+				drawNeedle: function () {
+					var ctx = wheel.canvasContext;
+					var centerX = wheel.centerX;
+					var centerY = wheel.centerY;
+					var size = wheel.size;
+
+					ctx.lineWidth = 4;
+					ctx.strokeStyle = '#000000';
+					ctx.fillStyle = '#ff5714';
+
+					ctx.beginPath();
+					ctx.moveTo(centerX + size - 20, centerY);
+					ctx.lineTo(centerX + size + 20, centerY - 10);
+					ctx.lineTo(centerX + size + 20, centerY + 10);
+					ctx.closePath();
+
+					ctx.stroke();
+					ctx.fill();
+
+					// Which segment is being pointed to?
+					var segNum = wheel.getSelectedPosition();
+					if (wheel.currentPosition !== segNum)
+					{
+						$('#wheel-click')[0].play();
+						$('#wheel-click')[0].currentTime = 0;
+						wheel.currentPosition = segNum;
+					}
+				},
+				drawSegment: function (key) {
+					var ctx = wheel.canvasContext;
+					var centerX = wheel.centerX;
+					var centerY = wheel.centerY;
+					var size = wheel.size;
+
+					var segment = segments[key];
+					var value = segment.text.substr(0, 20);
+					var startAngle = segment.startAngle;
+					var endAngle = segment.endAngle;
+					var isSelected = wheel.isSegmentSelected(segment);
+
+					// define default colors
+					var wedgeBorderColor = '#000000';
+					var textOutlineColor = '#000000';
+					var textColor = '#ffffff';
+					var wedgeBackground = wheel.canvasContext.createLinearGradient(0, 0, size, 0);
+					wedgeBackground.addColorStop(0, "white");
+					wedgeBackground.addColorStop(0.45, segment.color);
+
+					// override colors if this wedge is selected
+					if (isSelected)
+					{
+						wedgeBorderColor = '#ffff00';
+						textOutlineColor = '#ffff00';
+						textColor = '#000000';
+					}
+
+					ctx.save();
+
+					// rebase coordinates to make drawing simpler
+					// wedge starts at (0,0) and its center is along the X axis
+					ctx.translate(centerX, centerY);
+					ctx.rotate((startAngle + endAngle) / 2 + wheel.angleCurrent);
+
+					// define border
+					ctx.beginPath();
+					// Start in the centre
+					ctx.strokeStyle = wedgeBorderColor;
+					ctx.moveTo(0, 0);
+					ctx.arc(0, 0, size, -(endAngle - startAngle) / 2, (endAngle - startAngle) / 2); // Draw a arc around the edge
+					ctx.lineTo(0, 0); // Now draw a line back to the centre
+					ctx.closePath();
+
+					// define background
+					ctx.fillStyle = wedgeBackground;
+
+					// draw
+					ctx.fill();
+					ctx.stroke();
+
+					// Now draw the text
+					ctx.save(); // The save ensures this works on Android devices
+					ctx.lineWidth = 3;
+
+					// outline
+					ctx.strokeStyle = textOutlineColor;
+					ctx.strokeText(value, size - 25, 0);
+					// regular text
+					ctx.fillStyle = textColor;
+					ctx.fillText(value, size - 25, 0);
+					ctx.restore();
+
+					ctx.restore();
+				},
+				drawWheel: function () {
+					var ctx = wheel.canvasContext;
+
+					var centerX = wheel.centerX;
+					var centerY = wheel.centerY;
+					var size = wheel.size;
+
+
+
+					ctx.lineWidth = 4;
+					ctx.strokeStyle = '#000000';
+					ctx.textBaseline = "middle";
+					ctx.textAlign = "right";
+					ctx.font = "1.4em Righteous";
+
+
+					// draw segments, selected last
+					for (var i = 0; i <= segments.length - 1; i++) {
+						if (!wheel.isSegmentSelected(segments[i])) {
+							wheel.drawSegment(i);
+						}
+					}
+					wheel.drawSegment(wheel.getSelectedPosition());
+
+					// Draw a center circle
+					ctx.save();
+					ctx.translate(centerX, centerY);
+					ctx.rotate(wheel.angleCurrent - wheel.emblemAngle);
+					ctx.drawImage(emblemImg, -75, -76, 150, 150);
+					ctx.restore();
+
+					//mine outer white
+					ctx.beginPath();
+					ctx.arc(centerX, centerY, size + 3, 0, PI2, false);
+					ctx.closePath();
+
+					ctx.lineWidth = 3;
+					ctx.strokeStyle = '#cccccc';
+					ctx.stroke();
+
+					//mine 2 ultimate outer
+					ctx.beginPath();
+					ctx.arc(centerX, centerY, size + 6, 0, PI2, false);
+					ctx.closePath();
+
+					ctx.lineWidth = 3;
+					ctx.strokeStyle = '#000000';
+					ctx.stroke();
+					ctx.stroke();
+					ctx.stroke();
+					ctx.stroke();
+					ctx.stroke();
+				}
+			};
+
+			window.onload = function () {
+				wheel.init();
+				$('#wheel-click')[0].volume = .09;
+				setTimeout(wheel.draw, 200); // redraw wheel after short delay to allow font to load
+
+				// Hide the address bar (for mobile devices)!
+				setTimeout(function () {
+					window.scrollTo(0, 1);
+				}, 0);
+			};
+		</script>
+		<script type="text/javascript">
+			function changeImage() {
+				var image = document.getElementById('imageClick');
+				if (image.src.match("image2")) {
+					image.src = "image.gif";
+				} else {
+					image.src = "image2.gif";
+				}
+			}
+		</script>
+		<style type="text/css">
+			#rpmcounter {
+				font-family: Righteous;
+				position: absolute;
+				top: 730px;
+				left: 30px;
+				color: yellow;
+			}
+			#fpscounter {
+				font-family: Righteous;
+				position: absolute;
+				top: 750px;
+				left: 30px;
+				color: yellow;
+			}
+			#testButton {
+				visibility: collapse; /* hide by default */
+				font-family: Righteous;
+				position: absolute;
+				top: 800px;
+				left: 30px;
+			}
+			#statistics {
+				font-family: Righteous;
+				position: absolute;
+				top: 820px;
+				left: 30px;
+				color: yellow;
+			}
+		</style>
+	</head>
+	<body style="background-color: rgb(92, 92, 150);">
+		<img style="padding-left: 50px;" id="imageClick" onclick="changeImage()"
+			 src="image.gif" width="500" height="180" alt="*">
+		<div id="wheel">
+			<canvas id="canvas" width="1000" height="600"></canvas>
+		</div>
+		<audio id="wheel-click" preload>
+			<source src="wheelclick.wav" />
+		</audio>
+		<p id="fpscounter"></p>
+		<p id="rpmcounter"></p>
+		<button id="testButton" onclick="toggleTesting()">Start test</button>
+		<p id="statistics"></p>
+	</body>
 </html>

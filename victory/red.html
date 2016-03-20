@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Victory</title>
+    <link rel="stylesheet" type="text/css" href="victory.css">
+  </head>
+  <body>
+    <div id="viewport" style="width: 1280px; height: 720px;">
+      <canvas id="sky" width="1280" height="720"></canvas>
+      <div class="marquee">
+        <img src="snail.gif">
+        <div id="banner" class="red">Red team wins!</div>
+      </div>
+    </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="victory.js" charset="UTF-8"></script>
+    <script type="text/javascript">
+        $(function() {
+            var anim = animate('#sky', 0); // hue = 0 degrees (red)
+            setTimeout(function() { anim.stopLaunch(); }, 125000); // stop fireworks launch after 10 seconds
+            setTimeout(function() { anim.stop(); }, 125000); // stop all animation after 15 seconds
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,173 @@
+body
+{
+  background-color: rgb(92, 92, 150);
+}
+
+map
+{
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+/* map tile square */
+ms
+{
+  cursor: pointer;
+  opacity: 0.0;
+  position: absolute;
+  height: 54px;
+  width: 60.4px;
+  background-color: rgba(0,0,0,0.3);
+  z-index: 0;
+  color: rgba(255,255,255,0.9);
+  font-family: webdings;
+  font-size: 52px; 
+  text-align: center;
+  vertical-align: middle;
+  line-height: 54px;
+  text-shadow:
+      /* outline */
+      -1px 0 black, 1px 0 black, 0 -1px black, 0 1px black,
+	  /* glow (using 'color' property value) */
+	  0 0 4px, 0 0 4px, 0 0 6px;
+  transition-property: opacity, top, left, width, transform, background-color;
+  transition-duration: 0.5s;
+}
+
+ms.shown
+{
+  opacity: 1.0;
+}
+
+.empty
+{
+  font-size: 20px;
+  text-shadow: none;
+}
+
+/* dummy prize (text) */
+.dummyPrize
+{
+  text-shadow: none;
+}
+/* dummy prize (image) */
+.dummyPrizeImage
+{
+  /* center background image */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  
+  /* invert contents */
+  -webkit-filter: invert(100%);
+  /* set background color to inverse of normal so when inverted it'll be right */
+  background-color: rgba(255,255,255,0.3);
+}
+
+.multiplier, .smallPoints, .bigPoints
+{
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+/* zoomed-in settings */
+.zoomed
+{
+  transform: scale(4);
+  width: 77.5px !important; /* 1/4 of map width, plus 2px */
+  height: 56px !important; /* 1/4 of map height, plus 2px */
+  top: 80px !important; /* centered */
+  left: 112.25px !important; /* centered */
+  z-index: 10 !important; /* ensure it's on top */
+  background-color: rgba(0,0,0,0.8); /* color of ms element, only darker */
+}
+.dummyPrizeImage.zoomed
+{
+  background-color: rgba(255,255,255,0.8); /* color of dummyPrizeImage class, only darker */
+}
+
+/* square text colors */
+.prize
+{
+  color: orange;
+  line-height: 62px; /* try to center character */
+}
+.bigPoints
+{
+  color: cyan;
+}
+.smallPoints
+{
+  color: dodgerblue;
+}
+.multiplier
+{
+  color: chartreuse;
+}
+.goal
+{
+  color: gold;
+  line-height: 60px; /* try to center character */
+}
+
+/* map marker piece */
+marker
+{
+  position: absolute;
+  transition-property: top, left;
+  transition-duration: 3s;
+  z-index: 2;
+}
+/* transformation for marker facing left (none as it faces left normally) */
+marker.faceLeft
+{}
+/* transformation for marker facing right (flip X axis) */
+marker.faceRight
+{
+  transform: scaleX(-1);
+}
+
+/* host's 'current square' display */
+currentSquare
+{
+  position: absolute;
+  left: 100px;
+  top: 230px;
+  height: 54px;
+  width: 60.4px;
+  color: white;
+  font-family: webdings;
+  font-size: 52px; 
+  text-align: center;
+  vertical-align: middle;
+  line-height: 54px;
+  border: 1px solid white;
+  text-shadow:
+      /* outline */
+      -1px 0 black, 1px 0 black, 0 -1px black, 0 1px black;
+}
+
+/* individual square positioning */
+#a1, #a2, #a3, #a4, #a5 { top: 0px }
+#b1, #b2, #b3, #b4, #b5 { top: 54px }
+#c1, #c2, #c3, #c4, #c5 { top: 108px }
+#d1, #d2, #d3, #d4, #d5 { top: 162px }
+
+#a1, #b1, #c1, #d1 { left: 0px }
+#a2, #b2, #c2, #d2 { left: 60.4px }
+#a3, #b3, #c3, #d3 { left: 120.8px }
+#a4, #b4, #c4, #d4 { left: 181.2px }
+#a5, #b5, #c5, #d5 { left: 241.6px }
+
+/* reset button position */
+#reset { position: absolute; left: 10px; top: 230px; }
+
+loadIndicator
+{
+	position: absolute; left: 10px; top: 270px;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: white;
+}

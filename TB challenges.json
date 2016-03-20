@@ -1,0 +1,2032 @@
+[
+  {
+    "Timestamp":"11/7/2015 9:44:07",
+    "TBKey":"TB1",
+    "Submitter":"RSCNyx",
+    "GameTitle":"Contra",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Load state 1 and beat Stage 3 faster. Score breaks ties if both fail.",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"11/8/2015 9:44:07",
+    "TBKey":"TB2",
+    "Submitter":"GrandpaAhab",
+    "GameTitle":"Tiny Toon Adventures: Buster Busts Loose!",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Get as far as you can in the Football game in three minutes.",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/5/2015 1:01:30",
+    "TBKey":"TB3",
+    "Submitter":"Smite",
+    "GameTitle":"Super Mario Kart",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Get the better time in the first Mushroom Cup track -- 50cc",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/5/2015 1:01:31",
+    "TBKey":"TB4",
+    "Submitter":"Smite",
+    "GameTitle":"F-Zero",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Get the better time on Mute City -- Knight Class, beginner",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/5/2015 1:01:32",
+    "TBKey":"TB5",
+    "Submitter":"Smite",
+    "GameTitle":"Paperboy 2",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Deliver papers for one day. Performance based on score.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/5/2015 1:01:33",
+    "TBKey":"TB6",
+    "Submitter":"Smite",
+    "GameTitle":"Super Mario Kart",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Time Trial on Bowser Castle 2 (Flower Cup)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/5/2015 1:01:34",
+    "TBKey":"TB7",
+    "Submitter":"Smite",
+    "GameTitle":"Super Mario Kart",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Time Trial on Koopa Beach 2 (Special Cup)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/5/2015 1:01:35",
+    "TBKey":"TB8",
+    "Submitter":"Smite",
+    "GameTitle":"Super Mario World",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Race to beat Yoshi's Island 1",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/5/2015 1:01:36",
+    "TBKey":"TB9",
+    "Submitter":"Smite",
+    "GameTitle":"Super Street Fighter II - The New Challengers",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Start a match and see who wins first (if they lose, whoever lasted longer wins)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/5/2015 1:01:37",
+    "TBKey":"TB10",
+    "Submitter":"Smite",
+    "GameTitle":"Bubsy",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Collect the most yarn in 60 seconds. Ties broken by score",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 1:01:24",
+    "TBKey":"TB11",
+    "Submitter":"Lolo De Puzlo",
+    "GameTitle":"Journey to Silius",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Beat the first level",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 1:01:25",
+    "TBKey":"TB12",
+    "Submitter":"Smite",
+    "GameTitle":"Super Ghouls n' Ghosts",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Get the better score on the first stage in 3 minutes.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 1:01:26",
+    "TBKey":"TB13",
+    "Submitter":"Smite",
+    "GameTitle":"Mario Paint",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Beat the first boss of the flyswatter game (Coffee icon). Switch to SNES Mouse to play!",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 1:01:27",
+    "TBKey":"TB14",
+    "Submitter":"Smite",
+    "GameTitle":"Sunset Riders",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Beat the first boss. Use any cowboy you like.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 1:01:28",
+    "TBKey":"TB15",
+    "Submitter":"Smite",
+    "GameTitle":"Mega Man X2",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Beat the tutorial level",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 1:01:29",
+    "TBKey":"TB16",
+    "Submitter":"Smite",
+    "GameTitle":"Mega Man X",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Beat the tutorial level",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 1:10:28",
+    "TBKey":"TB17",
+    "Submitter":"Smite",
+    "GameTitle":"Double Dragon",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Beat Abobo at the end of Stage 1.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 1:16:06",
+    "TBKey":"TB18",
+    "Submitter":"Smite",
+    "GameTitle":"Mega Man 2",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Beat Metal Man",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 1:18:48",
+    "TBKey":"TB19",
+    "Submitter":"D_W",
+    "GameTitle":"Sky Shark",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Highest Score in 1 minute.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 1:22:09",
+    "TBKey":"TB20",
+    "Submitter":"Mjolna",
+    "GameTitle":"Galaga",
+    "GameConsole":"NES",
+    "ChallengeDetails":"2 Minute Score Race. Just testing I got around 16000 points, should be neat.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 1:22:20",
+    "TBKey":"TB21",
+    "Submitter":"D_W",
+    "GameTitle":"Wolf Child",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Finish the first stage. ",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 1:25:38",
+    "TBKey":"TB22",
+    "Submitter":"D_W",
+    "GameTitle":"Kirby's Dream Course",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Finish the first course. ",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 1:28:47",
+    "TBKey":"TB23",
+    "Submitter":"D_W",
+    "GameTitle":"Bugs Bunny's Crazy Castle",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Finish as many levels as you can in 3 minutes. ",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 1:35:13",
+    "TBKey":"TB24",
+    "Submitter":"Word on the Wind",
+    "GameTitle":"Gourmet Sentai Bara Yarou",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"First to finish the first level or only survivor wins",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 1:48:58",
+    "TBKey":"TB25",
+    "Submitter":"D_W",
+    "GameTitle":"Uniracers",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"First the first race in the fastest time",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 11:46:20",
+    "TBKey":"TB26",
+    "Submitter":"???",
+    "GameTitle":"Shaq Fu",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Start a duel and see who scores highest.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 11:59:27",
+    "TBKey":"TB27",
+    "Submitter":"???",
+    "GameTitle":"Super Mario World",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"From the start of the game, get to the Yellow Switch Palace and hit the Switch.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 17:29:17",
+    "TBKey":"TB28",
+    "Submitter":"???",
+    "GameTitle":"Psycho Dream",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Play as Maria. First person to power up to \"Butterfly Wings\" wins.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 20:14:47",
+    "TBKey":"TB29",
+    "Submitter":"Mjolna",
+    "GameTitle":"Doom",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Beat the first level of Doom before the other team.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 20:17:14",
+    "TBKey":"TB30",
+    "Submitter":"Trivial Man",
+    "GameTitle":"Mike Tyson's Punch Out!!",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Who can survive against Mike Tyson the longest. code 007 373 5963, in-game timer to measure.",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 20:27:14",
+    "TBKey":"TB31",
+    "Submitter":"Trivial Man",
+    "GameTitle":"Super Mario All-Stars",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"First player to beat level 1 for any 2 of the games in this compilation is the victor.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 20:51:00",
+    "TBKey":"TB32",
+    "Submitter":"Nemo2342",
+    "GameTitle":"Battleclash",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"First person to destroy the first enemy mech",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/6/2015 21:04:29",
+    "TBKey":"TB33",
+    "Submitter":"Mjolna",
+    "GameTitle":"Pop'n Twinbee - Rainbow Bell Adventures",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Beat Stage 1 from start using Twinbee",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/7/2015 2:43:23",
+    "TBKey":"TB34",
+    "Submitter":"Mjolna",
+    "GameTitle":"Silver Surfer",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Clear Stage 1 Section 1.  A game over gives the other team the win.  This is very hard a challenge.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/7/2015 3:05:42",
+    "TBKey":"TB35",
+    "Submitter":"Mjolna",
+    "GameTitle":"Gokujou Parodius",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"3 Minute Score Run. Players can choose their characters, timer starts when the stage actually does.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/7/2015 21:04:29",
+    "TBKey":"TB36",
+    "Submitter":"Smite",
+    "GameTitle":"Jaws",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Best score on the bonus stage",
+    "Stateslot":"2",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/7/2015 21:06:14",
+    "TBKey":"TB37",
+    "Submitter":"Lolo De Puzlo",
+    "GameTitle":"Mario Paint",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Two minutes to draw the best picture (We will poll the audience)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/10/2015 2:20:32",
+    "TBKey":"TB38",
+    "Submitter":"Kamikaze Scotsman",
+    "GameTitle":"Super Mario World",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Beat Iggy's Castle before the other team. (modded by Smite)",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/10/2015 5:49:59",
+    "TBKey":"TB39",
+    "Submitter":"Smite",
+    "GameTitle":"Battletoads",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Get the most points in 2 minutes",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/11/2015 3:02:14",
+    "TBKey":"TB40",
+    "Submitter":"???",
+    "GameTitle":"Kirby Super Star",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Gourmet Race - First one to complete the first race against Dedede wins.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/11/2015 5:49:59",
+    "TBKey":"TB41",
+    "Submitter":"Smite",
+    "GameTitle":"3-D World Runner",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Get the most points in 2 minutes! Btw, there are power-ups in the pipes!",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/11/2015 21:52:35",
+    "TBKey":"TB42",
+    "Submitter":"Lolo De Puzlo",
+    "GameTitle":"Arkanoid: Doh it Again!",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"First to beat the level wins",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/11/2015 21:53:13",
+    "TBKey":"TB43",
+    "Submitter":"Lolo De Puzlo",
+    "GameTitle":"Arkanoid: Doh It Again!",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"First to beat the stage wins",
+    "Stateslot":"2",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/11/2015 22:14:16",
+    "TBKey":"TB44",
+    "Submitter":"Lolo De Puzlo",
+    "GameTitle":"Arkanoid: Doh It Again!",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"First one to beat the stage wins",
+    "Stateslot":"3",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/12/2015 5:49:59",
+    "TBKey":"TB45",
+    "Submitter":"Smite",
+    "GameTitle":"Jaws",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Get the most points in the bonus round! In the event of a tie, break it with a score race.",
+    "Stateslot":"3",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/12/2015 21:37:38",
+    "TBKey":"TB46",
+    "Submitter":"???",
+    "GameTitle":"The Lion King",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Get the most bugs in Bug Toss. One shot, if you die first, you lose. That's it.",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/13/2015 22:45:04",
+    "TBKey":"TB47",
+    "Submitter":"Babycowland",
+    "GameTitle":"Simpsons: Bart vs. the Space Mutants",
+    "GameConsole":"NES",
+    "ChallengeDetails":"In level 1, get the highest score in 2 minutes! (modded by Smite)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/14/2015 18:22:46",
+    "TBKey":"TB48",
+    "Submitter":"Trivial Man",
+    "GameTitle":"Mario Bros.",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Game Type B. Whoever has the highest high score after 3 minutes wins, Game B.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/15/2015 20:45:34",
+    "TBKey":"TB49",
+    "Submitter":"Lolo De Puzlo",
+    "GameTitle":"Legend of Zelda",
+    "GameConsole":"NES",
+    "ChallengeDetails":"From Rags to Riches! First team to reach 255 rupess wins! (Or most money after 2 minutes)",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/15/2015 20:50:42",
+    "TBKey":"TB50",
+    "Submitter":"Lolo De Puzlo",
+    "GameTitle":"Legend of Zelda",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Link's Millions. You must lose all 255 rupees. Do so in any matter possible in game. ",
+    "Stateslot":"2",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/19/2015 7:04:45",
+    "TBKey":"TB51",
+    "Submitter":"???",
+    "GameTitle":"Dr. Mario",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Beat level 10 HIGH or survive the longest",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/20/2015 13:53:09",
+    "TBKey":"TB52",
+    "Submitter":"Lolo De Puzlo",
+    "GameTitle":"Summer Carnival '92: Recca",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Do one score attack run! (Don't touch controller after \"TIME UP\" or \"GAME OVER\" appear)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/20/2015 14:00:01",
+    "TBKey":"TB53",
+    "Submitter":"Lolo De Puzlo",
+    "GameTitle":"Starship Hector",
+    "GameConsole":"NES",
+    "ChallengeDetails":"2 Minute score attack! (Don't press anything after \"TIME OUT\" or \"MISS\" appears.)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/20/2015 14:24:23",
+    "TBKey":"TB54",
+    "Submitter":"Lolo De Puzlo",
+    "GameTitle":"Pinball",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Highest score in 2 minutes!",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/20/2015 14:26:20",
+    "TBKey":"TB55",
+    "Submitter":"Lolo De Puzlo",
+    "GameTitle":"Pac-Man",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Highest score in 2 minutes!",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/20/2015 14:38:59",
+    "TBKey":"TB56",
+    "Submitter":"???",
+    "GameTitle":"Rescue Rangers 2",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Clear Level 1 as fast as possible",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/20/2015 14:41:13",
+    "TBKey":"TB57",
+    "Submitter":"???",
+    "GameTitle":"Flintstones 2 - The Surprise at Dinosaur Peak",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Clear stage 1 (select switches character)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/20/2015 14:41:54",
+    "TBKey":"TB58",
+    "Submitter":"Lolo De Puzlo",
+    "GameTitle":"Tetris Attack",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Highest score on Time Trial (20 speed, normal difficulty)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/20/2015 14:50:42",
+    "TBKey":"TB59",
+    "Submitter":"???",
+    "GameTitle":"Darius Twin",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Beat Stage 1, highest score wins",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/20/2015 14:56:05",
+    "TBKey":"TB60",
+    "Submitter":"???",
+    "GameTitle":"Sparkster",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Stage 1: Get 50 gems as fast as possible",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/20/2015 15:04:10",
+    "TBKey":"TB61",
+    "Submitter":"???",
+    "GameTitle":"Rise of the Robots",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Defeat Loader",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/20/2015 17:46:42",
+    "TBKey":"TB62",
+    "Submitter":"truerevol",
+    "GameTitle":"Smart Ball",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"First one to spell JERRY in stage 1-A wins!",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 1:20:18",
+    "TBKey":"TB63",
+    "Submitter":"SlimeDrawsNear",
+    "GameTitle":"Maniac Mansion",
+    "GameConsole":"NES",
+    "ChallengeDetails":"From the start of the game: enter the mansion (through the front door)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 2:47:09",
+    "TBKey":"TB64",
+    "Submitter":"Bologna Amputation",
+    "GameTitle":"Battletoads",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Finish the first level before the opposing team.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 2:48:02",
+    "TBKey":"TB65",
+    "Submitter":"Dez",
+    "GameTitle":"Faceball 3000",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"first team to beat the first stage wins",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 2:59:20",
+    "TBKey":"TB66",
+    "Submitter":"LesbianOrangePeels",
+    "GameTitle":"Simpsons: Bart vs. the World",
+    "GameConsole":"NES",
+    "ChallengeDetails":"The first one to attain five Krusty heads wins the challenge.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 3:05:05",
+    "TBKey":"TB67",
+    "Submitter":"DoctorLuigi51",
+    "GameTitle":"Wario's Woods",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Time race of the first level of course 4R on normal difficulty. Fastest time wins.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 3:07:00",
+    "TBKey":"TB68",
+    "Submitter":"Smite",
+    "GameTitle":"Super Mario Kart",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"100cc Flower Cup, Course 1. Collect more coins in 60s. Reverse is illegal, incurring a 1 coin per sec penalty.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 3:08:09",
+    "TBKey":"TB69",
+    "Submitter":"Mjolna",
+    "GameTitle":"Super Mario Bros 2 (USA)",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Beat 1-1 first, no warps, as Luigi. Losing all lives and returning to character select is a loss.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 3:09:10",
+    "TBKey":"TB70",
+    "Submitter":"Smite",
+    "GameTitle":"Super Mario Bros 3",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Get the higher score in 2 minutes.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 3:11:52",
+    "TBKey":"TB71",
+    "Submitter":"Mjolna",
+    "GameTitle":"Silver Surfer",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Survive longer in Possessor's stage (Red blindfold, top left).",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 3:13:09",
+    "TBKey":"TB72",
+    "Submitter":"Bologna Amputation",
+    "GameTitle":"The Legend of Zelda",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Be the first to be killed by a monster in the first dungeon.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 4:28:15",
+    "TBKey":"TB73",
+    "Submitter":"Esca",
+    "GameTitle":"Super Smash T.V.",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Clear the first two rooms before the other team. Normal difficulty, score breaks total failure.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 8:10:02",
+    "TBKey":"TB74",
+    "Submitter":"???",
+    "GameTitle":"Magical Quest starring Mickey Mouse",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Beat the midboss of stage 1",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 8:18:38",
+    "TBKey":"TB75",
+    "Submitter":"Dectilon",
+    "GameTitle":"Little Samson",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Clear any two of the four intro stages (hint: the boy and the rat can climb walls and ceilings; the dragon can fly)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 8:26:07",
+    "TBKey":"TB76",
+    "Submitter":"Dectilon",
+    "GameTitle":"Metal Storm",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Clear Stage 1 first. Score used in event of total failure. (hint: holding up/down and pressing jump flips gravity)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 11:18:22",
+    "TBKey":"TB77",
+    "Submitter":"Crossbowflex",
+    "GameTitle":"Gun Nac",
+    "GameConsole":"NES",
+    "ChallengeDetails":"2 Minute Score Attack",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 11:39:28",
+    "TBKey":"TB78",
+    "Submitter":"Smite",
+    "GameTitle":"Pac-Man",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Beat the first two stages!",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 13:18:47",
+    "TBKey":"TB79",
+    "Submitter":"Smite",
+    "GameTitle":"Mighty Bomb Jack",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Get the higher score in 2 minutes.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 14:02:04",
+    "TBKey":"TB80",
+    "Submitter":"Psychedelic Eyeball",
+    "GameTitle":"Super Mario Bros 3",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Start a new game. First person to obtain a warp whistle wins. You can get one either in 1-3 or the Fortress.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 14:47:14",
+    "TBKey":"TB81",
+    "Submitter":"Psychedelic Eyeball",
+    "GameTitle":"Mega Man 2",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Beat Dr. Wily's Boss Rush and enter the teleporter leading to Dr. Wily's machine to win!",
+    "Stateslot":"3",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 15:28:20",
+    "TBKey":"TB82",
+    "Submitter":"Smite",
+    "GameTitle":"Mega Man",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Assassinate Cut Man in his own home and in cold blood, using only your wits and your pea shooter.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 15:28:58",
+    "TBKey":"TB83",
+    "Submitter":"ProtoIV",
+    "GameTitle":"Super Street Fighter II - The New Challengers",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Playing as Zangief, first to land TWO Spinning Piledrivers (back, down, forward, up + punch) wins.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 15:47:47",
+    "TBKey":"TB84",
+    "Submitter":"Psychedelic Eyeball",
+    "GameTitle":"Claymates",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Beat Clayton's Yard first to win!",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 15:48:41",
+    "TBKey":"TB85",
+    "Submitter":"Mjolna",
+    "GameTitle":"Zombie Nation",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Score Attack. Round 1, no time limit. No continues.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 15:50:03",
+    "TBKey":"TB86",
+    "Submitter":"Psychedelic Eyeball",
+    "GameTitle":"Super Mario Bros",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Start a new game and reach the warp zone pipe leading to World 4! This is found in World 1-2.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 15:53:15",
+    "TBKey":"TB87",
+    "Submitter":"Psychedelic Eyeball",
+    "GameTitle":"Tetris",
+    "GameConsole":"NES",
+    "ChallengeDetails":"You have 2 minutes to score as many points as possible! Choose A-Type and start at Level 0.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 16:13:27",
+    "TBKey":"TB88",
+    "Submitter":"Psychedelic Eyeball",
+    "GameTitle":"Battletoads",
+    "GameConsole":"NES",
+    "ChallengeDetails":"First player to obtain an extra life in the Wookie Hole! If both  fail, whoever finishes the level first.",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 16:24:30",
+    "TBKey":"TB89",
+    "Submitter":"KingEffingFrost",
+    "GameTitle":"Mega Man 4",
+    "GameConsole":"NES",
+    "ChallengeDetails":"From the Robot Master select screen, defeat the smartest Robot Master, Brightman.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 18:34:43",
+    "TBKey":"TB90",
+    "Submitter":"Dustminion",
+    "GameTitle":"Millipede (NES)",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Get as many points as you can before time runs out. 1 minute.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 22:13:06",
+    "TBKey":"TB91",
+    "Submitter":"Esca",
+    "GameTitle":"Out of This World (a.k.a. Another World)",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Get past all the worms and meet the big monster cutscene first.  If neither make it, whoever gets farther (2m timer).",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 22:25:33",
+    "TBKey":"TB92",
+    "Submitter":"Esca",
+    "GameTitle":"Zombies Ate My Neighbors",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Save every NPC in the first level within 2 minutes. End: One team exits the level. If neither finish, go by high score.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 22:47:51",
+    "TBKey":"TB93",
+    "Submitter":"Esca",
+    "GameTitle":"Hungry Dinosaurs",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Play one round (easy) and get a higher score than the other team. End: After the SCORE screen appears.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 23:11:41",
+    "TBKey":"TB94",
+    "Submitter":"Tankman",
+    "GameTitle":"Battle City",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Race to beat the first level. 2 minute limit, be the one who killed the most tanks at the buzzer.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 23:34:53",
+    "TBKey":"TB95",
+    "Submitter":"Smoking Colt",
+    "GameTitle":"Mike Tyson's Punch-Out!!",
+    "GameConsole":"NES",
+    "ChallengeDetails":"First to knock out Von Kaiser. Total failures are broken by score.",
+    "Stateslot":"2",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 23:35:40",
+    "TBKey":"TB96",
+    "Submitter":"Smoking Colt",
+    "GameTitle":"Super C",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Beat stage 1 faster than the other player! Total failure broken by score.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 23:39:48",
+    "TBKey":"TB97",
+    "Submitter":"Smite",
+    "GameTitle":"Mario 3",
+    "GameConsole":"NES",
+    "ChallengeDetails":"First to beat 1-1 and 1-2. Don't take the warp pipe!",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 23:41:23",
+    "TBKey":"TB98",
+    "Submitter":"Smite",
+    "GameTitle":"Donkey Kong Country",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Collect the most bananas in two minutes! Rolling over 100 still counts, we'll keep track!",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 23:41:25",
+    "TBKey":"TB99",
+    "Submitter":"Smite",
+    "GameTitle":"Donkey Kong Country",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Clear level 1 faster than the other team!",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/22/2015 23:50:36",
+    "TBKey":"TB100",
+    "Submitter":"Smoking Colt",
+    "GameTitle":"Battle Toads",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Turbo Tunnel, save at right before the race.... First to die loses",
+    "Stateslot":"3",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/23/2015 0:11:46",
+    "TBKey":"TB101",
+    "Submitter":"Apt Funk",
+    "GameTitle":"Excitebike",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Best time on Selection A Track 2",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/23/2015 3:22:51",
+    "TBKey":"TB102",
+    "Submitter":"Mjolna",
+    "GameTitle":"Mighty Final Fight",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Clear Round 1. Getting a game over is a forfeit. Any character is permitted.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/23/2015 3:23:34",
+    "TBKey":"TB103",
+    "Submitter":"???",
+    "GameTitle":"Mega Man 6",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Defeat the boss Mettonger Z using only the Power Mega Man form. 2 energy tanks are provided.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/23/2015 3:31:39",
+    "TBKey":"TB104",
+    "Submitter":"Mjolna",
+    "GameTitle":"NARC",
+    "GameConsole":"NES",
+    "ChallengeDetails":"First to end the first stage wins, but if neither finish then score is the tiebreaker.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/23/2015 23:30:15",
+    "TBKey":"TB105",
+    "Submitter":"Psychedelic Eyeball",
+    "GameTitle":"Battletoads",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Ride on the Clinger-Winger and race against the psychedelic orb! Whoever reaches the highest score as they die win.",
+    "Stateslot":"2",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/24/2015 6:26:25",
+    "TBKey":"TB106",
+    "Submitter":"???",
+    "GameTitle":"Space Megaforce",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Highest score at the end of level one (or after two minutes) in short game mode.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/24/2015 17:59:50",
+    "TBKey":"TB107",
+    "Submitter":"applesaucers",
+    "GameTitle":"Speed Racer in My Most Dangerous Adventures",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Be the first to finish the first lap of stage 1 or be the last to be destroyed (changed to just 1 lap because it takes forever -- Smite)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/24/2015 18:03:24",
+    "TBKey":"TB108",
+    "Submitter":"Mjolna",
+    "GameTitle":"Shin Kidou Senki Gundam W - Endless Duel",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Win a fight in story mode first, or do better than the other player. (Modified by Smite)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/24/2015 19:55:57",
+    "TBKey":"TB109",
+    "Submitter":"Mjolna",
+    "GameTitle":"Snoopy's Silly Sports Spectacular",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Jump the most walls in Pogo.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/24/2015 21:39:28",
+    "TBKey":"TB110",
+    "Submitter":"Mjolna",
+    "GameTitle":"Rex Ronan - Experimental Surgeon",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Clean 6 teeth completely before your opponent. Bottom row only. Non-playing team member will count clean teeth.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/24/2015 22:49:56",
+    "TBKey":"TB111",
+    "Submitter":"Lolo De Puzlo",
+    "GameTitle":"Track and Field",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Get the fastest time on the 100 meter dash (i.e. Mash the hell out of A)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/25/2015 1:14:23",
+    "TBKey":"TB112",
+    "Submitter":"Trivial Man",
+    "GameTitle":"Aero the Acro-Bat",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Rescue Ariel! I've found the key for you, you just need to go right. 3m time limit or else high score wins.",
+    "Stateslot":"2",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/25/2015 5:34:17",
+    "TBKey":"TB113",
+    "Submitter":"Mjolna",
+    "GameTitle":"Mohawk & Headphone Jack",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Be the first to collect 100 CDs. Good luck. ",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/26/2015 4:09:37",
+    "TBKey":"TB114",
+    "Submitter":"Smite",
+    "GameTitle":"Ice Climber",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Reach the top of Stage 1. Grabbing the dactyl will end it earlier. 2m time limit; total failure broken by score.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/26/2015 4:14:43",
+    "TBKey":"TB115",
+    "Submitter":"Smite",
+    "GameTitle":"Mega Man 2",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Beat Quick Man first (normal difficulty). If both fail, go by who made it further.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/26/2015 4:43:16",
+    "TBKey":"TB116",
+    "Submitter":"???",
+    "GameTitle":"Excitebike",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Get a faster time on Track 1 in Selection B ",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/26/2015 7:45:21",
+    "TBKey":"TB117",
+    "Submitter":"JawaDude",
+    "GameTitle":"Super Valis IV",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Beat Stage 1 before the other team.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/26/2015 10:57:33",
+    "TBKey":"TB118",
+    "Submitter":"???",
+    "GameTitle":"Metal Gear",
+    "GameConsole":"NES",
+    "ChallengeDetails":"The team that enters the fort first wins. (Get to the 3 trucks, keycard is in bottom left and then truck on right). 3 Game overs = auto loss.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/26/2015 11:36:12",
+    "TBKey":"TB119",
+    "Submitter":"???",
+    "GameTitle":"Yoshi's Cookie",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Puzzle Mode: finish more puzzles than your opponent in 2 minutes! If there's a tie, the team that got there first wins.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/26/2015 11:41:56",
+    "TBKey":"TB120",
+    "Submitter":"Smite",
+    "GameTitle":"Gradius",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Complete the first level. Score breaks failure by double game-over, which could easily happen in this game.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/26/2015 11:54:43",
+    "TBKey":"TB121",
+    "Submitter":"???",
+    "GameTitle":"Wario's Woods",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Complete 'Time Race > Easy > 2 rounds'. Fastest in-game time wins!",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/26/2015 22:35:46",
+    "TBKey":"TB122",
+    "Submitter":"RWP",
+    "GameTitle":"Marble Madness",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Race to the end of the second level.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/26/2015 23:44:47",
+    "TBKey":"TB123",
+    "Submitter":"???",
+    "GameTitle":"Bubble Bobble",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Password: ACCCB (Round 24). First to finish round 24 and 25 wins. If you game over first, your team automatically loses.",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/26/2015 23:50:11",
+    "TBKey":"TB124",
+    "Submitter":"???",
+    "GameTitle":"Bubble Bobble",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Password: BGGEB (Round 12). First to finish Rounds 12 and 13 wins! If you game over first, your team automatically loses.",
+    "Stateslot":"2",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/27/2015 5:12:32",
+    "TBKey":"TB125",
+    "Submitter":"Smite",
+    "GameTitle":"Kirby Super Star",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Beat the first stage of spring breeze before the other team (start a new game).",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/27/2015 12:58:50",
+    "TBKey":"TB126",
+    "Submitter":"???",
+    "GameTitle":"Tetris",
+    "GameConsole":"NES",
+    "ChallengeDetails":"B-Type > Level 4, Height 1: first to finish (or fewest lines remaining if you top out), wins! Score breaks ties.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/28/2015 12:39:20",
+    "TBKey":"TB127",
+    "Submitter":"The Zed",
+    "GameTitle":"Super Mario Bros",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Starting at 4-1, collect as many coins as possible (started with 10) in 2m. Rolling over 100 still counts. (Modified by Smite)",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/28/2015 12:58:50",
+    "TBKey":"TB128",
+    "Submitter":"Smite",
+    "GameTitle":"Kickle Cubicle",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Get a higher score in 3 minutes. Points are given for clearing levels quickly (collect all the bags). If both teams fail to get any points, I will cry.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/28/2015 13:25:34",
+    "TBKey":"TB129",
+    "Submitter":"Apt Funk",
+    "GameTitle":"Teenage Mutant Ninja Turtles II - The Arcade Game",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Clear the room and then defeat Rocksteady.",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/28/2015 13:37:53",
+    "TBKey":"TB130",
+    "Submitter":"The Zed",
+    "GameTitle":"The Little Mermaid",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Open all 3 treasure chests in stage 1 and beat the stage. The first person to do so wins. Shells are keys.",
+    "Stateslot":"2",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/28/2015 19:44:24",
+    "TBKey":"TB131",
+    "Submitter":"The Zed",
+    "GameTitle":"Snow Brothers",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Race to get to and beat stage 5. There are unlimited continues. (Hit them with a bunch of snow & roll 'em to kill 'em --Smite)",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/29/2015 1:10:46",
+    "TBKey":"TB132",
+    "Submitter":"???",
+    "GameTitle":"Cool Spot",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Play the first stage. The player who has a higher 'Cool' % (or reaches 100% first) after 90 seconds wins!",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/30/2015 13:18:59",
+    "TBKey":"TB133",
+    "Submitter":"???",
+    "GameTitle":"Balloon Fight",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Get the most points on Balloon Trip! You have one life to rack up as many points as you can in this mode.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/30/2015 13:22:52",
+    "TBKey":"TB134",
+    "Submitter":"???",
+    "GameTitle":"Balloon Fight",
+    "GameConsole":"NES",
+    "ChallengeDetails":"In 1-Player Game, finish the first two levels before the other player (modified by Smite).",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/30/2015 13:39:23",
+    "TBKey":"TB135",
+    "Submitter":"???",
+    "GameTitle":"Metroid (NES)",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Get to the first Long Vertical Hallway! The player to pass through the blue door into the corridor first wins.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/30/2015 19:52:25",
+    "TBKey":"TB136",
+    "Submitter":"WesSchneider",
+    "GameTitle":"Zelda II: The Adventure of Link",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Defeat Horsehead before the other team does!",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/30/2015 20:00:48",
+    "TBKey":"TB137",
+    "Submitter":"WesSchneider",
+    "GameTitle":"Clash at Demonhead",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Be the first to GET KILLED by Max, the Mini Meanie!",
+    "Stateslot":"3",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/30/2015 20:31:25",
+    "TBKey":"TB138",
+    "Submitter":"Fenfel",
+    "GameTitle":"ZANAC",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Score attack! For 2 min try to gather as many points in stage 1",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/30/2015 22:51:25",
+    "TBKey":"TB139",
+    "Submitter":"Smite",
+    "GameTitle":"Mike Tyson's Punch-Out!!",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Beat Glass Joe and Von Kaiser! If you both somehow fail this, score will determine the winner.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"12/31/2015 18:10:38",
+    "TBKey":"TB140",
+    "Submitter":"golden11535",
+    "GameTitle":"F-Zero",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Big Blue Time Trial. You can use any car, but no rival car. (Use practice on the menu)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/1/2016 5:23:46",
+    "TBKey":"TB141",
+    "Submitter":"Mjolna",
+    "GameTitle":"Castlevania Bloodlines",
+    "GameConsole":"Genesis",
+    "ChallengeDetails":"As John Morris, start the game and kill the first miniboss before the other team.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/1/2016 5:32:47",
+    "TBKey":"TB142",
+    "Submitter":"NeoTM",
+    "GameTitle":"Gradius III",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Highest Score in Stage 1",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/1/2016 7:32:47",
+    "TBKey":"TB143",
+    "Submitter":"Smite",
+    "GameTitle":"Donkey Kong Country",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Collect the most golden ostriches with Espresso!",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/1/2016 7:35:47",
+    "TBKey":"TB144",
+    "Submitter":"Smite",
+    "GameTitle":"Marble Madness",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Get further than the other player! If you're both marble lords, beat the game first! (It can be done in just a few minutes)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/2/2016 2:54:39",
+    "TBKey":"TB145",
+    "Submitter":"Ephraim225",
+    "GameTitle":"Tetris & Dr. Mario",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Get the highest score in the \"Mixed Match\" mode. (state 1 is ready to go!)",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/2/2016 5:21:08",
+    "TBKey":"TB146",
+    "Submitter":"Mjolna",
+    "GameTitle":"Two Crude Dudes",
+    "GameConsole":"Genesis",
+    "ChallengeDetails":"Destroy 3 obstacles that block your path first! The last is after the flamethrower guy.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/2/2016 17:12:28",
+    "TBKey":"TB147",
+    "Submitter":"Mjolna",
+    "GameTitle":"Sonic the Hedgehog 3",
+    "GameConsole":"Genesis",
+    "ChallengeDetails":"Be the first to beat Angel Island Zone Act 1!",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/2/2016 17:13:53",
+    "TBKey":"TB148",
+    "Submitter":"Mjolna",
+    "GameTitle":"Sonic the Hedgehog 2",
+    "GameConsole":"Genesis",
+    "ChallengeDetails":"Collect the most rings in 90 seconds! Lost rings don't count.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/3/2016 4:49:09",
+    "TBKey":"TB149",
+    "Submitter":"Dallows",
+    "GameTitle":"North & South",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Successfully capture an enemy fort first. If both players fail, the player to travel furthest wins (I turned down the difficulty -- Smite)",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/5/2016 1:48:40",
+    "TBKey":"TB150",
+    "Submitter":"Coverkillernation",
+    "GameTitle":"Flicky",
+    "GameConsole":"Genesis",
+    "ChallengeDetails":"Score the most points in 2 minutes! End point is when time runs out. Continues are legal, highest score during 2m span counts. ",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/8/2016 15:43:40",
+    "TBKey":"TB151",
+    "Submitter":"Smite",
+    "GameTitle":"Donkey Kong Country",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Get the most lives from 2 minigames of your choice! You'll appear in the secret area where you can select them. Tie's broken by token count on 3rd game.",
+    "Stateslot":"7",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/8/2016 15:43:58",
+    "TBKey":"TB152",
+    "Submitter":"Smite",
+    "GameTitle":"Donkey Kong Country",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Beat the mine cart stage before the other player. You have a ton of lives. The warp barrel is illegal.",
+    "Stateslot":"2",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/8/2016 15:44:39",
+    "TBKey":"TB153",
+    "Submitter":"Smite",
+    "GameTitle":"Donkey Kong Country",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Get the most frog tokens in Winky's minigame. In the event of a tie, I'll yell and we'll rematch.",
+    "Stateslot":"6",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/8/2016 15:44:53",
+    "TBKey":"TB154",
+    "Submitter":"Smite",
+    "GameTitle":"Donkey Kong Country",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Get the most ostrich tokens in Espresso's minigame.  In the event of a tie, I'll yell and we'll rematch.",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/9/2016 6:00:09",
+    "TBKey":"TB155",
+    "Submitter":"Tallik",
+    "GameTitle":"Rollergames",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Complete Stage 1-1 and 1-2, or whoever has highest score after game over. No retries.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/9/2016 6:14:45",
+    "TBKey":"TB156",
+    "Submitter":"Smite",
+    "GameTitle":"Sonic the Hedgehog 2",
+    "GameConsole":"GEN",
+    "ChallengeDetails":"Starting from Chemical Plant Zone, collect the most rings in 2 minutes.",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/9/2016 13:09:31",
+    "TBKey":"TB157",
+    "Submitter":"Guy Vett",
+    "GameTitle":"Columns",
+    "GameConsole":"GEN",
+    "ChallengeDetails":"In arcade mode, score the most points on medium difficulty within 2 minutes. No retries. (modified by Smite)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/9/2016 15:12:16",
+    "TBKey":"TB158",
+    "Submitter":"KingEffingFrost",
+    "GameTitle":"Fire Striker",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Clear the Forest! Challenge begins by selecting the Forest Stage, ends when one team clears it. (L/R control the wizard)",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/10/2016 2:11:54",
+    "TBKey":"TB159",
+    "Submitter":"Zanzibar Ham",
+    "GameTitle":"Rockman 3 Endless",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Complete the most rooms in 3 minutes. Retries okay, highest attempt counts",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/10/2016 14:05:31",
+    "TBKey":"TB160",
+    "Submitter":"Tallik",
+    "GameTitle":"Skate or Die 2",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Attain the higher ramp score in the 3 minute time limit (infinite boards savestate provided)",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/11/2016 3:14:34",
+    "TBKey":"TB161",
+    "Submitter":"AndyAML",
+    "GameTitle":"Mega Man X3",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"First player to clear the intro stage is the winner!",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/11/2016 4:33:23",
+    "TBKey":"TB162",
+    "Submitter":"Delimann",
+    "GameTitle":"Karnov",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Stage 1: Rack up the most points you can in 2 minutes!",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/11/2016 11:35:11",
+    "TBKey":"TB163",
+    "Submitter":"Leylite",
+    "GameTitle":"Shatterhand",
+    "GameConsole":"NES",
+    "ChallengeDetails":"From the start of the game, reach the intro stage boss first. Beating the boss is unnecessary.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/11/2016 13:17:57",
+    "TBKey":"TB164",
+    "Submitter":"SnoruntPyro",
+    "GameTitle":"Kirby's Adventure",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Start from the beginning. The first player to clear the first stage wins.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/11/2016 14:52:29",
+    "TBKey":"TB165",
+    "Submitter":"Trivial Man",
+    "GameTitle":"Sonic the Hedgehog",
+    "GameConsole":"GEN",
+    "ChallengeDetails":"Ring Attack! Green Hill Zone Act 1 and try to have more rings than your opponent when 1 minute is up. Score breaks tie.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/11/2016 16:00:34",
+    "TBKey":"TB166",
+    "Submitter":"Trivial Man",
+    "GameTitle":"Sonic Spinball",
+    "GameConsole":"GEN",
+    "ChallengeDetails":"Start at stage 1. First to get an emerald wins! In the likely event neither team gets an emerald, high score after 3 minutes wins.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/12/2016 2:38:09",
+    "TBKey":"TB167",
+    "Submitter":"Fragglar",
+    "GameTitle":"Battle Blaze (Barrel the Barbarian)",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"First to beat Gustoff, or last to die.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/12/2016 2:50:46",
+    "TBKey":"TB168",
+    "Submitter":"Fragglar",
+    "GameTitle":"Bust-A-Move",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"From the first level, first to clear the third stage. ",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/13/2016 0:43:23",
+    "TBKey":"TB169",
+    "Submitter":"Smite",
+    "GameTitle":"Sonic The Hedgehog 2",
+    "GameConsole":"GEN",
+    "ChallengeDetails":"Competes act one Emerald Hill Zone as fast as possible.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/13/2016 11:55:12",
+    "TBKey":"TB170",
+    "Submitter":"???",
+    "GameTitle":"Super Mario RPG",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"It's a Moleville Mountain minecar race! Best in-game time wins.",
+    "Stateslot":"3",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/13/2016 14:47:56",
+    "TBKey":"TB171",
+    "Submitter":"???",
+    "GameTitle":"Super Metroid",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Race to escape the Space Colony! The competitor with the most in-game time remaining wins.",
+    "Stateslot":"2",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/15/2016 1:52:11",
+    "TBKey":"TB172",
+    "Submitter":"Smite",
+    "GameTitle":"Donkey Kong Jr. Math",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Get as close to 5458 as you can in 1 minute. This number has no significance!",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/15/2016 21:33:32",
+    "TBKey":"TB173",
+    "Submitter":"Cheeseincrackers",
+    "GameTitle":"Back to the Future",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Get the most points you can in 2 minutes.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/15/2016 21:38:33",
+    "TBKey":"TB174",
+    "Submitter":"Cheeseincrackers",
+    "GameTitle":"Super Punch Out",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Beat the first opponent First",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/16/2016 19:40:01",
+    "TBKey":"TB175",
+    "Submitter":"Trivial Man",
+    "GameTitle":"Chip 'n Dale: Rescue Rangers 2",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Collect more RR emblems than your opponent in 2 minutes. Timer starts once each player selects a character.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/16/2016 21:15:31",
+    "TBKey":"TB176",
+    "Submitter":"Trivial Man",
+    "GameTitle":"Chip 'n Dale: Rescue Rangers 2",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Beat the stage first. If not done by 3 minutes, go by number of RR tokens.",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/17/2016 2:06:39",
+    "TBKey":"TB177",
+    "Submitter":"Mjolna",
+    "GameTitle":"Sonic the Hedgehog 3",
+    "GameConsole":"GEN",
+    "ChallengeDetails":"Be the first to clear the Special Stage!",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/18/2016 8:22:38",
+    "TBKey":"TB178",
+    "Submitter":"johnny longtorso",
+    "GameTitle":"Double Dribble",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Score the most points in the first period, default settings.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/18/2016 9:25:35",
+    "TBKey":"TB179",
+    "Submitter":"Desfore",
+    "GameTitle":"Mike Tyson's Punch Out!!",
+    "GameConsole":"NES",
+    "ChallengeDetails":"From the start screen, whoever can defeat Glass Joe the quickest wins.Score breaks failure.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/18/2016 10:26:29",
+    "TBKey":"TB180",
+    "Submitter":"Angle",
+    "GameTitle":"Kirby's Adventure",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Beat the Quick Draw minigame in 1 minute and 30 seconds.",
+    "Stateslot":"",
+    "SaveStateDownloadLocation":"NEEDS MADE"
+  },
+  {
+    "Timestamp":"1/18/2016 11:36:15",
+    "TBKey":"TB181",
+    "Submitter":"Zanzibar Ham",
+    "GameTitle":"Wild Guns",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Get the highest score in 2 minutes! Boy Howdy!",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/18/2016 17:15:08",
+    "TBKey":"TB182",
+    "Submitter":"Garbonix",
+    "GameTitle":"Super Punch-Out!!",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Get as far as you can in Minor Circuit in 3 minutes. (Tie can be broken by Score)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/19/2016 15:03:07",
+    "TBKey":"TB183",
+    "Submitter":"???",
+    "GameTitle":"Super Hang On",
+    "GameConsole":"GEN",
+    "ChallengeDetails":"First to clear Africa in arcade mode wins. Go by score in the event of failure.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/19/2016 20:10:09",
+    "TBKey":"TB184",
+    "Submitter":"DoubleGomez",
+    "GameTitle":"High Seas Havoc",
+    "GameConsole":"GEN",
+    "ChallengeDetails":"Race to beat the first stage of the game. Score breaks failure.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/22/2016 20:28:14",
+    "TBKey":"TB185",
+    "Submitter":"The Zed",
+    "GameTitle":"Super Metroid",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Climb to the top of the room. The finish line is entering the door to the right at the very top.",
+    "Stateslot":"3",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/23/2016 0:15:47",
+    "TBKey":"TB186",
+    "Submitter":"D_W",
+    "GameTitle":"Uniracers",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Get the highest score on Bowl in the Crawler cup. Beating the CPU is not necessary. ",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/23/2016 0:16:59",
+    "TBKey":"TB187",
+    "Submitter":"D_W",
+    "GameTitle":"Uniracers",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Get the highest score on Jumps in the Shuffler cup. Beating the CPU is not necessary. ",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/23/2016 0:18:02",
+    "TBKey":"TB188",
+    "Submitter":"D_W",
+    "GameTitle":"Uniracers",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Get the highest score on Hill Climb in the Walker cup. ",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/23/2016 0:18:40",
+    "TBKey":"TB189",
+    "Submitter":"D_W",
+    "GameTitle":"Uniracers",
+    "GameConsole":"SNES",
+    "ChallengeDetails":"Get the highest score on Downer in the Hopper cup.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/23/2016 2:15:49",
+    "TBKey":"TB190",
+    "Submitter":"NPC46",
+    "GameTitle":"Bucky O'Hare",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Beat the Green Planet first. No retries after game over. Score breaks tie (careful to read score before Game Over pops up!)",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/23/2016 3:02:49",
+    "TBKey":"TB191",
+    "Submitter":"NPC46",
+    "GameTitle":"Mendel Palace",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Highest Score in 2 minutes, First Stage (Moku Moku)",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/23/2016 4:12:12",
+    "TBKey":"TB192",
+    "Submitter":"Smite",
+    "GameTitle":"Jackal",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Beat Stage 1 first! Failures broken by score. This battle will make your blood boil.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/23/2016 4:33:41",
+    "TBKey":"TB193",
+    "Submitter":"James Gloomherald",
+    "GameTitle":"Little Samson ",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Reach the end of the first level playing as the mouse. ",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/23/2016 13:55:51",
+    "TBKey":"TB194",
+    "Submitter":"Chameo Five",
+    "GameTitle":"Super Mario Brothers",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Collect more coins than your opponent in World 1-2 (Using the warp is an automatic disqualification)",
+    "Stateslot":"",
+    "SaveStateDownloadLocation":"https://drive.google.com/open?id=0B07qCLMmyMAsR3RvTloteEZzS1k"
+  },
+  {
+    "Timestamp":"1/24/2016 6:40:36",
+    "TBKey":"TB195",
+    "Submitter":"Mjolna",
+    "GameTitle":"Star Soldier",
+    "GameConsole":"NES",
+    "ChallengeDetails":"2 Minute Score Attack! Enjoy figuring out what is the background.",
+    "Stateslot":"",
+    "SaveStateDownloadLocation":""
+  },
+  {
+    "Timestamp":"1/24/2016 6:57:06",
+    "TBKey":"TB196",
+    "Submitter":"Mjolna",
+    "GameTitle":"Felix the Cat",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Finish Round 1-1 waith as many points as possible, without killing any enemies.",
+    "Stateslot":"",
+    "SaveStateDownloadLocation":""
+  },
+  {
+    "Timestamp":"1/24/2016 7:06:41",
+    "TBKey":"TB197",
+    "Submitter":"Mjolna",
+    "GameTitle":"Ninja Gaiden",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Beat the boss in 1-2. A ninja's blade is mighty.",
+    "Stateslot":"",
+    "SaveStateDownloadLocation":""
+  },
+  {
+    "Timestamp":"1/24/2016 14:54:38",
+    "TBKey":"TB198",
+    "Submitter":"johnny longtorso",
+    "GameTitle":"Jackal",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Stage 1: Run over as many soldiers as possible in 1 minute. No use of weapons except to destroy barriers.",
+    "Stateslot":"",
+    "SaveStateDownloadLocation":""
+  },
+  {
+    "Timestamp":"1/24/2016 15:25:37",
+    "TBKey":"TB199",
+    "Submitter":"Smite",
+    "GameTitle":"Mad City (Bayou Billy)",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Beat the first level before the other player! Failures broken by score.",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/24/2016 16:53:55",
+    "TBKey":"TB200",
+    "Submitter":"Smite",
+    "GameTitle":"Caveman Games",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Mate toss: throw your mate as far as possible. Best toss wins! Spin D-Pad for speed. Hold A for angle, release to throw.",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/24/2016 16:53:56",
+    "TBKey":"TB201",
+    "Submitter":"Bluhman",
+    "GameTitle":"Kid Chameleon",
+    "GameConsole":"GEN",
+    "ChallengeDetails":"Complete Skydragon Castle I with the most diamonds. If both players have the same number of diamonds, the one that completed first wins.",
+    "Stateslot":"",
+    "SaveStateDownloadLocation":"https://drive.google.com/file/d/0BwkRjQd-XEFTT0dTNmw1LXhsTTQ/view?usp=sharing"
+  },
+  {
+    "Timestamp":"1/24/2016 18:38:44",
+    "TBKey":"TB202",
+    "Submitter":"Smite",
+    "GameTitle":"Life Force",
+    "GameConsole":"NES",
+    "ChallengeDetails":"Get the most points from the start in 3 minutes. Get some cool powerups!",
+    "Stateslot":"N/A",
+    "SaveStateDownloadLocation":"X"
+  },
+  {
+    "Timestamp":"1/24/2016 18:39:31",
+    "TBKey":"TB203",
+    "Submitter":"Smite",
+    "GameTitle":"Life Force",
+    "GameConsole":"NES",
+    "ChallengeDetails":"From the state position, get the most points in 3 minutes. There are lots of alternative powerups to unlock if you don't like the loadout.",
+    "Stateslot":"1",
+    "SaveStateDownloadLocation":"X"
+  }
+]

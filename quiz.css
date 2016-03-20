@@ -13,40 +13,58 @@
             text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         }
 
-        .game-cell td {
+        #pointTable {
+            table-layout: fixed;
+            width: 200px;
+        }
+
+        td.game-select-question {
             cursor: pointer;
+            width: 200px;
             height: 150px;
+            max-height: 150px;
             margin: 5px;
-            font-size: 30px;
-            background-color: blue;
-            border-radius: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 24px;
+			font-weight: bold;
+			text-shadow: 2px 2px 0 rgba(0,0,0,0.5);
+            background: linear-gradient(to bottom, #55f, #00c, #0000a3, #000066);
+            box-shadow: #000000 0px 0px 6px inset;
+            border-radius: 7px;
             border: 1px solid black;
             color: white;
+            vertical-align: middle !important;
+            overflow: hidden;
+            word-wrap: break-word;
         }
 
         .game-cell .answered-right{
-            background-color: green;
+            background: linear-gradient(to bottom, #5a5, #070, #070, #204020);
             color: white;
         }
 
         .game-cell .answered-wrong{
-            background-color: black;
+            background: linear-gradient(to bottom, #333, #000, #000, #000000);
             color: red;
         }
 
         body {
             background-color: rgb(92, 92, 150);
-            font-family:Arial, Helvetica, sans-serif;
+            font-family:Helvetica, Arial, sans-serif;
         }
 
-        .question-text {
+        #question-text {
             font-size:30px;
+			display: table-cell;
+            max-height:100px;
             color:white;
         }
 
         .submitter-text {
             font-size:21px;
             color:white;
+            margin-top: 5px;
         }
         .right-answer-choice{
             width:150px;
@@ -65,10 +83,16 @@
             text-align:center;
          }
 
-        .answer{
-            width:400px;
+		 #answers {
+			border-collapse: separate;
+			border-spacing: 15px;
+		 }
+        .answer {
+            width:500px;
+            max-height:60px;
             margin:15px;
             font-size:26px;
+			text-align: left;
             color:#FFFFFF; 
             padding:2px;
             padding-left:10px;
@@ -111,3 +135,7 @@
             color: white;
             font-size: 17px;
         }
+		
+		#question-controls {
+			margin: 10px;
+		}

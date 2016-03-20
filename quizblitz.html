@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Smite Quizzler Blitz</title>
+    <link rel="stylesheet" type="text/css" href="quizblitz.css">
+    <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+    <main class="main">
+        <div class="sidebar">
+            <div class="question-button">
+                <button type="submit" onclick="$quizblitz.loadNewGame('questions.json')">Load New Game / Reset Game</button>
+            </div>
+            <div class="question-button">
+                <button type="submit" onclick="$quizblitz.startNewGame()">Start New Game</button>
+            </div>
+            <div class="question-button">
+                <button type="submit" onclick="$quizblitz.rerollQuestion()">Reroll Question</button>
+            </div>
+            <div class="question-button">
+                <input type="button" value="Start Timer" onclick="countdown()">
+            </div>
+            <div class="question-button">
+                <input type="button" value="Stop Timer" onclick="cdpause()">
+            </div>
+            <div class="question-button">
+                <input type="button" value="Reset Timer" onclick="cdreset()" />
+            </div>
+            <div class="question-button">
+                <button type="submit" onclick="$quizblitz.nextQuestion()">
+                    Next Question
+                </button>
+            </div>
+            <div class="question-button">
+                <button type="submit" onclick="$quizblitz.previousQuestion()">
+                    Previous Question
+                </button>
+            </div>
+            <div class="normal-text" style="margin: 5px;">
+                <div id="timespan"></div>
+                <h3 style="display: none;" class="submitter-text"><span id="question-number"></span>. Submitted by: <span id="submitter-text"></span></h3>
+                <div id="question-comment"></div>
+            </div>
+        </div>
+
+        <div style="display: none;" class="main-content">
+            <div class="game-board">
+                <div class="questions">
+                    <div style="display: none;" id="title-screen">
+                        <p class="title-title">Quizzler Blitz</p>
+                        <p class="title-text">Answer 4 random questions in a row for 5 points each</p>
+                    </div>
+                    <div style="display: none;" id="question-template">
+                        <p id="question-title">Q#285: Where are they now?</p>
+                        <p id="question-text">Which of these characters is least likely to start a car wash business in Delaware in 2018?</p>
+                        <table id="answers">
+                            <tr>
+                                <td data-correct="false" id="1" class="answer">Insect Crush</td>
+                            </tr>
+                            <tr>
+                                <td data-correct="true" id="2" class="answer">Insect Crush 2</td>
+                            </tr>
+                            <tr>
+                                <td data-correct="false" id="3" class="answer">Insect Crush 3</td>
+                            </tr>
+                            <tr>
+                                <td data-correct="false" id="4" class="answer">Insect Crush 4</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="completed-answers">
+                    <div class="question-bubble-outline">
+                        <div class="question-bubble" id="question-bubble-0">
+                            <div id="question-point-total-0"></div>
+                        </div>
+                    </div>
+                    <div class="question-bubble-outline">
+                        <div class="question-bubble" id="question-bubble-1">
+                            <div id="question-point-total-1"></div>
+                        </div>
+                    </div>
+                    <div class="question-bubble-outline">
+                        <div class="question-bubble" id="question-bubble-2">
+                            <div id="question-point-total-2"></div>
+                        </div>
+                    </div>
+                    <div class="question-bubble-outline">
+                        <div class="question-bubble" id="question-bubble-3">
+                            <div id="question-point-total-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="quizblitz.js"></script>
+<script>
+    var add;
+    var ts, timespan;
+    var CCOUNT = 15;
+    var t, count, isPlaying = false;
+
+    function cddisplay() {
+        // displays time in span
+        document.getElementById('timespan').innerHTML = count;
+    };
+
+    function countdown() {
+        // starts countdown
+        cddisplay();
+        if (!isPlaying) {
+            isPlaying = true;
+            //$('#think-music')[0].play();
+        }
+        if (count === 0) {
+            // time is up
+            clearTimeout(t);
+            $quizblitz.isCorrect(false);
+            cdreset();
+        } else {
+            count--;
+            t = setTimeout("countdown()", 1000);
+        }
+    };
+
+    function cdpause() {
+        // pauses countdown
+        isPlaying = false;
+        clearTimeout(t);
+        //$('#think-music')[0].pause();
+    };
+
+    function cdreset() {
+        // resets countdown
+        cdpause();
+        //$('#think-music')[0].currentTime = 0;
+        count = CCOUNT;
+        cddisplay();
+    };
+
+    window.onload = function() {
+        cdreset();
+    }
+
+</script>
+<audio id="think-music" preload>
+    <source src="familythink.mp3"/>
+</audio>
+<audio id="right-sound" preload>
+    <source src="right.mp3"/>
+</audio>
+<audio id="wrong-sound" preload>
+    <source src="wrong.mp3"/>
+</audio>
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>VG Challenges</title>
+		<meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+		<style>
+			div .gamen {
+				background-image: url("TV on.png");
+				background-repeat: no-repeat;
+				width: 360px;
+				height: 230px;
+				text-align: center;
+				line-height: 230px;
+				font-family: 'Sigmar One', cursive;
+				position: relative;
+			}
+
+			.gamen span {
+				display: inline-block;
+				vertical-align: middle;
+				line-height: normal;
+				padding-left: 20px;
+				padding-right: 20px;
+				font-size: 36px;
+				color: orange;
+				text-shadow: 3px 3px 0px #000000;
+			}
+
+			body {
+				background-color: rgba(0, 0, 0, 0);
+				overflow: hidden;
+			}
+
+			.challenge-console {
+				position: absolute;
+				top: 96px;
+				left: 60px;
+				font-size: 125%;
+			}
+			
+			#header {
+				width:400px;
+				height:35px;
+				font-size:14px;
+			}
+			#submitter {
+				word-break: break-word;
+				width: 110px;
+			}
+			#description {
+				padding-top: 720px;
+			}
+			#details {
+				width: 300px;
+				font-size:12px;
+				clear: left;
+			}
+
+			div.info{
+				display: block;
+				float: left;
+			}
+			.info{
+				color: #b7e4ec;
+				font-weight: bold;
+				font-family: Verdana;
+			}
+			p.info {
+				margin: 0;
+			}
+			
+			hr {
+				width: 290px;
+				margin: 5px 0 5px 0;
+			}
+
+		</style>
+	</head>
+	<body>
+		<audio autoplay>
+			<source src="vgcDing.mp3" type="audio/mpeg">
+		</audio>
+		<div class="spacer"></div>
+
+		<div id="navContent">
+
+			<div class="box gamen"><span id="0"></span><div id="game-console" class="challenge-console"></div></div>
+			<div id="description">
+				<div id="header">
+					
+					<div class="info" style="width: 130px; padding-left: 5px;" id="0-game-name">Game</div>
+					<div class="info" style="padding-left: 20px;">By: </div>
+					<div class="info" style="padding-left: 5px;" id="submitter"></div>
+				</div>
+				<div id="details">
+					<p class="info" style="padding: 5px;"><span id="0-challenge">C000</span>: <span id="challenge-details">Stuff</span></p>
+
+					<hr>
+
+					<p class="info"><span style="padding-left: 18px;">Time: </span>
+					<span id="challenge-time-limit">1</span>m
+
+					<span style="padding-left: 15px;">Difficulty: </span>
+					<span id="difficulty-rating"></span>
+
+					<span style="padding-left: 15px;">State: </span>
+					<span id="state-slot">None</span></p>
+
+					<hr>
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script>
+			var isCalled = false;
+			function isNotGenesis(value) {
+				return value.GameConsole.indexOf("Genesis") <= -1;
+			}
+			function isSaveState(value) {
+				return value.SaveStateDownloadLocation.indexOf("X") > -1;
+			}
+			$challenge = {
+				loadJSON: function (path, callback) {
+					var xobj = new XMLHttpRequest();
+					xobj.overrideMimeType("application/json");
+					xobj.open('GET', path, true);
+					xobj.onreadystatechange = function () {
+						if (xobj.readyState == 4 && xobj.status == "200") {
+							callback(xobj.responseText);
+						}
+					};
+					xobj.send(null);
+				},
+				loadGame: function (path) {
+					if (!isCalled) {
+						isCalled = true;
+						$challenge.loadJSON(path, function (response) {
+							var challenges = JSON.parse(response);
+							var filteredChallenges = challenges.filter(isNotGenesis);
+							filteredChallenges = filteredChallenges.filter(isSaveState);
+							// $('#navContent')
+							for (var i = 0; i < 1; i++) {
+								var challenge = filteredChallenges[Math.floor(Math.random() * filteredChallenges.length)];
+								$('#' + i + '-game-name').text(challenge.GameTitle);
+								$('#' + i).text(challenge.GameTitle);
+								$('#' + i + '-challenge').text(challenge.CKey);
+								$('#game-console').text(challenge.GameConsole);
+								$('#submitter').text(challenge.Submitter);
+								$('#challenge-details').text(challenge.ChallengeDetails);
+								$('#challenge-time-limit').text(challenge.ChallengeTimeLimit);
+								$('#difficulty-rating').text(challenge.DifficultyRating);
+								$('#state-slot').text(challenge.StateSlot);
+							}
+						});
+					}
+				}
+			};
+			window.onload = function () {
+				$challenge.loadGame('challenges.json');
+			};
+		</script>
+	</body>
+</html>

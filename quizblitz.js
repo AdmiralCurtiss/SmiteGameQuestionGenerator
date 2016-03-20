@@ -23,19 +23,13 @@ var isCalled = false;
 	function HasNotBeenSeen(value) {
 		return value.HasSeen == false;
 	}
-	function DiffOne(value) {
-	    return value.Difficulty == "1";
+	function DiffOneOrTwo(value) {
+	    return value.Difficulty == "1" || value.Difficulty == "2";
 	}
-	function DiffTwo(value) {
-	    return value.Difficulty == "2";
-	}
-	function DiffThree(value) {
-	    return value.Difficulty == "3";
-	}
-	function DiffFour(value) {
-	    return value.Difficulty == "4";
-	}
-var $quiz = {
+var $quizblitz = {
+	questions: null,
+	currentQuestionNumber: 0,
+	allQuestions: null,
     loadJSON: function(path, callback) {
         var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
@@ -47,104 +41,78 @@ var $quiz = {
         };
         xobj.send(null);  
     },
-    loadGame: function (path) {
-        if (!isCalled) {
-            isCalled = true;
-            $quiz.loadJSON(path, function (response) {
-                var first_json = JSON.parse(response);
-				var actual_JSON = first_json.filter(HasNotBeenSeen);
-                $('#startGame').fadeOut();
-                $('#pointLayout').fadeIn();
-				
-				
-				var questions = [];
-				for(var i = 0; i < 12; i++)
-				{
-					var randomAnswer = Math.floor(Math.random() * (actual_JSON.length - 1) + 1);
-					questions.push(actual_JSON[randomAnswer]);
-				}
-				
-                var table = document.getElementById('pointTable').getElementsByTagName('tbody')[0];
-                var tableRow = 0;
-                for (var i = 0; i < questions.length; i++) {
-                    var cellNumber = i % 4;
-                    if (i % 4 == 0) {
-                        var row = table.insertRow(tableRow);
-                        tableRow++;
-                    }
-
-                    var cell = row.insertCell(cellNumber);
-                    cell.innerText = questions[i].GameTitle;
-                    cell.setAttribute("class", "game-select-question");
-                    cell.setAttribute("data-question-number", i);
-                }
-
-                $(".answer").click(function () {
+	resetGameBoard: function() {
+		$('.answer').removeClass("show-wrong");
+        $('.answer').removeClass("show-correct");
+		$('.question-bubble').removeClass("show-wrong");
+        $('.question-bubble').removeClass("show-correct");
+		for(var i = 0; i <= 3; i++) {
+			$('#question-point-total-' + i).text('');
+		}
+	},
+	startNewGame: function() {
+		$quizblitz.resetGameBoard();
+		$quizblitz.currentQuestionNumber = 0;
+		$quizblitz.loadQuestion(0, $quizblitz.questions[0]);
+		$('#title-screen').hide();
+        $('#question-template').show();
+	},
+	rerollQuestion: function() {
+		shuffle($quizblitz.allQuestions);
+		$quizblitz.questions[$quizblitz.currentQuestionNumber] = $quizblitz.allQuestions[0];
+		$quizblitz.loadQuestion($quizblitz.currentQuestionNumber, $quizblitz.questions[$quizblitz.currentQuestionNumber]);
+	},
+	nextQuestion: function() {
+		if($quizblitz.currentQuestionNumber >= 3) {
+			$quizblitz.currentQuestionNumber = 3;
+			return;
+		}
+		$('.answer').removeClass("show-wrong");
+        $('.answer').removeClass("show-correct");
+		$quizblitz.currentQuestionNumber++;
+		$quizblitz.loadQuestion($quizblitz.currentQuestionNumber, $quizblitz.questions[$quizblitz.currentQuestionNumber]);
+	},
+	previousQuestion: function() {
+		if($quizblitz.currentQuestionNumber <= 0) {
+			$quizblitz.currentQuestionNumber = 0;
+			return;
+		}
+		$('.answer').removeClass("show-wrong");
+        $('.answer').removeClass("show-correct");
+		$quizblitz.currentQuestionNumber--;
+		$quizblitz.loadQuestion($quizblitz.currentQuestionNumber, $quizblitz.questions[$quizblitz.currentQuestionNumber]);
+	},
+    loadNewGame: function (path) {
+		$quizblitz.resetGameBoard();
+		$quizblitz.currentQuestionNumber = 0;
+		if(!isCalled) {
+			isCalled = true;
+			
+			$(".answer").click(function () {
                     var correct = $(this).attr("data-correct") === "true";
-                    $quiz.isCorrect(correct, false);
+                    $quizblitz.isCorrect(correct, false);
                     cdreset();
                 });
-
-                $(".game-select-question").click(function () {
-                    var questionNumber = $(this).attr("data-question-number");
-                    $quiz.loadQuestion(questionNumber, questions[questionNumber]);
-                });
-            });
-        }
-    },
-    loadNewGame: function (path) {
-        if (!isCalled) {
-            isCalled = true;
-            $quiz.loadJSON(path, function (response) {
+		}
+		
+		$quizblitz.loadJSON(path, function (response) {
                 var first_json = JSON.parse(response);
                 var actual_JSON = first_json.filter(HasNotBeenSeen);
-                var diffOne = actual_JSON.filter(DiffOne);
-                var diffTwo = actual_JSON.filter(DiffTwo);
-                var diffThree = actual_JSON.filter(DiffThree);
-                var diffFour = actual_JSON.filter(DiffFour);
-                $('#startGame').fadeOut();
-                $('#pointLayout').fadeIn();
-				
+                $quizblitz.allQuestions = actual_JSON.filter(DiffOneOrTwo);
+
+                $('#title-screen').show();
+				$('#question-template').hide();
+				$('.main-content').show();
 				// shuffle question arrays
-				shuffle(diffOne);
-				shuffle(diffTwo);
-				shuffle(diffThree);
-				shuffle(diffFour);
-
-				// get first three questions from each difficulty
-                var questions = [];
-				questions.push(diffOne[0]);
-				questions.push(diffOne[1]);
-                questions.push(diffOne[2]);
-				questions.push(diffTwo[0]);
-				questions.push(diffTwo[1]);
-                questions.push(diffTwo[2]);
-				questions.push(diffThree[0]);
-				questions.push(diffThree[1]);
-                questions.push(diffThree[2]);
-				questions.push(diffFour[0]);
-				questions.push(diffFour[1]);
-                questions.push(diffFour[2]);
+				shuffle($quizblitz.allQuestions);
                 
-                var table = document.getElementById('pointTable').getElementsByTagName('tbody')[0];
-                var tableRow = 0;
-                for (var i = 0; i < questions.length; i++) {
-                    $("#question-" + i)[0].innerText = questions[i].GameTitle;
-                    $quiz.textfit($("#question-" + i));
-                }
-
-                $(".answer").click(function () {
-                    var correct = $(this).attr("data-correct") === "true";
-                    $quiz.isCorrect(correct, false);
-                    cdreset();
-                });
-
-                $(".game-select-question").click(function () {
-                    var questionNumber = $(this).attr("data-question-number");
-                    $quiz.loadQuestion(questionNumber, questions[questionNumber]);
-                });
+                $quizblitz.questions = [];
+				$quizblitz.questions.push($quizblitz.allQuestions[0]);
+				$quizblitz.questions.push($quizblitz.allQuestions[1]);
+                $quizblitz.questions.push($quizblitz.allQuestions[2]);
+				$quizblitz.questions.push($quizblitz.allQuestions[3]);
+                
             });
-        }
     },
 	// based on https://github.com/nbrunt/TextFit
 	// modified to require a max-height
@@ -160,14 +128,18 @@ var $quiz = {
         $('[data-correct="false"]').addClass("show-wrong");
         $('[data-correct="true"]').addClass("show-correct");
         if (correct) {
+			$('#question-bubble-' + $quizblitz.currentQuestionNumber).toggleClass("show-correct");
             $('#right-sound').clone()[0].play();
-            $('.right-answer-choice').fadeIn();
+			$('#question-point-total-' + $quizblitz.currentQuestionNumber).text('+5');
+            //$('.right-answer-choice').fadeIn();
         } else {
             $('#wrong-sound').clone()[0].play();
-            $('.wrong-answer-choice').fadeIn();
+			$('#question-bubble-' + $quizblitz.currentQuestionNumber).toggleClass("show-wrong");
+			$('#question-point-total-' + $quizblitz.currentQuestionNumber).text('-5');
+            //$('.wrong-answer-choice').fadeIn();
         }
 
-        setTimeout(function () { $quiz.setAnswerClearAndReturn(correct) }, 2000);
+        //setTimeout(function () { $quizblitz.setAnswerClearAndReturn(correct) }, 2000);
     },
     loadQuestion: function (questionNumber, question) {
         $('#pointTable').fadeOut();
@@ -180,8 +152,8 @@ var $quiz = {
             $('#submitter-text').text(question.Submitter);
         }
 
+		$('#question-title').text(question.QKEY + ': ' + question.GameTitle);
         $('#question-text').text(question.Question);
-        $('#question-number').text(question.QKEY);
         $('#question-comment').text(question.Comments);
 
         var randomCorrectAnswerBank = Math.floor(Math.random() * (4 - 1) + 1);
@@ -204,17 +176,17 @@ var $quiz = {
         $("#" + wrongAnswerBanks[2]).attr("data-correct", false);
         $("#" + wrongAnswerBanks[2]).text(question.FakeAnswer3);
 
-        $('#question').delay(800).fadeIn();
+        // $('#question').delay(800).fadeIn();
 
-		// after fadeIn starts, fit text
-		setTimeout(function()
-		{
-			$quiz.textfit($('#question-text'));
-			$quiz.textfit($('#1'));
-			$quiz.textfit($('#2'));
-			$quiz.textfit($('#3'));
-			$quiz.textfit($('#4'));
-		}, 800);
+		// // after fadeIn starts, fit text
+		// setTimeout(function()
+		// {
+			// $quizblitz.textfit($('#question-text'));
+			// $quizblitz.textfit($('#1'));
+			// $quizblitz.textfit($('#2'));
+			// $quizblitz.textfit($('#3'));
+			// $quizblitz.textfit($('#4'));
+		// }, 800);
     },
     setAnswerClearAndReturn: function (correct) {
         $('td[data-question-number=' + $('#question').attr("data-selected-question") + ']').removeClass('answered-right');
