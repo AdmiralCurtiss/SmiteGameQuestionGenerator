@@ -21,7 +21,8 @@ function shuffle(array) {
 
 var isCalled = false;
 	function HasNotBeenSeen(value) {
-		return value.HasSeen == false;
+		// If the question has not been seen, and is not in the previous quiz questions.
+		return value.HasSeen === false && $.inArray(value, $quizblitz.previousQuizQuestions) === -1;
 	}
 	function DiffOneOrTwo(value) {
 	    return value.Difficulty == "1" || value.Difficulty == "2";
@@ -30,6 +31,7 @@ var $quizblitz = {
 	questions: null,
 	currentQuestionNumber: 0,
 	allQuestions: null,
+	previousQuizQuestions: [],
     loadJSON: function(path, callback) {
         var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
@@ -118,6 +120,11 @@ var $quizblitz = {
 				$quizblitz.questions.push($quizblitz.allQuestions[1]);
                 $quizblitz.questions.push($quizblitz.allQuestions[2]);
 				$quizblitz.questions.push($quizblitz.allQuestions[3]);
+				
+				$quizblitz.previousQuizQuestions.push($quizblitz.allQuestions[0]);
+				$quizblitz.previousQuizQuestions.push($quizblitz.allQuestions[1]);
+                $quizblitz.previousQuizQuestions.push($quizblitz.allQuestions[2]);
+				$quizblitz.previousQuizQuestions.push($quizblitz.allQuestions[3]);
                 
             });
     },

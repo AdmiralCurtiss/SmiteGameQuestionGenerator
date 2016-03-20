@@ -216,6 +216,11 @@ var $quiz = {
 			$quiz.textfit($('#4'));
 		}, 800);
     },
+    setDefaultPointValues: function() {
+        for (var i = 0; i < 4; i++) {
+            $('#points-' + i).text($('#points-' + i).attr('default-points') * $('#question-point-multiplier').val());
+        }
+    },
     setAnswerClearAndReturn: function (correct) {
         $('td[data-question-number=' + $('#question').attr("data-selected-question") + ']').removeClass('answered-right');
         $('td[data-question-number=' + $('#question').attr("data-selected-question") + ']').removeClass('answered-wrong');

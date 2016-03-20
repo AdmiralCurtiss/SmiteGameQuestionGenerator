@@ -1,141 +1,178 @@
-        td {
-            width: 200px;
-            text-align: center;
-        }
-		
-		body{
-			width: 600px;
-		}
+td {
+    width: 200px;
+    text-align: center;
+}
 
-        .header-row {
-            font-size: 60px;
-            color: white;
-            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-        }
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+}
 
-        #pointTable {
-            table-layout: fixed;
-            width: 200px;
-        }
+.main-content, .sidebar {
+  padding: 10px;
+}
 
-        td.game-select-question {
-            cursor: pointer;
-            width: 200px;
-            height: 150px;
-            max-height: 150px;
-            margin: 5px;
-            padding-left: 10px;
-            padding-right: 10px;
-            font-size: 24px;
-			font-weight: bold;
-			text-shadow: 2px 2px 0 rgba(0,0,0,0.5);
-            background: linear-gradient(to bottom, #55f, #00c, #0000a3, #000066);
-            box-shadow: #000000 0px 0px 6px inset;
-            border-radius: 7px;
-            border: 1px solid black;
-            color: white;
-            vertical-align: middle !important;
-            overflow: hidden;
-            word-wrap: break-word;
-        }
+.sidebar a {
+  color: #fff;
+  display: block;
+}
 
-        .game-cell .answered-right{
-            background: linear-gradient(to bottom, #5a5, #070, #070, #204020);
-            color: white;
-        }
+.main-content {
+    flex: 1;
+    width: 600px;
+}
 
-        .game-cell .answered-wrong{
-            background: linear-gradient(to bottom, #333, #000, #000, #000000);
-            color: red;
-        }
+.header-row {
+    font-size: 60px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 
-        body {
-            background-color: rgb(92, 92, 150);
-            font-family:Helvetica, Arial, sans-serif;
-        }
+.question-button {
+    margin: 20px;
+}
 
-        #question-text {
-            font-size:30px;
-			display: table-cell;
-            max-height:100px;
-            color:white;
-        }
+#pointTable {
+    table-layout: fixed;
+    width: 200px;
+}
 
-        .submitter-text {
-            font-size:21px;
-            color:white;
-            margin-top: 5px;
-        }
-        .right-answer-choice{
-            width:150px;
-            padding:5px;
-            font-size:30px;
-            color:#FFFFCC;
-            background-color:#009900;
-            text-align:center;
-            }
-        .wrong-answer-choice{
-            width:150px;
-            padding:5px;
-            font-size:30px;
-            color:#FFFFCC;
-            background-color:#CC3300;
-            text-align:center;
-         }
+td.game-select-question {
+    cursor: pointer;
+    width: 200px;
+    height: 150px;
+    max-height: 150px;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.5);
+    background: linear-gradient(to bottom, #55f, #00c, #0000a3, #000066);
+    box-shadow: #000000 0px 0px 6px inset;
+    border-radius: 7px;
+    border: 1px solid black;
+    color: white;
+    vertical-align: middle !important;
+    overflow: hidden;
+    word-wrap: break-word;
+}
 
-		 #answers {
-			border-collapse: separate;
-			border-spacing: 15px;
-		 }
-        .answer {
-            width:500px;
-            max-height:60px;
-            margin:15px;
-            font-size:26px;
-			text-align: left;
-            color:#FFFFFF; 
-            padding:2px;
-            padding-left:10px;
-            border: 2px solid white;
-            cursor:pointer;
-            background-color:#3399FF;
-         }
+.game-cell .answered-right {
+    background: linear-gradient(to bottom, #5a5, #070, #070, #204020);
+    color: white;
+}
 
-        .answer.show-wrong {
-            background-color:#CC3300;
-            color: black;
-        }
+.game-cell .answered-wrong {
+    background: linear-gradient(to bottom, #333, #000, #000, #000000);
+    color: red;
+}
 
-        .answer.show-correct {
-            background-color:#009900;
-        }
+body {
+    background-color: rgb(92, 92, 150);
+    font-family: Helvetica, Arial, sans-serif;
+}
 
-        .doughnut { 
-            border: 10px solid white;
-            border-radius: 20px;
-            height:20px;
-            width:20px;
-            margin: auto;
-        }
-        .cross {
-            transform: rotate(45deg);
-             margin: auto;
-            width: 40px;
-            height: 40px;
-            background: linear-gradient(to bottom, transparent 35%, black 35%, black 65%,  transparent 65%),
-                linear-gradient(to right, transparent 35%, black 35%, black 65%, transparent 65%);
+#question-text {
+    font-size: 30px;
+    display: table-cell;
+    max-height: 100px;
+    color: white;
+}
 
-        }
-        #timespan {
-            color: white;
-            font-size: 30px;
-            margin: 15px;
-        }
-        .hiddent-content {
-            color: white;
-            font-size: 17px;
-        }
-		
-		#question-controls {
-			margin: 10px;
-		}
+.submitter-text {
+    font-size: 21px;
+    color: white;
+    margin-top: 5px;
+}
+
+.right-answer-choice {
+    width: 150px;
+    padding: 5px;
+    font-size: 30px;
+    color: #FFFFCC;
+    background-color: #009900;
+    text-align: center;
+}
+
+.wrong-answer-choice {
+    width: 150px;
+    padding: 5px;
+    font-size: 30px;
+    color: #FFFFCC;
+    background-color: #CC3300;
+    text-align: center;
+}
+
+.timer {
+   flex: 1;
+   margin-top: 60px;
+}
+
+.answers-container {
+    display: flex;
+}
+
+#answers {
+    border-collapse: separate;
+    border-spacing: 15px;
+    width: 80%;
+}
+
+.answer {
+    width: 500px;
+    max-height: 60px;
+    margin: 15px;
+    font-size: 23px;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 2px;
+    padding-left: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    background-color: #3399FF;
+}
+
+    .answer.show-wrong {
+        background-color: #CC3300;
+        color: black;
+    }
+
+    .answer.show-correct {
+        background-color: #009900;
+    }
+
+.doughnut {
+    border: 10px solid white;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+    margin: auto;
+}
+
+.cross {
+    transform: rotate(45deg);
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(to bottom, transparent 35%, black 35%, black 65%, transparent 65%), linear-gradient(to right, transparent 35%, black 35%, black 65%, transparent 65%);
+}
+
+#timespan {
+    color: white;
+    font-size: 65px;
+    margin: 15px;
+}
+
+.hiddent-content {
+    color: white;
+    font-size: 17px;
+}
+
+#question-controls {
+    margin: 10px;
+}
+
+#pointLayout {
+    width: 600px;
+}
