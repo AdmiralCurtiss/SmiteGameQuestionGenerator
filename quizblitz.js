@@ -69,8 +69,14 @@ var $quizblitz = {
 		}
 		$('.answer').removeClass("show-wrong");
         $('.answer').removeClass("show-correct");
-		$quizblitz.currentQuestionNumber++;
-		$quizblitz.loadQuestion($quizblitz.currentQuestionNumber, $quizblitz.questions[$quizblitz.currentQuestionNumber]);
+		$('#question-template').fadeOut();
+
+		setTimeout(function()
+		{
+			$quizblitz.currentQuestionNumber++;
+			$quizblitz.loadQuestion($quizblitz.currentQuestionNumber, $quizblitz.questions[$quizblitz.currentQuestionNumber]);
+			$('#question-template').fadeIn();
+		}, 400);
 	},
 	previousQuestion: function() {
 		if($quizblitz.currentQuestionNumber <= 0) {
@@ -84,6 +90,7 @@ var $quizblitz = {
 	},
     loadNewGame: function (path) {
 		$quizblitz.resetGameBoard();
+		$('#quiz-open-text').text('Answer 4 random questions in a row for ' + $('#points-per-question').val() + ' points each');
 		$quizblitz.currentQuestionNumber = 0;
 		if(!isCalled) {
 			isCalled = true;
@@ -130,12 +137,12 @@ var $quizblitz = {
         if (correct) {
 			$('#question-bubble-' + $quizblitz.currentQuestionNumber).toggleClass("show-correct");
             $('#right-sound').clone()[0].play();
-			$('#question-point-total-' + $quizblitz.currentQuestionNumber).text('+5');
+			$('#question-point-total-' + $quizblitz.currentQuestionNumber).text('+' + $('#points-per-question').val());
             //$('.right-answer-choice').fadeIn();
         } else {
             $('#wrong-sound').clone()[0].play();
 			$('#question-bubble-' + $quizblitz.currentQuestionNumber).toggleClass("show-wrong");
-			$('#question-point-total-' + $quizblitz.currentQuestionNumber).text('-5');
+			$('#question-point-total-' + $quizblitz.currentQuestionNumber).text('');
             //$('.wrong-answer-choice').fadeIn();
         }
 

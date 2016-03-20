@@ -103,7 +103,7 @@ td.game-select-question {
 body {
     color: white;
     background-color: rgb(22, 2, 134);
-    font-family: "VT323", "Open Sans", sans-serif;
+    font-family:Helvetica, Arial, sans-serif;
 }
 
 .submitter-text {
@@ -175,22 +175,18 @@ body {
 
 #question-title {
     text-align: center;
-    font-size: 40px;
 }
 
 .title-title {
     text-align: center;
-    font-size: 50px;
 }
 
 #question-text {
     text-align: center;
-    font-size: 30px;
 }
 
 .title-text {
     text-align: center;
-    font-size: 45px;
 }
 
 .normal-text {

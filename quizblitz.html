@@ -40,6 +40,10 @@
                     Previous Question
                 </button>
             </div>
+            <div class="question-button">
+                <p>Points per question: </p>
+                <input style="width: 100px;" type="number" id="points-per-question" value="5" />
+            </div>
             <div class="normal-text" style="margin: 5px;">
                 <div id="timespan"></div>
                 <h3 style="display: none;" class="submitter-text"><span id="question-number"></span>. Submitted by: <span id="submitter-text"></span></h3>
@@ -51,12 +55,12 @@
             <div class="game-board">
                 <div class="questions">
                     <div style="display: none;" id="title-screen">
-                        <p class="title-title">Quizzler Blitz</p>
-                        <p class="title-text">Answer 4 random questions in a row for 5 points each</p>
+                        <h1 class="title-title">Quizzler Blitz</h1>
+                        <h2 id="quiz-open-text" class="title-title"></h2>
                     </div>
                     <div style="display: none;" id="question-template">
-                        <p id="question-title">Q#285: Where are they now?</p>
-                        <p id="question-text">Which of these characters is least likely to start a car wash business in Delaware in 2018?</p>
+                        <h1 id="question-title">Q#285: Where are they now?</h1>
+                        <h2 id="question-text">Which of these characters is least likely to start a car wash business in Delaware in 2018?</h2>
                         <table id="answers">
                             <tr>
                                 <td data-correct="false" id="1" class="answer">Insect Crush</td>
@@ -116,7 +120,7 @@
         cddisplay();
         if (!isPlaying) {
             isPlaying = true;
-            //$('#think-music')[0].play();
+            $('#think-music')[0].play();
         }
         if (count === 0) {
             // time is up
@@ -133,13 +137,13 @@
         // pauses countdown
         isPlaying = false;
         clearTimeout(t);
-        //$('#think-music')[0].pause();
+        $('#think-music')[0].pause();
     };
 
     function cdreset() {
         // resets countdown
         cdpause();
-        //$('#think-music')[0].currentTime = 0;
+        $('#think-music')[0].currentTime = 0;
         count = CCOUNT;
         cddisplay();
     };
