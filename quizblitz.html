@@ -45,8 +45,6 @@
                 <input style="width: 100px;" type="number" id="points-per-question" value="5" />
             </div>
             <div class="normal-text" style="margin: 5px;">
-                <div id="timespan"></div>
-                <h3 style="display: none;" class="submitter-text"><span id="question-number"></span>. Submitted by: <span id="submitter-text"></span></h3>
                 <div id="question-comment"></div>
             </div>
         </div>
@@ -59,22 +57,30 @@
                         <h2 id="quiz-open-text" class="title-title"></h2>
                     </div>
                     <div style="display: none;" id="question-template">
-                        <h1 id="question-title">Q#285: Where are they now?</h1>
-                        <h2 id="question-text">Which of these characters is least likely to start a car wash business in Delaware in 2018?</h2>
-                        <table id="answers">
-                            <tr>
-                                <td data-correct="false" id="1" class="answer">Insect Crush</td>
-                            </tr>
-                            <tr>
-                                <td data-correct="true" id="2" class="answer">Insect Crush 2</td>
-                            </tr>
-                            <tr>
-                                <td data-correct="false" id="3" class="answer">Insect Crush 3</td>
-                            </tr>
-                            <tr>
-                                <td data-correct="false" id="4" class="answer">Insect Crush 4</td>
-                            </tr>
-                        </table>
+                        <h2 id="question-title">Q#285: Where are they now?</h2>
+                        <div class="other-info">
+                            <h3 style="display: none; text-align: center;" class="submitter-text">Submitted by: <span id="submitter-text"></span></h3>
+                        </div>
+                        <h3 id="question-text">Which of these characters is least likely to start a car wash business in Delaware in 2018?</h3>
+                        <div class="answers-container">
+                            <table id="answers">
+                                <tr>
+                                    <td data-correct="false" id="1" class="answer">Insect Crush</td>
+                                </tr>
+                                <tr>
+                                    <td data-correct="true" id="2" class="answer">Insect Crush 2</td>
+                                </tr>
+                                <tr>
+                                    <td data-correct="false" id="3" class="answer">Insect Crush 3</td>
+                                </tr>
+                                <tr>
+                                    <td data-correct="false" id="4" class="answer">Insect Crush 4</td>
+                                </tr>
+                            </table>
+                            <div class="timer">
+                                <div id="timespan"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="completed-answers">
@@ -117,9 +123,11 @@
 
     function countdown() {
         // starts countdown
+        
         cddisplay();
         if (!isPlaying) {
             isPlaying = true;
+            $('.timer').show();
             $('#think-music')[0].play();
         }
         if (count === 0) {
@@ -142,6 +150,7 @@
 
     function cdreset() {
         // resets countdown
+        $('.timer').hide();
         cdpause();
         $('#think-music')[0].currentTime = 0;
         count = CCOUNT;

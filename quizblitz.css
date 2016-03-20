@@ -56,7 +56,7 @@ td {
 
 .header-row {
     font-size: 60px;
-    color: white;
+    color: #dddddd;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -84,7 +84,7 @@ td.game-select-question {
     box-shadow: #000000 0px 0px 6px inset;
     border-radius: 7px;
     border: 1px solid black;
-    color: white;
+    color: #dddddd;
     vertical-align: middle !important;
     overflow: hidden;
     word-wrap: break-word;
@@ -92,7 +92,7 @@ td.game-select-question {
 
 .game-cell .answered-right {
     background: linear-gradient(to bottom, #5a5, #070, #070, #204020);
-    color: white;
+    color: #dddddd;
 }
 
 .game-cell .answered-wrong {
@@ -101,14 +101,14 @@ td.game-select-question {
 }
 
 body {
-    color: white;
+    color: #dddddd;
     background-color: rgb(22, 2, 134);
     font-family:Helvetica, Arial, sans-serif;
 }
 
 .submitter-text {
     font-size: 21px;
-    color: white;
+    color: #dddddd;
     margin-top: 5px;
 }
 
@@ -130,21 +130,31 @@ body {
     text-align: center;
 }
 
+.answers-container {
+    display: flex;
+}
+
 #answers {
     border-collapse: separate;
     border-spacing: 15px;
+    flex: 0 0 80%;
+}
+
+.timer {
+   flex: 1;
+    margin-top: 60px;
 }
 
 .answer {
     width: 500px;
     max-height: 60px;
     margin: 15px;
-    font-size: 26px;
+    font-size: 23px;
     text-align: left;
     color: #FFFFFF;
     padding: 2px;
     padding-left: 10px;
-    border: 2px solid white;
+    border: 2px solid #dddddd;
     cursor: pointer;
     background-color: #3399FF;
 }
@@ -209,13 +219,13 @@ body {
 }
 
 #timespan {
-    color: white;
-    font-size: 30px;
+    color: #dddddd;
+    font-size: 65px;
     margin: 15px;
 }
 
 .hiddent-content {
-    color: white;
+    color: #dddddd;
     font-size: 17px;
 }
 
